@@ -1,0 +1,5072 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5993478500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:28:28.833Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4006600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Destination links go to page title",
+        "description": "",
+        "id": "basepage/mainmenu-functions;destination-links-go-to-page-title;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 653428400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7394619700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks mainMenuIcon and clicks \"destination\" and \"Northwest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Northwest\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicksAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17715800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that page title is \"Northwest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Northwest\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4446753800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:28:43.073Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Destination links go to page title",
+        "description": "",
+        "id": "basepage/mainmenu-functions;destination-links-go-to-page-title;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 626601600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8236949900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks mainMenuIcon and clicks \"destination\" and \"Southwest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Southwest\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicksAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12999800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that page title is \"Southwest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Southwest\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4727574000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:28:56.432Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Destination links go to page title",
+        "description": "",
+        "id": "basepage/mainmenu-functions;destination-links-go-to-page-title;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 640368300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7376106100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks mainMenuIcon and clicks \"destination\" and \"Midwest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Midwest\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicksAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15020000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that page title is \"Midwest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Midwest\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5129617100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:29:09.213Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Destination links go to page title",
+        "description": "",
+        "id": "basepage/mainmenu-functions;destination-links-go-to-page-title;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 640575300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7407860800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks mainMenuIcon and clicks \"destination\" and \"Southeast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Southeast\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicksAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13993400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that page title is \"Southeast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Southeast\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4406022400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:29:22.425Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Destination links go to page title",
+        "description": "",
+        "id": "basepage/mainmenu-functions;destination-links-go-to-page-title;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 647043100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7319983400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks mainMenuIcon and clicks \"destination\" and \"Northeast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Northeast\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicksAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15022000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that page title is \"Northeast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Northeast\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4376229400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:29:34.832Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Destination menu has following datas",
+        "description": "",
+        "id": "basepage/mainmenu-functions;destination-menu-has-following-datas",
+        "after": [
+          {
+            "result": {
+              "duration": 612239500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3247853700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks mainMenuIcon and clicks \"destination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4196860500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify that menu exist following options",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMenuExistFollowingOptions(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "NORTHWEST"
+                ]
+              },
+              {
+                "cells": [
+                  "SOUTHWEST"
+                ]
+              },
+              {
+                "cells": [
+                  "MIDWEST"
+                ]
+              },
+              {
+                "cells": [
+                  "NORTHEAST"
+                ]
+              },
+              {
+                "cells": [
+                  "SOUTHEAST"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4396267300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:29:47.275Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Search function",
+        "description": "",
+        "id": "basepage/mainmenu-functions;search-function;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 619071700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5392266000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks search button and writes \"USA\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"USA\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksSearchButtonAndWritesToSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2095242100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify that message contains following \"USA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"USA\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMessageContainsFollowing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4448278600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:29:59.790Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Search function",
+        "description": "",
+        "id": "basepage/mainmenu-functions;search-function;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 619355100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5407859900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks search button and writes \"Ankara\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ankara\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksSearchButtonAndWritesToSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2121168900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify that message contains following \"Ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ankara\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMessageContainsFollowing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4922605500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:30:12.402Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Search function",
+        "description": "",
+        "id": "basepage/mainmenu-functions;search-function;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 620703100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5346323900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks search button and writes \"Arizona\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arizona\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksSearchButtonAndWritesToSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2085325800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify that message contains following \"Arizona\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arizona\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMessageContainsFollowing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4405524300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:30:25.389Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1004700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Search function",
+        "description": "",
+        "id": "basepage/mainmenu-functions;search-function;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 617434800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5415307700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks search button and writes \"Leverkusen\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leverkusen\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksSearchButtonAndWritesToSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2119570500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify that message contains following \"Leverkusen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leverkusen\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMessageContainsFollowing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4451362900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:30:37.957Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Search function",
+        "description": "",
+        "id": "basepage/mainmenu-functions;search-function;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 618904700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5427123400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks search button and writes \"Istanbul\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Istanbul\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.userClicksSearchButtonAndWritesToSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2086502800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify that message contains following \"Istanbul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Istanbul\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMessageContainsFollowing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Basepage/Mainmenu functions",
+    "description": "",
+    "id": "basepage/mainmenu-functions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BasePage.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4386829800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:30:50.550Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "With valid data",
+        "description": "",
+        "id": "contact-page-sending-message;with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 634693100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1246409400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks \"contacts\" links to go contact page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contacts\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.ContactPageStepDefs.user_clicks_links_to_go_contact_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6436410700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user writes message in \"message\", name in \"name\" and your mail in \"email\" inputs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"name\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"email\"",
+                  "offset": 66
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.ContactPageStepDefs.user_writes_message_in_name_in_and_your_mail_in_inputs(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2094222000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that user can see the \"Message Sent Successfully!\" message on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Message Sent Successfully!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.ContactPageStepDefs.verify_that_user_can_see_the_message_on_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Contact page sending message",
+    "description": "",
+    "id": "contact-page-sending-message",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ContactPage.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4413727100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:31:05.362Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 605859200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1649411700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"USA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"USA\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4817993900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2045710500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"You are now checked-in!\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You are now checked-in!\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4387369700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:31:18.936Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1006900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 633481200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3135744300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Canada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Canada\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4489094600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2041256300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4323787100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:31:33.633Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 631781200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3948327000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Australia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Australia\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4566269900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2039251200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"You\u0027re now checked-in!\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You\u0027re now checked-in!\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4392327100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:31:49.153Z",
+        "before": [
+          {
+            "result": {
+              "duration": 993600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 635588800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2616527200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Deutschland\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deutschland\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4491879300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2049606500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Wir haben Dir eine E-Mail zum Bestätigen Deiner Anmeldung geschickt. Sollte nichts eingegangen sein, überprüfe bitte auch Deinen Spam-Ordner.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wir haben Dir eine E-Mail zum Bestätigen Deiner Anmeldung geschickt. Sollte nichts eingegangen sein, überprüfe bitte auch Deinen Spam-Ordner.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4353263500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:32:03.350Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 634222000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2662481000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"France\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"France\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4499137700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2040504800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Un e-mail de confirmation vous a été envoyé. Vous ne retrouvez pas votre e-mail de confirmation ? Merci de vérifier votre dossier “courrier indésirable”.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Un e-mail de confirmation vous a été envoyé. Vous ne retrouvez pas votre e-mail de confirmation ? Merci de vérifier votre dossier “courrier indésirable”.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4426987500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:32:17.548Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 620157200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2668501700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Italia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Italia\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4492040600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2038947000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Ti abbiamo inviato una e-mail per confermare la tua registrazione. Se non viene ricevuto nulla, controlla anche la cartella dello spam.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ti abbiamo inviato una e-mail per confermare la tua registrazione. Se non viene ricevuto nulla, controlla anche la cartella dello spam.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4389872900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:32:31.802Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 638034200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2545964700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"España\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"España\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4499244500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2042685800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Te hemos enviado un correo electrónico para confirmar tu registro. Si no lo has recibido, por favor comprueba tu carpeta de correo no deseado.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Te hemos enviado un correo electrónico para confirmar tu registro. Si no lo has recibido, por favor comprueba tu carpeta de correo no deseado.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4427209800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:32:45.925Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 621252400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2591731200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Suomi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suomi\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4509118400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2041658200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Olemme lähettäneet sinulle sähköpostitse pyynnön vahvistaa rekisteröitymisesi. Mikäli et ole saanut viestiä, tarkista myös roskapostikansiosi.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Olemme lähettäneet sinulle sähköpostitse pyynnön vahvistaa rekisteröitymisesi. Mikäli et ole saanut viestiä, tarkista myös roskapostikansiosi.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4438511400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:33:00.124Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 634565600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3686215700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brasil\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4633444100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2040911400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Obrigado por se inscrever a nossa newsletter\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Obrigado por se inscrever a nossa newsletter\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4463793900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:33:15.568Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 622311200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2738798300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Portugal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portugal\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4514884800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2051111000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Acabamos de lhe enviar um e-mail para confirmar seu registro. Se não o recebeu, por favor, verifique também na sua pasta de spam.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Acabamos de lhe enviar um e-mail para confirmar seu registro. Se não o recebeu, por favor, verifique também na sua pasta de spam.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4463901000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:33:29.965Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 640157400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3469945700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"México\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"México\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4479223800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2044395500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Felicidades por unirte a trivago Magazine\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Felicidades por unirte a trivago Magazine\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4427421500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:33:45.071Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 623222500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2586043700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Ireland\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ireland\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4481976500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2037871400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4410313800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:33:59.236Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 633082400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2539845800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"United Kingdom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"United Kingdom\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4491647400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2041183400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4609176100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:34:13.359Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;15",
+        "after": [
+          {
+            "result": {
+              "duration": 620476100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2600505400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Norge\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Norge\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4525268500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2040134000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Vi har sendt deg en e-post med en bekreftelse på din påmelding. Hvis du ikke kan se e-posten, så ber vi deg sjekke søppelposten.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vi har sendt deg en e-post med en bekreftelse på din påmelding. Hvis du ikke kan se e-posten, så ber vi deg sjekke søppelposten.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4349919400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:34:27.761Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;16",
+        "after": [
+          {
+            "result": {
+              "duration": 635569400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2567597200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Sverige\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sverige\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4494850200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2041918400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4375703300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:34:41.858Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;17",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYCAYAAACadoJwAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3U2IHGd+P/Bn/lclJJfRy0FEGx0CYWRjJHZ9i2GE8NKDvIQ9xGiQooPzBmkhkFgfIi1Z+7DQA0IDYZXokFh0RxAWs1I0RIhu0AYSZBOh2D0EAnFk8EHW9HV0rv9BqXJ1dfXLjEY/yfLnAw3T9frUU9U1z7f7qaq5LMuyBAAAEOD/vegCAAAA3x0CCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACDMjgWQJ0+epCNHjqRer7dTi6TizJkzaW5ububXqVOn0sWLF9PNmzfTYDB40cWfyZdfflls55kzZ9KTJ0+e+zo7nc7YOgQAYGftWADp9Xrp/v376dKlSzu1SCouX76csixL3W63dny73U5ZlqXNzc3U7/fT7/zO76QPPvggvfPOO2n37t3p4sWLL30QuXTpUlpdXU0ppbS6upp+8YtfPPd1njhxIm1ubqYLFy4893UBAHzX7VgA+bu/+7uUUkpra2tpfX19pxZLjcXFxdRsNseO37VrV1pYWEg/+9nPhsLKBx98kH74wx+mTz75JKKY25KHj9xXX30Vst5du3al3/u93wtZFwDAd9mOBJBPPvkkra2tFe9v3769E4tlBywuLg59s3///v305ptvvrQhsRqs9u/f/4JKAgDA87AjAeQf//Efh96fP3/+pe/q813yl3/5lyPD/viP/zjk+oqtOnv2bDp58mRK6WkY+fM///MXXCIAAHbSMweQwWAw0m0mpZTu3LnzrItmh8zPz49c33D//v30q1/96gWVaLwDBw6kjz76KGVZli5fvpx27dr1oosEAMAOeuYA8vHHH6fDhw+PDL9+/fqzLpoddOTIkZFhbhgAAEC0ZwogT548SVevXk1/8zd/MxJC1tbWtnyx82AwSCsrK2lpaam4DerS0lJaWVmZ2KXryZMnqdPppFOnThXzHTlyJF28eHHqtQ69Xm/o9rZLS0up0+lMLeORI0eGpn/y5MnY9fV6vaGy5dPlt5yN8Lu/+7sjw+7fvz+2ftbX19PFixeL7Txy5EhaWVmp7bY17vbA6+vrtfV18+bNkWWMuxXupPrZShlzdcfKt+HuYAAAr4zsGXS73azRaGRZlmVXrlzJUkpDr2azuaVl5fN1u90sy7LswoULxbDDhw9n9+7dG5nv4cOH2eHDh7OUUtZqtbIsy7IbN24MlaPdbo/Mt7GxkZ08eTJLKWUnT57MNjc3s83NzZFh1Xnydd24caMYVi5nv98fmievl5MnT2YbGxvFtubL2UodlTWbzZH6rtvOctmr09fNs7m5mbVaraLOHz58mGVZVjusLB9ffl25cqXYzuorr7+yfr8/Mn1d/Wy3jA8fPswajcZIGfr9ftZoNIb2Y/4CAGBnPVMLq9FoDDXE6xqaeaN7knL4yENElj1tGJaXdfjw4aH5yuEjD0LFhlXKUW6Qbm5uDjV0y2W8d+/e2MZvuZFdDSd547UcQMp1cuXKlZGyRwaQLButk7p5ysvNg2CWPa2z8n6obn91X00Kk3X7ctx21dXPdspYDpd1y833hwACAPB8bbsL1vr6elpbW0uLi4sppacXOtc9m+Ljjz+euJzBYJB+8pOfFO/feOON4u/vfe97Q9Pev39/6P1Pf/rTYthbb701NC6/k1Juc3Oz+PsXv/hFMd/JkyfT/Px8Me4HP/hB8ffq6upQF6Xz588Xf//FX/zFULedn/zkJyPd0MoX4v/Zn/3ZUNejAwcOpHa7nV4mvV5v6IYCb775ZvH3rl27iv076wXs7Xa7OD4ajcbQuPv372/rLlzbLeOvfvWrdO3ateL997///aHlHjhwILVarS2XBwCArdl2APmnf/qn1Gq1hu5SdPz48ZHprl69OrGh+fHHHw8Fiz179hR/79q1K3W73aJhX26wf/LJJ0MNyn379g0t96//+q+LRm+z2UwLCwsppaeBpxwkfvu3f3vidv7bv/1b7fBr166lH/7wh0Wo2LVrVzp79uzEZb3zzjvpzJkzRXD50Y9+lH7rt35r4jyRqhelT7oD1Sx3OXv99dcnLuvhw4dbKN1T2y1j9aYI5bLlqscQAAA7b1sBZDAYpA8++CD9+Mc/Hhq+uLg48ivA/fv3071798Yu69///d8nrmtxcTH9x3/8R8qyLJ04caIY/p//+Z8T5ztw4EC6detWcTvX3P/+7/9OnK/qv/7rv4q/q9+Q379/P73zzjvp1KlT6csvv0wnTpwogk5KKR07dmxkeaurq2n37t2p0+mkXbt2pZ/97GdbKs/z8uTJk6GHSU5TDn9RtlvGrc4HAMDzs60AcufOnXTy5Ml04MCBkXHvvffeyLBJjdXquFm75ZSDQUrDXawm+Z//+Z+h96urqyN3XqqOz506dar2lsPXrl1L3/ve90bunjU/P5+uXLlSW47l5eUiuEQYd7er/JeAul8jqvVSfd5L9NPUt1vG7fzSAgDA87GtAHLp0qWRayxyf/iHfzgy7Nq1azM3VqsBYVbVQDKrZrOZsqcX44995ebn59Ovf/3r2mtdUnoaKqoh5E//9E+HupGVXbt2Lf34xz8OeSJ53ToOHz489ItN1bR6mTRvlG9DGQEA+MaWA0iv10v3799PR48erX1uw+7du2vnu337du3wSRduT1K9dmJ1dXWmhvxv/uZvDr0fd43HOLt27UqXL19ON27cqA0VdQ/3W1xcTP/yL/9SG1zu37+fer3elsqwHXVd1srXrPzGb/zGyPioX2dmtd0y1s33+PHjHSkTAABbs+UAcu3atdRutyd+61x3zcf58+drA8If/dEfjSx/ll9L/uAP/mBk2Cx3ZnrttdeG3k96GF/V0tJS8ffx48drQ0V5eZ1OpwgX8/PzY4NLRAD553/+56H3hw8fTj/60Y+K9wcOHBgp11bD2fO23TLWzbfdX9oAAHg2Wwog+Z2n6i6uLvvBD34wctvVlOoDwttvvz0yrNVq1YaVL7/8sriD1JtvvjnSqLx06VLtN+JPnjwpQsGBAwdGyvb++++PXd/f/u3fFu+rT3fPQ0X14vTy7YOr17gcP348/fKXvxwq++///u+PrHsn3bx5c+Qi7H/4h38YuYNUNQwuLy+Prc+LFy/ufEFnsN0yVuerBrKUUvrv//7vHSolAABjzfrAkPwp4OUHBU5SfRp5/pr1KdonT54sHuq3ubmZtdvtkaeTlx9gmEoPoCs/nC5/Wnt5veWHDZbXV37SerfbHVlfvvzqNpQfwld+wF273R55uGKu/DC96tPTZzHrgwjLD2vMyz9ufeUnvVfrM6+Hfr+fnTx5cmId1G3XtPHjtqv6wMDtlrFuvny/bGxs1B6DqfKgQwAAnt1MAeTevXtZo9EoGup1IaJq3JOxDx8+PNTQz41rAJYbotWnb2dZfQgpv6rh41nmK2/DjRs3ss3NzWxzc7Moe6PRGHqqeh5A8vLny+v3+0VjeNrTy+uMK/uFCxeKOtrY2Mja7fZQo7vVak19Mn01sEwLeLnqk87L27a5uTlxfK5cL5MC03bLeO/evbHznTx5Mrty5crYZQIAsDOmtqzqvmmf9I17udE9LVBUdbvdoYbq4cOHswsXLkz9Frrf72etVmuocdlsNouQMM7Dhw+zVqtVhKu8Idput2vnazQa2ebmZnbv3r3swoULxfoajUbtPO12O7tx40YRBk6ePDkUFrb6y8ekfTEuROX1N6keqjY3N7MrV64MlbfRaIwNMJPK1Ww2p47P62rStlSPta2WMZf/2pHvu8OHDxf7Lt9HzWYza7fbWbfb3davUwAAjDeXZaX7zAIAADxH23oOCAAAwHYIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwUwPIyspKmpubK15LS0vFuPX19aFxKysrz7WwKysrQ+t/Fr1eL83Nzc08fafT2bF1vwrm5uZSp9N54ctg2NLSUup0OmkwGKS5ubk0GAxSSt98VvP30dbX11Ov1xsa9rzPF1Fe5eM432/l8+XKysoL3XeznItf5X0C8CqYGkDOnTuXNjY2UkoptVqtdOvWrWLcwsJC6vf7KaWUNjY20rlz555TMZ/+0zt//vyOLrPRaMw0XafTScvLyzu67m+7LMvSiRMnXvgyGLV3796h9+vr6+nQoUMvqDRP3b59Oy0uLhbve71eevvtt19giXbOq3wcl/fbrOfL52nWc/GrvE8AXgUzdcGan59P/X4/nT9/fuRbzPfffz9tbGyk+fn551LA3Llz51Kr1dqx5e3ZsycdPHiweJ9/y1fnxIkTqd1u79i6iTFpn76qDh48mPbs2VN8Hufn54e+KJhkZWVl6BeSwWDw3L7pfvDgQVpYWHguy94p1fr4LiufL/ft25f27dsXtu7ycehcDPBqmPkakIWFhdRqtdLRo0eLYZ1OJ7377rvPPXw8D3v27Enf//73i/fl7eLV8F3cp/v37y8a9lsJ7Ovr6yO/MH744Yc7Uqbqrx2DwSC0AbsddfXxXVPeb+Xz5d69e9Prr78eVo6dOg4BeIlkW7CxsZGllLJWq5VlWZbVzd5sNrOUUpZSyhqNRjG80WgMzdtqtUamqZMvr9FoZK1Wa2T6cevLx7Varazb7RbTdLvd2m0qv+q02+2s0WgMTZ9vS5ZlWb/fH1pGs9nMsiwbWnd52dXyjJuuKl9PuRzV7R63rHzedrs9NF9dPfX7/aFtKm9rvu5yXeb7od1uD02br6vZbGbtdjvb2NgYu4xyvVTXmY/rdrvFsZPXQ9WkfZqXZ9L81fqq7tNcuRzVfTBp3KR9Xa7/8vaPq99ZlY+b/LOYl6tanmazWUxTdzyMO/by4XX1VJYfB3XLKa+33+8PDfuTP/mToc9NudzVz1uj0Rha1sbGxtA+abfbQ/upXMa6+sj3Tfn4KW9DtTyTPuuTzjfVY67uvDXpM1I16bipW095mu0cZ9X1bve8nKs7Dqedi7dyfqoad77KsuHPdPkYz8uTj//pT386UuZyGfL1V89T+XRZVn+sAbxKthRAsiwbarxW/2nkJ+1c3ggoj682TicFkPL0+cm6urxx6yv/AyyHnnHrm/RPsLrdWfZNI6W87rwseSOi/A+l0WgMvc8bL/myqv/468pZbZyU6yWff9yyxoWJunrKh1UbddVGYzk85dte3qcbGxvFMsqN17pl5Psgr6O6sFudJ/+nP051+e12e6jhkDcYxv1zn7RPW63W0LKqjdpx4ybt61arNdRYKe/TuvrdivL+L++DfH3l/ZMrl2GWY69O3vAvqwaU6rmkWn/dbrcoZ7fbrQ095c9WtX7rwkV5/vI5pFpfeX1MClzV42zSZ33SsVFtOOdlrTZMx31GqiYdN+XPTr6ccj3U7bdZ7eR5OZ+n7kuNunPxVs5PVePOV3kZq/u41WoNhYTq/498fFl535XLUT7HjgtuAK+SLQeQLHt68q02IvITdln1H+pWAkjd8sr/qHZ6fbMEkPK8dQ22LBv+9rTccGi320P/jOq+nau+6hrGdevN/wlOW9a4Mk+rp+p84xpK1eWO+5Wjblw1HNQtt+5bza0EkOo+ybLpIaZcjnz+vOyTfn0ZF2om7Z9xDbFx9bsVdfu+XD/TAsi4acrHXp1yeMiy+gZ/tVFeDYbVhvGkRvjGxsbQPq8Gjvx9+did9XNWdyzXHeOTPuvV+coN/2nrnOUzMuu4aZ+l6n6b1U6fl2eZfrvnp6pJ56u6z2xehnHl7/f7Q/srP3fk89Qts/wr2aT/RwDfdtt6DsjBgwfT/v37h4Y9fvx4ZLr82pCvv/56y+uoW97zXN+zym9T+eDBg+KuYWXHjh0buntLuYxffPFF6vf7KXsaCIvXrNfWlO969KzL2o7FxcXUaDTS7t27h25/OT8/X1w3NDc3l86cOTN2GY8ePRoZtmfPnpTS9GNhFuMuJj548GD66quvaseN26eTyjOtrJP2z6lTp9La2lpxW+v19fWU0vj6fRlU77hVVb3Y/M6dO+nYsWND07z99ttpdXW12Ef79u1LjUYj3blzJ6U0fGzMz8+nZrOZbt++XSyv2+0W12vcuXMnvfbaa8X0+R2c8psRfP3116nVaqWbN28W5dvpz8akz3p+e+TTp0+nLMuG7iy1sLAwtN35/s+3Z6ufkUnHTbkOUkppdXU1vfHGG8X77d4k4GU7L6c0++dn3PkqPy6rn9nyHSHrLCwspC+++KLYj5999llRF48ePUrtdntkmeU7xQG8ynb8QYT5ybZsWiNlkml3odnp9W3HYDBIR48eTf1+f+ytiPOGU6fTSb1eb6gRdvDgwfTZZ59te/1ff/110ZB51mVt161bt1KWZanZbKbl5eWiwXfu3LmUZVlqt9tpdXV14l2VVldXa4fnjaydUFc31TCd0uR9OqnRNy00Tdo/8/PzRUMkpZQOHTpUHP/j6vdFKx97VXUXmz969GikwV9ueHc6nXTs2LH07rvvpuvXr6f19fWR2/UeP368CByPHj0aCRnV5eeN7fX19bR3796hwPM8Loaf9Fk/ffp0arfbYxuvP//5z9Py8nKam5tLhw4dSt1ud2h7tvoZmfS5XF1dLcJuq9Uq6nEn6uVlOC+Xzfr5qTtf5fVft03TvPvuu+nq1atpMBgMbf++ffvSp59+ur2NAXgF7FgAyb9lKj9voNfrpUajMfStTvnb5uXl5bS2tlb7UKl8nvIdUM6fP19MP+v6tqrX62371pt5o/Pzzz+vHX/8+PF0/fr1kW9djx8/npaXl4f+weUPkxsn/5Y0paf1ePbs2W0v61n1er3iW8XLly+nZrOZUnrakMm/RZx2+8xTp06llNLQryS3b99OrVbrmb+hzhsbrVZrqG4Gg0FaXV0t1l2nbp/mDczqszXyxsq4cSlN3j8rKyvF8DyE5OWvq9/npfoN8WAwGGqwjTv2qqq/dqyvrw99y1727rvvFg2y+fn5dOzYsbS2tpbef//9kW/i88/3yspKse9arVa6dOlS7bLzwPHZZ5+lxcXFIvCcPn16prs5becXp3Gf9ZS++SVjMBiktbW1oXHvv//+2G/Et/oZmXTcnDlzJm1sbBTrKYfsul+pZvW8zsspjR6Hs5r18zPpfNVqtcZ+pic5duxYWl1dTR9++OHQ9ufDy8dW3cM6AV5ZW+mvVXeHlmq/2vJdS6r9YqvzT+v7W71LSF0f+XHrKw/P+xCXl1VVvUNJWXXe6t1u8jsWlctZnrasbliWjfYJrrswtlyHdXf0mbSsujLPUk/V+X7961+PjK/emarcH7/ublDV/ZrXR93+rhueHzflctep26fV7ZvUL3zaPq1ez1G9fmLcuHH7Ou/jX13PuPqdVXUfVt/n66+ut3qx77Rjr3oXrGo5J5W77sYNk67xaTabI/3rJ+3Palmr557qtSHl+vjlL39ZW1/jjuPy/NVh5brPr6XL67Tu7m3V89W4z0h5XPWGFHXTVu8uVT2XPaudOi9n2fBxuJPnp6px56tc9TNdPe+PK/+447juLnt157osm37DDIBvm7ksK33Vyksvf6p1xMMfocyx9/x1Op2RJ3gPBoP0+eef7+j1AXXrmTQcAHbSjl8DAsDWjbtJQ7X7zrPqdDq11x90Op3QBwwC8N0lgHyL9Hq9oh/y7t27t3VRJGyHY+/5u3z5cnEBevn13nvv7eh68l84qutJKW3rzlcAsFW6YAEAAGH8AgIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEGZqAFlaWkpzc3O1r/X19W2ttLzM7S7jZbC+vp56vV7xfmVlZWSaubm52uH5uPzV6XSmrqs8/WAwqJ2urm5XVlaG1jMYDIr348pWXWd5O2cxbt5OpzO0HbPI5xm3zZPWN21bp5XnZRp/5syZkfGz7svcmTNnJk5fPn6mHZPjylF+jSvT0tLSxGMqX964Y2dpaal2vvw42OrxCgDEmRpAbt26lbrdbkoppY2NjZRlWcqyLDUajXTo0KEtB4gzZ86ks2fPpizLUrPZTFevXt1eyV8Cjx8/Tnv27EkpPW34vPHGG8W4Xq83sYG9tLSUWq1WUZ/Xr18f22gaDAbp6tWrxbTNZjPt3r17pEFeV7d5IzLLstRut9Py8nLavXt3sS9Tqg9OZ86cSYcOHUr9fj9lWZYWFxdnrpdx8/Z6vbS8vFysu9vtjm1IlutpeXl5W+sbDAYTt3VaeV70+E6nk65fv17s93xbc9O2r2plZSW99957Kcuy1O/30/nz54emP3PmTPr7v//7Yvzy8vLMn+87d+4U5cxfrVZr6DNR3q61tbWxy8q3qyz/bOTLXltbGzl2VlZW0qFDh2YqLwDwAmUz6Ha7WUop29jYKIb1+/0spZS12+1ZFpFlWZZtbGyMLOfbrNVqFX93u92s3++PTNNoNIamy7Jv6qE8favVGluX3W63dv7y8HF122g0hqZrtVpD5ambr9lsZjMeGiMmzdtqtbJmszmy7mnqjr9Z1zdpW6eV50WPbzQaQ8dI9biZZV+WVY+jVquVNRqNofnLqsfOJOOO/aqNjY2s3W6PHL9105WnqU477pio+2wAAC+X0GtAHj9+HLm65+6rr74q/n7w4EFaWFiYab75+fmUUkqfffbZ0PC9e/fWTl/99SGfv2xc3Va/ab579+7Qt9Lz8/Op0Wikzz//PKX09Jvm1dXVtLGxMWUrRk2bd9++fWl1dXVoWKPR2PJ6Zl3ftG2dVp4XOX4wGIzsu7z8+XEzbfuqqsfRvn37RpY/bZ5xqsf++vp6Onjw4Mh0H330UTpx4sRMy5xUjvyXRwDg22dbAWQwGKRDhw6lRqMx0pio9gUvX4eQd4/YvXv3UPekcf3OO51OWlpaKq5hyLuL5N2b6vrN5/2/y9c9lLsqVcs37nqBSden5ONXV1eLv8+fP7+la1ry7lC9Xi/1er20b9++LXVzSiml1157LaVUX7flLmBHjx5Nc3Nz6V//9V/T2tpabePt66+/TimldPPmzdRsNtOHH3449vqPct2WuwRNmzc/VvKuM6dPn063bt3a0jaXTVpf3oCftK3TyvOix6c0GlJzs2zfLN56663a4UtLS7X7przvJ3Wfu337djp+/PjQsE6nk95+++2x85Sv47lz587UsjcajdrQBAC85Gb5mSTv7lB+1XW52NjYGOp2Ue0mkXfbKnebaDQaxfty94m8m0aqdKfodrtD3U7K3UjK5cvnKXeBqnZhydcxS9mr+v3+SNemOnVdsMrzpJTGjh8nr59qeerKW66Luq5feRnz5aWUsmazOdTNp7zcVqs1tN3l7Zs2b7kMk+q2bnvHbdu49c2yrbOU50WOr+telv6v2+Os2zdJXRep/Diq+5xXu4zlZZll2XnXq/K85eOoevzm+3JcV6pWqzX2HDRpPgDgxdvSLyAbGxup3++nlOq7/Ny5cyetra0V32IePXo0pZTGdglZX19Pa2trxbf2+YWnDx48SCdOnEjtdjs1Go2hXwZu3rxZ/NqQ//KwtraWBoNBcSFut9st5il3A/noo49Sq9UquoucOHGimGerZZ90Afqs7t69W1wMXHeHo3EuXbq0rW4s0+S/FL333ntFHZ07dy6llIpvpM+fP1/8ojI3N5fW1tbS3bt3Z5o3/7vb7RYX0m/3Lmizrm+aaeV5keMvX76cGo3GyK99r7/++szbN06n00lnz54dGb6wsFBcEJ9SKm4SMRgM0vnz59Nf/dVfFdNmWVZ7HNZ1v5rW9erq1aup3W4Xv2icOnVq7LR5Hc3a5REAeLlsuQvWwsJCarfb6ejRoyN3YXr06FFqt9sjd8MZ17Xo8ePHqdlsjkyfNyTrfPHFF8XdjsqvWbpilK/ZqNpK2fOAcujQoTQ3N5cOHTpUNMpnbVAvLS2ln//850WDb3V1debbqG6321J+jUA1PK6trY29/iSl4esSUkojdTSpPOVrHnq9Xvr000/T4uJiunz5cmq32+nQoUMTb6+7Vfn6ZtnWaeV50eNTenoXuryeW61WajabaWFhYdv7MqVvGvCTuvwtLi6mdrtdvN/K9VvV7ld5eKkGqaNHjxbduL744ouZl3/16tWJ5wgA4OW2rWtATpw4kZrNZjp9+vTQ8H379qVPP/105uXs2bNn5CLcaQ4ePDi2X/w0+/fvHxtCtlL27P9uc1tuGOZ/z/KtbP7LT7n/frfbTXfv3p04X34b1Wfx1ltvpQcPHhTv88bu4uLiyEXOZXv37i1CXl3ImjZvSk9/vdq/f38x/MSJExMvmp5klvVN2tZZyvOix5etr6+P/AIxbfvq5Ld0nuUXtL179xbly4/VWYLI3bt3i+uTUnq6r6qhNaWnx3w5vD569GjqspeWltLly5enTgcAvMRm6ac1qQ9+eRF5/+tyX+/ytRLjrgEp9yvPsm+up2i32yN9yfOylPt/533i8zKV+383m81ieXW3Ds5vnzut7FXV61DGGXcNSKpc+1G9pWrd+qplKdfbLNeAZNnorVqbzebINpfHd7vdoX2Q982vlm2WefNrbqrX/Ey7FmTc8TdtfdO2dVp5XvT4ap1Xr3mYtn1V1euc8jocN0+1LHXXpFSP2X6/P/J5Hrfs8nGZ10X1+qzydOXrxcplqm5jddkAwMtF8+yEAAALbklEQVRlagBpNBpDF6VWn32RD88bNtWLWPMGQt6Iqg7PsuGLx/MGTnX6snLjJA8N5Yt582Hlsufrq5avvD3jyl41ywXo1WVVt6Fa3rrnOeTD8oZf9ZU3HOvqtu7GAXVlqyt73X4tq5an3DCeNm+1rOUGZd1F69V1VRvL09Y3bVsnledFj8+P30kN+knbV67PuuOxfFxUj8fq8Zqr7o+67Zml8V8XEsp1Ub0IfVzZq19EzPL5BQBerLks+7/+EAAAAM9Z6IMIAQCA7zYBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACEEUAAAIAwAggAABBGAAEAAMIIIAAAQBgBBAAACCOAAAAAYQQQAAAgjAACAACE+f8p+9vMiti0MAAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "image/png",
+                "name": "screenshot"
+              }
+            ],
+            "result": {
+              "duration": 857119800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3403486400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Singapore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Singapore\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027newsletter-email\u0027]/input\"}\n  (Session info: headless chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IULL9DI\u0027, ip: \u0027192.168.0.90\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\asd\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:56234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0bd0e58e0880fe1904db5fd2874414cc\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027newsletter-email\u0027]/input}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(HomePageStepdefs.java:99)\r\n\tat ✽.user writes own \"e-mail\" address to the newsletter subscription input and submits(file:///C:/Users/asd/Desktop/java13/room5_Automation/src/test/resources/features/HomePage.feature:12)\r\n",
+              "duration": 113875000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4414967200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:34:50.625Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;18",
+        "after": [
+          {
+            "result": {
+              "duration": 637436700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3459534900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Argentina\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Argentina\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4483067600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2046333800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"¡Felicitaciones por unirte a trivago Magazine!\" in the own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"¡Felicitaciones por unirte a trivago Magazine!\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4337891200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:35:05.742Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Valid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;valid-data-and-messages-in-different-languages;;19",
+        "after": [
+          {
+            "result": {
+              "duration": 620464600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2562790400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Türkiye\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Türkiye\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4466488000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user writes own \"e-mail\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e-mail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Verify that user gets  newsletter subscription \"Abonelik kaydınızı tamamlamanız bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen \"Spam\" bölümünü kontrol ediniz.\" in the own language",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4486131000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:35:17.745Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 604431700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1235709600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"USA\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"USA\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4366237200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@111.222.333\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@111.222.333\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2090646200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Please enter a valid e-mail address\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please enter a valid e-mail address\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4467926400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:35:30.537Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 636504900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2171134100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Canada\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Canada\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4330810000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"#@%^%#$@#$@#.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#@%^%#$@#$@#.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2094430100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Please enter a valid email address\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please enter a valid email address\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4442943400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:35:44.256Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 635216700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3677393200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Australia\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Australia\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4450922500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"Joe Smith \u003cemail@example.com\u003e\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Joe Smith \u003cemail@example.com\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2089550300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Oops! Please enter a valid e-mail address :)\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Oops! Please enter a valid e-mail address :)\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4392463600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:35:59.559Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 635347400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2352165500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Deutschland\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deutschland\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4395175400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"içpüöçı@example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"içpüöçı@example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2094042400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Es ist ein Fehler aufgetreten\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Es ist ein Fehler aufgetreten\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4491123700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:36:13.435Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 635121600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2428989900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"France\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"France\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4365137100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@example@example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@example@example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2083351000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Une erreur ? Entrez votre e-mail à nouveau\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Une erreur ? Entrez votre e-mail à nouveau\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4389792600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:36:27.446Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 622648700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2386568000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Italia\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Italia\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4378595100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \".email@example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\".email@example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2089374500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Per favore, inserisci un indirizzo email valido\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Per favore, inserisci un indirizzo email valido\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4356288100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:36:41.317Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 617136000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2512297900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"España\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"España\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4354658500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email.@example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email.@example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2094498900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Por favor, introduce un e-mail válido\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Por favor, introduce un e-mail válido\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4366707300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:36:55.261Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 636732200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2355056300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Suomi\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suomi\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4410109000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email..email@example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email..email@example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2093024900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Syötä voimassa oleva sähköpostiosoite\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Syötä voimassa oleva sähköpostiosoite\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4497716700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:37:09.127Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 653127100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2453005700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Türkiye\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Türkiye\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4370569100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"içpüöçı@example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"içpüöçı@example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2086136400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Lütfen tekrar deneyin.\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lütfen tekrar deneyin.\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4369265900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:37:23.194Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 631142800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3167566200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Brasil\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brasil\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4405783100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@example.com (Joe Smith)\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@example.com (Joe Smith)\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2091566300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Por favor, digite um e-mail válido.\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Por favor, digite um e-mail válido.\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4404410800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:37:37.865Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 635056300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2298744800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Portugal\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portugal\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4343957200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@111.222.333\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@111.222.333\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2085867300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Por favor insira um e-mail válido\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Por favor insira um e-mail válido\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4404348000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:37:51.639Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 648472200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012196400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"México\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"México\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4379012400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@-example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@-example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2090901400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Opción inválida\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Opción inválida\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4395483400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:38:06.179Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 636904500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2326697100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Ireland\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ireland\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4374760900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@@example.web\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@@example.web\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2086413400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Please enter a valid e-mail address\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please enter a valid e-mail address\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4811072200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:38:20.005Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;15",
+        "after": [
+          {
+            "result": {
+              "duration": 632816500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2276553100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"United Kingdom\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"United Kingdom\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4399305400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@111.222.333.44444\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@111.222.333.44444\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2090519500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Please enter a valid email address\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please enter a valid email address\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4387682200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:38:34.220Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;16",
+        "after": [
+          {
+            "result": {
+              "duration": 637927200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2328737400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Norge\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Norge\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4342662300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"email@example..com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email@example..com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2095801900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Vennligst oppgi en gyldig e-postadresse\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vennligst oppgi en gyldig e-postadresse\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4350517000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T09:38:48.021Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Invalid data and messages in different languages",
+        "description": "",
+        "id": "subscribe-to-the-newsletter;invalid-data-and-messages-in-different-languages;;17",
+        "after": [
+          {
+            "result": {
+              "duration": 621005100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2426821700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects \"Sverige\" for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sverige\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4336909000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user writes \"Abc..123@example.com\" address to the newsletter subscription input and submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abc..123@example.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2085187100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that user gets newsletter subscription \"Vänligen uppge en giltig e-postadress\" in own language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vänligen uppge en giltig e-postadress\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Subscribe to the Newsletter",
+    "description": "",
+    "id": "subscribe-to-the-newsletter",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HomePage.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

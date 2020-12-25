@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>room5.trivago HTML Reports</td>
+        <td>1</td>
+      <td>25 Dec 2020, 10:39</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicks(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="3247853700">3.247</td>
+              <td class="duration" data-value="3247853700">3.247</td>
+              <td class="duration" data-value="3247853700">3.247</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.BasePageStepDefs.userClicksMainMenuIconAndClicksAnd(java.lang.String,java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="7547103980">7.547</td>
+              <td class="duration" data-value="7547103980">8.236</td>
+              <td class="duration" data-value="37735519900">37.735</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.BasePageStepDefs.userClicksSearchButtonAndWritesToSearch(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="5397776180">5.397</td>
+              <td class="duration" data-value="5397776180">5.427</td>
+              <td class="duration" data-value="26988880900">26.988</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.BasePageStepDefs.user_opens_homepage()</td>
+              <td>46</td>
+              <td class="duration" data-value="4489359986">4.489</td>
+              <td class="duration" data-value="4489359986">5.993</td>
+              <td class="duration" data-value="206510559400">3:26.510</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMenuExistFollowingOptions(java.util.List&lt;java.lang.String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="4196860500">4.196</td>
+              <td class="duration" data-value="4196860500">4.196</td>
+              <td class="duration" data-value="4196860500">4.196</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatMessageContainsFollowing(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="2101562020">2.101</td>
+              <td class="duration" data-value="2101562020">2.121</td>
+              <td class="duration" data-value="10507810100">10.507</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.BasePageStepDefs.verifyThatPageTitleIs(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="14950200">0.014</td>
+              <td class="duration" data-value="14950200">0.017</td>
+              <td class="duration" data-value="74751000">0.074</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.ContactPageStepDefs.user_clicks_links_to_go_contact_page(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1246409400">1.246</td>
+              <td class="duration" data-value="1246409400">1.246</td>
+              <td class="duration" data-value="1246409400">1.246</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.ContactPageStepDefs.user_writes_message_in_name_in_and_your_mail_in_inputs(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="6436410700">6.436</td>
+              <td class="duration" data-value="6436410700">6.436</td>
+              <td class="duration" data-value="6436410700">6.436</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.ContactPageStepDefs.verify_that_user_can_see_the_message_on_the_page(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2094222000">2.094</td>
+              <td class="duration" data-value="2094222000">2.094</td>
+              <td class="duration" data-value="2094222000">2.094</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.HomePageStepdefs.userSelects(java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="2857414016">2.857</td>
+              <td class="duration" data-value="2857414016">3.948</td>
+              <td class="duration" data-value="51433452300">51.433</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)</td>
+              <td>16</td>
+              <td class="duration" data-value="2463102306">2.463</td>
+              <td class="duration" data-value="2463102306">3.677</td>
+              <td class="duration" data-value="39409636900">39.409</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)</td>
+              <td>16</td>
+              <td class="duration" data-value="4375287762">4.375</td>
+              <td class="duration" data-value="4375287762">4.450</td>
+              <td class="duration" data-value="70004604200">1:10.004</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="4280528044">4.280</td>
+              <td class="duration" data-value="4280528044">4.817</td>
+              <td class="duration" data-value="77049504800">1:17.049</td>
+              <td class="failed">94.44%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)</td>
+              <td>16</td>
+              <td class="duration" data-value="2090081975">2.090</td>
+              <td class="duration" data-value="2090081975">2.095</td>
+              <td class="duration" data-value="33441311600">33.441</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)</td>
+              <td>17</td>
+              <td class="duration" data-value="1922557600">1.922</td>
+              <td class="duration" data-value="1922557600">2.051</td>
+              <td class="duration" data-value="32683479200">32.683</td>
+              <td class="failed">94.12%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.Hooks.setUp()</td>
+              <td>46</td>
+              <td class="duration" data-value="261065">0.000</td>
+              <td class="duration" data-value="261065">0.004</td>
+              <td class="duration" data-value="12009000">0.012</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</td>
+              <td>46</td>
+              <td class="duration" data-value="635104163">0.635</td>
+              <td class="duration" data-value="635104163">0.857</td>
+              <td class="duration" data-value="29214791500">29.214</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>18</td>
+            <td>264</td>
+            <td class="duration">2.395</td>
+            <td class="duration">3:26.510</td>
+            <td class="duration">10:32.288</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
