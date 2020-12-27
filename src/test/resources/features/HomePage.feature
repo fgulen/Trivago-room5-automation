@@ -30,7 +30,7 @@ Feature:Subscribe to the Newsletter
       | Sverige        | Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.                         |
       | Singapore      | Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.                         |
       | Argentina      | ¡Felicitaciones por unirte a trivago Magazine!                                                                                                            |
-      | Türkiye        | "Abonelik kaydınızı tamamlamanız i bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen "Spam" bölümünü kontrol ediniz."                             |
+      | Türkiye        | Abonelik kaydınızı tamamlamanız i bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen //"Spam//" bölümünü kontrol ediniz.                             |
 
 
   Scenario Outline: Invalid data and messages in different languages
@@ -56,4 +56,3 @@ Feature:Subscribe to the Newsletter
       | United Kingdom | email@111.222.333.44444       | Please enter a valid email address              |
       | Norge          | email@example..com            | Vennligst oppgi en gyldig e-postadresse         |
       | Sverige        | Abc..123@example.com          | Vänligen uppge en giltig e-postadress           |
-
