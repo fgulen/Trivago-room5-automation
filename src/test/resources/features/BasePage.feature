@@ -1,5 +1,5 @@
 @regression
-Feature: Basepage/Mainmenu functions
+Feature: Mainmenu functions
 
   Background:
     Given user opens homepage
@@ -36,5 +36,3 @@ Feature: Basepage/Mainmenu functions
       | Arizona      | Search Results |
       | Leverkusen   | No results     |
       | Istanbul     | Search Results |
-
-

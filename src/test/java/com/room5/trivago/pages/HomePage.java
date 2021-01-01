@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage{
-
     public HomePage(){
         PageFactory.initElements(Driver.get(), this);
     }
@@ -28,7 +27,5 @@ public class HomePage extends BasePage{
 
     @FindBy (xpath = "//div[@class='alert-error et-error']")
     public WebElement messageErrorAlert;
-
-
 
 }

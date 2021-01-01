@@ -16,8 +16,6 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    //div[@class='nav-icon']//span[2]
-
     @FindBy(xpath = "//div[@class='nav-icon']")
     public WebElement mainIcon;
 
@@ -37,9 +35,9 @@ public abstract class BasePage {
     public  WebElement searchInput;
 
     @FindBy (xpath = "//h3[@class='section-title']")
-    public WebElement searchResult;
+    public WebElement resultFound;
 
     @FindBy (xpath = "//h1[@class='section-title']")
-    public WebElement searchResultNo;
+    public WebElement resultNotFound;
 
 }

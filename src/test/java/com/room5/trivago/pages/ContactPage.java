@@ -28,6 +28,4 @@ public class ContactPage extends BasePage {
     @FindBy (xpath = "//p[@class='feedback']")
     public WebElement alert;
 
-
-
 }

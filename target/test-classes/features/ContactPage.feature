@@ -12,3 +12,4 @@ Feature:Contact page sending message
     Examples:
       | textArea | fullName | yourEmail |
       | message  | name     | email     |
+      | message  | name     | email     |

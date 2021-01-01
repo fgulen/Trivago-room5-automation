@@ -12,4 +12,4 @@ Feature:Contact page sending message
     Examples:
       | textArea | fullName | yourEmail |
       | message  | name     | email     |
-  © 2020 GitHub, Inc.
+      | message  | name     | email     |

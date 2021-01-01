@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.room5.trivago.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 46, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 634.888 s <<< FAILURE! - in com.room5.trivago.runners.CukesRunner
-Subscribe to the Newsletter.Valid data and messages in different languages  Time elapsed: 8.752 s  <<< ERROR!
+Tests run: 44, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 685.289 s <<< FAILURE! - in com.room5.trivago.runners.CukesRunner
+Subscribe to the Newsletter.Valid data and  subscription messages in different languages  Time elapsed: 8.66 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='newsletter-email']/input"}
   (Session info: headless chrome=87.0.4280.88)
@@ -10,18 +10,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-IULL9DI', ip: '192.168.0.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0bd0e58e0880fe1904db5fd2874414cc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5a7abd11ab2566ea26b7e2452e12233
 *** Element info: {Using=xpath, value=//div[@class='newsletter-email']/input}
 
-Subscribe to the Newsletter.Valid data and messages in different languages  Time elapsed: 12.104 s  <<< ERROR!
-io.cucumber.junit.UndefinedStepException: 
-The step "Verify that user gets  newsletter subscription "Abonelik kaydınızı tamamlamanız bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen "Spam" bölümünü kontrol ediniz." in the own language" is undefined. You can implement it using the snippet(s) below:
-
-@Then("Verify that user gets  newsletter subscription \"Abonelik kaydınızı tamamlamanız bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen \"Spam\" bölümünü kontrol ediniz.\" in the own language")
-public void verify_that_user_gets_newsletter_subscription_Abonelik_kaydınızı_tamamlamanız_bir_e_posta_gönderdik_Eğer_e_postayı_almadıysanız_lütfen_Spam_bölümünü_kontrol_ediniz_in_the_own_language() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+Subscribe to the Newsletter.Valid data and  subscription messages in different languages  Time elapsed: 15.444 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...dınızı tamamlamanız [için ]bir e-posta gönderdi...> but was:<...dınızı tamamlamanız []bir e-posta gönderdi...>
 

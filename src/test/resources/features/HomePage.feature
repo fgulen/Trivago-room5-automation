@@ -4,11 +4,11 @@ Feature:Subscribe to the Newsletter
   Background:
     Given user opens homepage
 
-#  Scenario:Broken links verification
-#    Then verify the links
+  Scenario:Broken links verification
+    Then verify the links
 
-  Scenario Outline: Valid data and messages in different languages
-    Given user selects "<country>"
+  Scenario Outline: Valid data and  subscription messages in different languages
+    Given user selects "<country>" from drop-down menu
     When user writes own "e-mail" address to the newsletter subscription input and submits
     Then Verify that user gets  newsletter subscription "<message>" in the own language
     Examples:
@@ -30,7 +30,7 @@ Feature:Subscribe to the Newsletter
       | Sverige        | Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.                         |
       | Singapore      | Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.                         |
       | Argentina      | ¡Felicitaciones por unirte a trivago Magazine!                                                                                                            |
-      | Türkiye        | Abonelik kaydınızı tamamlamanız i bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen //"Spam//" bölümünü kontrol ediniz.                             |
+      | Türkiye        | Abonelik kaydınızı tamamlamanız için bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen \\"Spam\\" bölümünü kontrol ediniz.                        |
 
 
   Scenario Outline: Invalid data and messages in different languages
