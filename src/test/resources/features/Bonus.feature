@@ -1,16 +1,21 @@
 @regression
-Feature: Bonus DataLayer
+Feature: DataLayer Test
 
-  Background:
+  Background: Events and Data
     Given user opens homepage
-    When user click on Read more button in the Hero Image
+    Then user click on read more button in the hero image
 
-  Scenario Outline: DataLayer verification
-    When user opens the page verify following "<events>" are fired and contains following "<data>"
-    And verify "contentLoaded" is fired and hotelId is not null
-    Then "target-properties" has the same path in the URL "https://magazine.trivago.com/top-vacation-spots-us"
+  Scenario Outline: 3 Events and Data
+    When following "<events>" fired
+    Then verify "<events>" contains following "<data>"
     Examples:
       | events                | data                    |
       | OneTrustLoaded        | C0001,C0003,C0002,C0004 |
       | OptanonLoaded         | C0001,C0003,C0002,C0004 |
       | OneTrustGroupsUpdated | C0001,C0003,C0002,C0004 |
+
+
+  Scenario: Content Load event and HotelIds
+    When  Check "contentLoaded" is fired
+    Then verify when the "contentLoaded" is fired check hotelIds are not null
+    And verify when the "contentLoaded" is fired "target-properties" has the same path in the URL "https://magazine.trivago.com/top-vacation-spots-us"

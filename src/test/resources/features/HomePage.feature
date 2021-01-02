@@ -1,5 +1,5 @@
 @regression
-Feature:Subscribe to the Newsletter
+Feature:Home page link verification & newsletter subscription
 
   Background:
     Given user opens homepage

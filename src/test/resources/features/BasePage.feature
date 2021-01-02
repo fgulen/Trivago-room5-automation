@@ -1,5 +1,5 @@
 @regression
-Feature: Mainmenu functions
+Feature: Main Menu functions
 
   Background:
     Given user opens homepage

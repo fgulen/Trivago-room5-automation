@@ -2,52 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23c9a6ce-36d6-4cca-8425-17b9be7bc349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/pages/BonusPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/BonusStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cookiefile.data" beforeDir="false" afterPath="$PROJECT_DIR$/Cookiefile.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/pages/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/BasePageStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/BasePageStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/ContactPageStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/ContactPageStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/HomePageStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/HomePageStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/BonusStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/BonusStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/BasePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BasePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ContactPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ContactPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-2103762770.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-859731295.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1787572827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_1682672642.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_1388608361.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1682672642.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1682672642.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_1388608361.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_1388608361.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_1787572827.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_233058432.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_233058432.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-html-reports" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/room5_Automation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/room5_Automation-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.room5.trivago.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.room5.trivago.runners.CukesRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.room5.trivago.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.room5.trivago.runners.CukesRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/BasePageStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/BasePageStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/ContactPageStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/ContactPageStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/HomePageStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/HomePageStepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BasePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/BasePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ContactPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/ContactPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/room5_Automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/BonusStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/BonusStepdefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Bonus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Bonus.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +79,7 @@
       <recent name="C:\Users\asd\Desktop\java13\room5_Automation\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: DataLayer verification">
+  <component name="RunManager" selected="Cucumber java.Feature: Bonus">
     <configuration name="Feature: Bonus" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" />
@@ -120,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Broken links verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Content Load event" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" />
       <option name="GLUE" value="com.room5.trivago.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="room5_Automation" />
-      <option name="NAME_FILTER" value="^Broken links verification$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Broken links verification$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Broken links verification" />
+      <option name="NAME_FILTER" value="^Content Load event$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Content Load event$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Content Load event" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
@@ -194,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: Bonus" />
+        <item itemvalue="Cucumber java.Scenario: Content Load event" />
+        <item itemvalue="Cucumber java.Scenario: " />
         <item itemvalue="Cucumber java.Scenario: DataLayer verification" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="Cucumber java.Feature: Bonus" />
-        <item itemvalue="Cucumber java.Scenario: Broken links verification" />
       </list>
     </recent_temporary>
   </component>
@@ -253,55 +231,64 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609144775001" />
-    <state width="888" height="257" key="GridCell.Tab.0.bottom" timestamp="1609511655022">
-      <screen x="0" y="0" width="1080" height="1880" />
+    <state width="1603" height="180" key="GridCell.Tab.0.bottom" timestamp="1609604942962">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.bottom/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.bottom/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306636" />
-    <state width="888" height="257" key="GridCell.Tab.0.bottom/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609511655022" />
-    <state width="888" height="257" key="GridCell.Tab.0.center" timestamp="1609511655021">
-      <screen x="0" y="0" width="1080" height="1880" />
+    <state width="886" height="367" key="GridCell.Tab.0.bottom/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
+    <state width="1603" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609604942962" />
+    <state width="1603" height="180" key="GridCell.Tab.0.center" timestamp="1609604942962">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.center/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.center/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306636" />
-    <state width="888" height="257" key="GridCell.Tab.0.center/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609511655021" />
-    <state width="888" height="257" key="GridCell.Tab.0.left" timestamp="1609511655021">
-      <screen x="0" y="0" width="1080" height="1880" />
+    <state width="886" height="367" key="GridCell.Tab.0.center/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
+    <state width="1603" height="180" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609604942962" />
+    <state width="1603" height="180" key="GridCell.Tab.0.left" timestamp="1609604942961">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.left/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.left/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306635" />
-    <state width="888" height="257" key="GridCell.Tab.0.left/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609511655021" />
-    <state width="888" height="257" key="GridCell.Tab.0.right" timestamp="1609511655021">
-      <screen x="0" y="0" width="1080" height="1880" />
+    <state width="886" height="367" key="GridCell.Tab.0.left/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
+    <state width="1603" height="180" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609604942961" />
+    <state width="1603" height="180" key="GridCell.Tab.0.right" timestamp="1609604942962">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.right/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.right/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306636" />
-    <state width="888" height="257" key="GridCell.Tab.0.right/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609511655021" />
-    <state width="1469" height="324" key="GridCell.Tab.1.bottom" timestamp="1609451217614">
+    <state width="886" height="367" key="GridCell.Tab.0.right/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
+    <state width="1603" height="180" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609604942962" />
+    <state width="1469" height="324" key="GridCell.Tab.1.bottom" timestamp="1609513496433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1469" height="324" key="GridCell.Tab.1.bottom/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609451217614" />
-    <state width="1469" height="324" key="GridCell.Tab.1.center" timestamp="1609451217614">
+    <state width="1469" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609513496433" />
+    <state width="1469" height="324" key="GridCell.Tab.1.center" timestamp="1609513496433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1469" height="324" key="GridCell.Tab.1.center/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609451217614" />
-    <state width="1469" height="324" key="GridCell.Tab.1.left" timestamp="1609451217613">
+    <state width="1469" height="324" key="GridCell.Tab.1.center/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609513496433" />
+    <state width="1469" height="324" key="GridCell.Tab.1.left" timestamp="1609513496433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1469" height="324" key="GridCell.Tab.1.left/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609451217613" />
-    <state width="1469" height="324" key="GridCell.Tab.1.right" timestamp="1609451217614">
+    <state width="1469" height="324" key="GridCell.Tab.1.left/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609513496433" />
+    <state width="1469" height="324" key="GridCell.Tab.1.right" timestamp="1609513496433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1469" height="324" key="GridCell.Tab.1.right/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609451217614" />
+    <state width="1469" height="324" key="GridCell.Tab.1.right/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609513496433" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1609072524364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="178" key="Maven.ArtifactSearchDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609072524364" />
-    <state x="-891" y="557" key="com.intellij.ide.util.TipDialog" timestamp="1609354199901">
-      <screen x="-1366" y="313" width="1366" height="728" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1609604975460">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-891" y="557" key="com.intellij.ide.util.TipDialog/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609354199901" />
     <state x="668" y="348" key="com.intellij.ide.util.TipDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609177719002" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609604975459" />
     <state x="615" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609442991841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,8 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.room5.trivago.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 44, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 685.289 s <<< FAILURE! - in com.room5.trivago.runners.CukesRunner
-Subscribe to the Newsletter.Valid data and  subscription messages in different languages  Time elapsed: 8.66 s  <<< ERROR!
+Tests run: 52, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 725.634 s <<< FAILURE! - in com.room5.trivago.runners.CukesRunner
+Subscribe to the Newsletter.Broken links verification  Time elapsed: 12.408 s  <<< ERROR!
+java.lang.NullPointerException
+
+Subscribe to the Newsletter.Valid data and  subscription messages in different languages  Time elapsed: 8.532 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='newsletter-email']/input"}
   (Session info: headless chrome=87.0.4280.88)
@@ -10,10 +13,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-IULL9DI', ip: '192.168.0.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a5a7abd11ab2566ea26b7e2452e12233
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 97609e98ff5ed8a0f843b66aa24d321b
 *** Element info: {Using=xpath, value=//div[@class='newsletter-email']/input}
 
-Subscribe to the Newsletter.Valid data and  subscription messages in different languages  Time elapsed: 15.444 s  <<< FAILURE!
+Subscribe to the Newsletter.Valid data and  subscription messages in different languages  Time elapsed: 16.143 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<...dınızı tamamlamanız [için ]bir e-posta gönderdi...> but was:<...dınızı tamamlamanız []bir e-posta gönderdi...>
 

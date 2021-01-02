@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8517018800,
+              "duration": 5998492600,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:34:18.760Z",
+        "start_timestamp": "2021-01-02T16:03:44.810Z",
         "line": 12,
         "name": "Destination links go to page title",
         "description": "",
@@ -32,7 +32,7 @@
         "after": [
           {
             "result": {
-              "duration": 635407700,
+              "duration": 623776200,
               "status": "passed"
             },
             "match": {
@@ -45,7 +45,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7762932900,
+              "duration": 7508297200,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 16627300,
+              "duration": 17827200,
               "status": "passed"
             },
             "line": 9,
@@ -99,7 +99,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4689708800,
+              "duration": 4665501200,
               "status": "passed"
             },
             "line": 5,
@@ -112,7 +112,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:34:35.890Z",
+        "start_timestamp": "2021-01-02T16:03:59.129Z",
         "line": 13,
         "name": "Destination links go to page title",
         "description": "",
@@ -120,7 +120,7 @@
         "after": [
           {
             "result": {
-              "duration": 637469100,
+              "duration": 627744800,
               "status": "passed"
             },
             "match": {
@@ -133,7 +133,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7451138900,
+              "duration": 7443711500,
               "status": "passed"
             },
             "line": 8,
@@ -155,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 18130900,
+              "duration": 15174300,
               "status": "passed"
             },
             "line": 9,
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4476383500,
+              "duration": 4509838800,
               "status": "passed"
             },
             "line": 5,
@@ -200,7 +200,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:34:48.706Z",
+        "start_timestamp": "2021-01-02T16:04:11.921Z",
         "line": 14,
         "name": "Destination links go to page title",
         "description": "",
@@ -208,7 +208,7 @@
         "after": [
           {
             "result": {
-              "duration": 656053200,
+              "duration": 629099700,
               "status": "passed"
             },
             "match": {
@@ -221,7 +221,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7448154400,
+              "duration": 8118798900,
               "status": "passed"
             },
             "line": 8,
@@ -243,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 13641400,
+              "duration": 16001400,
               "status": "passed"
             },
             "line": 9,
@@ -275,7 +275,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4716326900,
+              "duration": 4568991400,
               "status": "passed"
             },
             "line": 5,
@@ -288,7 +288,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:35:01.312Z",
+        "start_timestamp": "2021-01-02T16:04:25.214Z",
         "line": 15,
         "name": "Destination links go to page title",
         "description": "",
@@ -296,7 +296,7 @@
         "after": [
           {
             "result": {
-              "duration": 638917700,
+              "duration": 634900600,
               "status": "passed"
             },
             "match": {
@@ -309,7 +309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7903568700,
+              "duration": 7274487300,
               "status": "passed"
             },
             "line": 8,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 14824200,
+              "duration": 13420600,
               "status": "passed"
             },
             "line": 9,
@@ -363,7 +363,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4427819500,
+              "duration": 4466495400,
               "status": "passed"
             },
             "line": 5,
@@ -376,7 +376,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:35:14.601Z",
+        "start_timestamp": "2021-01-02T16:04:37.732Z",
         "line": 16,
         "name": "Destination links go to page title",
         "description": "",
@@ -384,7 +384,7 @@
         "after": [
           {
             "result": {
-              "duration": 612950100,
+              "duration": 613603900,
               "status": "passed"
             },
             "match": {
@@ -397,7 +397,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7642456500,
+              "duration": 7265011200,
               "status": "passed"
             },
             "line": 8,
@@ -419,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 13992500,
+              "duration": 14459100,
               "status": "passed"
             },
             "line": 9,
@@ -451,7 +451,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4447814700,
+              "duration": 4537892500,
               "status": "passed"
             },
             "line": 5,
@@ -464,7 +464,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:35:27.317Z",
+        "start_timestamp": "2021-01-02T16:04:50.116Z",
         "line": 19,
         "name": "Destination menu has following datas",
         "description": "",
@@ -472,7 +472,7 @@
         "after": [
           {
             "result": {
-              "duration": 613425200,
+              "duration": 627780200,
               "status": "passed"
             },
             "match": {
@@ -485,7 +485,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3300766000,
+              "duration": 3305085500,
               "status": "passed"
             },
             "line": 20,
@@ -503,7 +503,7 @@
           },
           {
             "result": {
-              "duration": 4198676300,
+              "duration": 4171606400,
               "status": "passed"
             },
             "line": 21,
@@ -556,7 +556,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4534370300,
+              "duration": 4438623200,
               "status": "passed"
             },
             "line": 5,
@@ -569,7 +569,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:35:39.887Z",
+        "start_timestamp": "2021-01-02T16:05:02.771Z",
         "line": 34,
         "name": "Search function",
         "description": "",
@@ -577,7 +577,7 @@
         "after": [
           {
             "result": {
-              "duration": 621613000,
+              "duration": 608809500,
               "status": "passed"
             },
             "match": {
@@ -590,7 +590,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5489778800,
+              "duration": 5416816300,
               "status": "passed"
             },
             "line": 30,
@@ -608,7 +608,7 @@
           },
           {
             "result": {
-              "duration": 2096376500,
+              "duration": 2090890800,
               "status": "passed"
             },
             "line": 31,
@@ -640,7 +640,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4380738300,
+              "duration": 4652679700,
               "status": "passed"
             },
             "line": 5,
@@ -653,7 +653,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:35:52.647Z",
+        "start_timestamp": "2021-01-02T16:05:15.339Z",
         "line": 35,
         "name": "Search function",
         "description": "",
@@ -661,7 +661,7 @@
         "after": [
           {
             "result": {
-              "duration": 619419000,
+              "duration": 604680200,
               "status": "passed"
             },
             "match": {
@@ -674,7 +674,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5428540200,
+              "duration": 5356450900,
               "status": "passed"
             },
             "line": 30,
@@ -692,7 +692,7 @@
           },
           {
             "result": {
-              "duration": 2139998700,
+              "duration": 2135672700,
               "status": "passed"
             },
             "line": 31,
@@ -724,7 +724,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4448894900,
+              "duration": 4371003600,
               "status": "passed"
             },
             "line": 5,
@@ -737,7 +737,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:36:05.227Z",
+        "start_timestamp": "2021-01-02T16:05:28.100Z",
         "line": 36,
         "name": "Search function",
         "description": "",
@@ -745,7 +745,7 @@
         "after": [
           {
             "result": {
-              "duration": 608579800,
+              "duration": 603442100,
               "status": "passed"
             },
             "match": {
@@ -758,7 +758,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5430397700,
+              "duration": 5444958000,
               "status": "passed"
             },
             "line": 30,
@@ -776,7 +776,7 @@
           },
           {
             "result": {
-              "duration": 2093251900,
+              "duration": 2092701400,
               "status": "passed"
             },
             "line": 31,
@@ -808,7 +808,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4381529400,
+              "duration": 4384344900,
               "status": "passed"
             },
             "line": 5,
@@ -821,7 +821,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:36:17.818Z",
+        "start_timestamp": "2021-01-02T16:05:40.623Z",
         "line": 37,
         "name": "Search function",
         "description": "",
@@ -829,7 +829,7 @@
         "after": [
           {
             "result": {
-              "duration": 619031300,
+              "duration": 604949000,
               "status": "passed"
             },
             "match": {
@@ -842,7 +842,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5431702900,
+              "duration": 5449723400,
               "status": "passed"
             },
             "line": 30,
@@ -860,7 +860,7 @@
           },
           {
             "result": {
-              "duration": 2118343700,
+              "duration": 2129659200,
               "status": "passed"
             },
             "line": 31,
@@ -892,7 +892,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4576627400,
+              "duration": 4465483700,
               "status": "passed"
             },
             "line": 5,
@@ -905,7 +905,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:36:30.379Z",
+        "start_timestamp": "2021-01-02T16:05:53.211Z",
         "line": 38,
         "name": "Search function",
         "description": "",
@@ -913,7 +913,7 @@
         "after": [
           {
             "result": {
-              "duration": 621196900,
+              "duration": 608115900,
               "status": "passed"
             },
             "match": {
@@ -926,7 +926,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5455355000,
+              "duration": 5464189500,
               "status": "passed"
             },
             "line": 30,
@@ -944,7 +944,7 @@
           },
           {
             "result": {
-              "duration": 2098031300,
+              "duration": 2093983700,
               "status": "passed"
             },
             "line": 31,
@@ -989,14 +989,14 @@
     "elements": [
       {
         "line": 4,
-        "name": "",
+        "name": "Events and Data",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 4403602000,
+              "duration": 4460874800,
               "status": "passed"
             },
             "line": 5,
@@ -1008,28 +1008,28 @@
           },
           {
             "result": {
-              "duration": 3797661500,
+              "duration": 3875187100,
               "status": "passed"
             },
             "line": 6,
-            "name": "user click on Read more button in the Hero Image",
+            "name": "user click on read more button in the hero image",
             "match": {
               "location": "com.room5.trivago.step_definitions.BonusStepdefs.userClickOnReadMoreButtonInTheHeroImage()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:36:43.139Z",
-        "line": 14,
-        "name": "DataLayer verification",
+        "start_timestamp": "2021-01-02T16:06:05.856Z",
+        "line": 13,
+        "name": "3 Events and Data",
         "description": "",
-        "id": "bonus-datalayer;datalayer-verification;;2",
+        "id": "datalayer-test;3-events-and-data;;2",
         "after": [
           {
             "result": {
-              "duration": 632573200,
+              "duration": 648169400,
               "status": "passed"
             },
             "match": {
@@ -1042,63 +1042,41 @@
         "steps": [
           {
             "result": {
-              "duration": 247594000,
+              "duration": 15001300,
               "status": "passed"
             },
             "line": 9,
-            "name": "user opens the page verify following \"OneTrustLoaded\" are fired and contains following \"C0001,C0003,C0002,C0004\"",
+            "name": "following \"OneTrustLoaded\" fired",
             "match": {
               "arguments": [
                 {
                   "val": "\"OneTrustLoaded\"",
-                  "offset": 37
-                },
-                {
-                  "val": "\"C0001,C0003,C0002,C0004\"",
-                  "offset": 87
+                  "offset": 10
                 }
               ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.userOpensThePageVerifyFollowingAreFiredAndContainsFollowing(java.lang.String,java.lang.String)"
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.followingFired(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 248583900,
+              "duration": 16008100,
               "status": "passed"
             },
             "line": 10,
-            "name": "verify \"contentLoaded\" is fired and hotelId is not null",
+            "name": "verify \"OneTrustLoaded\" contains following \"C0001,C0003,C0002,C0004\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"contentLoaded\"",
+                  "val": "\"OneTrustLoaded\"",
                   "offset": 7
-                }
-              ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyIsFiredAndHotelIdIsNotNull(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 15999500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "\"target-properties\" has the same path in the URL \"https://magazine.trivago.com/top-vacation-spots-us\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"target-properties\"",
-                  "offset": 0
                 },
                 {
-                  "val": "\"https://magazine.trivago.com/top-vacation-spots-us\"",
-                  "offset": 49
+                  "val": "\"C0001,C0003,C0002,C0004\"",
+                  "offset": 43
                 }
               ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.hasTheSamePathInTheURL(java.lang.String,java.lang.String)"
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyContainsFollowing(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -1111,14 +1089,14 @@
       },
       {
         "line": 4,
-        "name": "",
+        "name": "Events and Data",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 4352820600,
+              "duration": 4436792900,
               "status": "passed"
             },
             "line": 5,
@@ -1130,28 +1108,28 @@
           },
           {
             "result": {
-              "duration": 3789027200,
+              "duration": 3851254200,
               "status": "passed"
             },
             "line": 6,
-            "name": "user click on Read more button in the Hero Image",
+            "name": "user click on read more button in the hero image",
             "match": {
               "location": "com.room5.trivago.step_definitions.BonusStepdefs.userClickOnReadMoreButtonInTheHeroImage()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:36:52.496Z",
-        "line": 15,
-        "name": "DataLayer verification",
+        "start_timestamp": "2021-01-02T16:06:14.890Z",
+        "line": 14,
+        "name": "3 Events and Data",
         "description": "",
-        "id": "bonus-datalayer;datalayer-verification;;3",
+        "id": "datalayer-test;3-events-and-data;;3",
         "after": [
           {
             "result": {
-              "duration": 635297200,
+              "duration": 621925800,
               "status": "passed"
             },
             "match": {
@@ -1164,63 +1142,41 @@
         "steps": [
           {
             "result": {
-              "duration": 247601300,
+              "duration": 12992500,
               "status": "passed"
             },
             "line": 9,
-            "name": "user opens the page verify following \"OptanonLoaded\" are fired and contains following \"C0001,C0003,C0002,C0004\"",
+            "name": "following \"OptanonLoaded\" fired",
             "match": {
               "arguments": [
                 {
                   "val": "\"OptanonLoaded\"",
-                  "offset": 37
-                },
-                {
-                  "val": "\"C0001,C0003,C0002,C0004\"",
-                  "offset": 86
+                  "offset": 10
                 }
               ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.userOpensThePageVerifyFollowingAreFiredAndContainsFollowing(java.lang.String,java.lang.String)"
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.followingFired(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 250892500,
+              "duration": 14000100,
               "status": "passed"
             },
             "line": 10,
-            "name": "verify \"contentLoaded\" is fired and hotelId is not null",
+            "name": "verify \"OptanonLoaded\" contains following \"C0001,C0003,C0002,C0004\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"contentLoaded\"",
+                  "val": "\"OptanonLoaded\"",
                   "offset": 7
-                }
-              ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyIsFiredAndHotelIdIsNotNull(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 15001200,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "\"target-properties\" has the same path in the URL \"https://magazine.trivago.com/top-vacation-spots-us\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"target-properties\"",
-                  "offset": 0
                 },
                 {
-                  "val": "\"https://magazine.trivago.com/top-vacation-spots-us\"",
-                  "offset": 49
+                  "val": "\"C0001,C0003,C0002,C0004\"",
+                  "offset": 42
                 }
               ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.hasTheSamePathInTheURL(java.lang.String,java.lang.String)"
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyContainsFollowing(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -1233,14 +1189,14 @@
       },
       {
         "line": 4,
-        "name": "",
+        "name": "Events and Data",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 4377438300,
+              "duration": 4412529900,
               "status": "passed"
             },
             "line": 5,
@@ -1252,28 +1208,28 @@
           },
           {
             "result": {
-              "duration": 3761418700,
+              "duration": 3765443900,
               "status": "passed"
             },
             "line": 6,
-            "name": "user click on Read more button in the Hero Image",
+            "name": "user click on read more button in the hero image",
             "match": {
               "location": "com.room5.trivago.step_definitions.BonusStepdefs.userClickOnReadMoreButtonInTheHeroImage()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:37:01.796Z",
-        "line": 16,
-        "name": "DataLayer verification",
+        "start_timestamp": "2021-01-02T16:06:23.836Z",
+        "line": 15,
+        "name": "3 Events and Data",
         "description": "",
-        "id": "bonus-datalayer;datalayer-verification;;4",
+        "id": "datalayer-test;3-events-and-data;;4",
         "after": [
           {
             "result": {
-              "duration": 624038300,
+              "duration": 639653100,
               "status": "passed"
             },
             "match": {
@@ -1286,65 +1242,165 @@
         "steps": [
           {
             "result": {
-              "duration": 245448100,
+              "duration": 14002300,
               "status": "passed"
             },
             "line": 9,
-            "name": "user opens the page verify following \"OneTrustGroupsUpdated\" are fired and contains following \"C0001,C0003,C0002,C0004\"",
+            "name": "following \"OneTrustGroupsUpdated\" fired",
             "match": {
               "arguments": [
                 {
                   "val": "\"OneTrustGroupsUpdated\"",
-                  "offset": 37
-                },
-                {
-                  "val": "\"C0001,C0003,C0002,C0004\"",
-                  "offset": 94
+                  "offset": 10
                 }
               ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.userOpensThePageVerifyFollowingAreFiredAndContainsFollowing(java.lang.String,java.lang.String)"
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.followingFired(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 247364100,
+              "duration": 15996700,
               "status": "passed"
             },
             "line": 10,
-            "name": "verify \"contentLoaded\" is fired and hotelId is not null",
+            "name": "verify \"OneTrustGroupsUpdated\" contains following \"C0001,C0003,C0002,C0004\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OneTrustGroupsUpdated\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"C0001,C0003,C0002,C0004\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyContainsFollowing(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Events and Data",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4380119300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BasePageStepdefs.user_opens_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3768462200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on read more button in the hero image",
+            "match": {
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.userClickOnReadMoreButtonInTheHeroImage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-02T16:06:32.694Z",
+        "line": 18,
+        "name": "Content Load event and HotelIds",
+        "description": "",
+        "id": "datalayer-test;content-load-event-and-hotelids",
+        "after": [
+          {
+            "result": {
+              "duration": 620095300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.room5.trivago.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13993800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Check \"contentLoaded\" is fired",
             "match": {
               "arguments": [
                 {
                   "val": "\"contentLoaded\"",
-                  "offset": 7
+                  "offset": 6
                 }
               ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyIsFiredAndHotelIdIsNotNull(java.lang.String)"
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.checkIsFired(java.lang.String)"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 13992000,
+              "duration": 32003500,
               "status": "passed"
             },
-            "line": 11,
-            "name": "\"target-properties\" has the same path in the URL \"https://magazine.trivago.com/top-vacation-spots-us\"",
+            "line": 20,
+            "name": "verify when the \"contentLoaded\" is fired check hotelIds are not null",
             "match": {
               "arguments": [
                 {
+                  "val": "\"contentLoaded\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyWhenTheIsFiredCheckHotelIdsAreNotNull(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31893200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify when the \"contentLoaded\" is fired \"target-properties\" has the same path in the URL \"https://magazine.trivago.com/top-vacation-spots-us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contentLoaded\"",
+                  "offset": 16
+                },
+                {
                   "val": "\"target-properties\"",
-                  "offset": 0
+                  "offset": 41
                 },
                 {
                   "val": "\"https://magazine.trivago.com/top-vacation-spots-us\"",
-                  "offset": 49
+                  "offset": 90
                 }
               ],
-              "location": "com.room5.trivago.step_definitions.BonusStepdefs.hasTheSamePathInTheURL(java.lang.String,java.lang.String)"
+              "location": "com.room5.trivago.step_definitions.BonusStepdefs.verifyWhenTheIsFiredHasTheSamePathInTheURL(java.lang.String,java.lang.String,java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -1354,9 +1410,9 @@
         ]
       }
     ],
-    "name": "Bonus DataLayer",
+    "name": "DataLayer Test",
     "description": "",
-    "id": "bonus-datalayer",
+    "id": "datalayer-test",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/Bonus.feature",
     "tags": [
@@ -1382,7 +1438,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4346964400,
+              "duration": 4737105500,
               "status": "passed"
             },
             "line": 5,
@@ -1395,7 +1451,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:37:11.076Z",
+        "start_timestamp": "2021-01-02T16:06:41.559Z",
         "line": 14,
         "name": "With valid data",
         "description": "",
@@ -1403,7 +1459,7 @@
         "after": [
           {
             "result": {
-              "duration": 622115600,
+              "duration": 610344800,
               "status": "passed"
             },
             "match": {
@@ -1416,7 +1472,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2272958500,
+              "duration": 2194143300,
               "status": "passed"
             },
             "line": 8,
@@ -1434,7 +1490,7 @@
           },
           {
             "result": {
-              "duration": 5987586600,
+              "duration": 5799340600,
               "status": "passed"
             },
             "line": 9,
@@ -1460,7 +1516,7 @@
           },
           {
             "result": {
-              "duration": 2091350400,
+              "duration": 2083048400,
               "status": "passed"
             },
             "line": 10,
@@ -1492,7 +1548,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4549533900,
+              "duration": 4489973700,
               "status": "passed"
             },
             "line": 5,
@@ -1505,7 +1561,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:37:26.410Z",
+        "start_timestamp": "2021-01-02T16:06:57.002Z",
         "line": 15,
         "name": "With valid data",
         "description": "",
@@ -1513,7 +1569,7 @@
         "after": [
           {
             "result": {
-              "duration": 625895400,
+              "duration": 639789600,
               "status": "passed"
             },
             "match": {
@@ -1526,7 +1582,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2269726100,
+              "duration": 2161305900,
               "status": "passed"
             },
             "line": 8,
@@ -1544,7 +1600,7 @@
           },
           {
             "result": {
-              "duration": 5515617800,
+              "duration": 5312054900,
               "status": "passed"
             },
             "line": 9,
@@ -1570,7 +1626,7 @@
           },
           {
             "result": {
-              "duration": 2087278100,
+              "duration": 2096809100,
               "status": "passed"
             },
             "line": 10,
@@ -1622,7 +1678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4479088400,
+              "duration": 4475451000,
               "status": "passed"
             },
             "line": 5,
@@ -1635,7 +1691,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:37:41.468Z",
+        "start_timestamp": "2021-01-02T16:07:11.711Z",
         "line": 7,
         "name": "Broken links verification",
         "description": "",
@@ -1650,7 +1706,7 @@
               }
             ],
             "result": {
-              "duration": 960724600,
+              "duration": 932703900,
               "status": "passed"
             },
             "match": {
@@ -1664,7 +1720,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\r\n\tat com.room5.trivago.step_definitions.HomePageStepdefs.verify_the_links(HomePageStepdefs.java:38)\r\n\tat ✽.verify the links(file:///C:/Users/asd/Desktop/java13/room5_Automation/src/test/resources/features/HomePage.feature:8)\r\n",
-              "duration": 8311158200,
+              "duration": 6876008400,
               "status": "failed"
             },
             "line": 8,
@@ -1690,7 +1746,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4496997400,
+              "duration": 4486279200,
               "status": "passed"
             },
             "line": 5,
@@ -1703,7 +1759,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:37:55.258Z",
+        "start_timestamp": "2021-01-02T16:07:24.042Z",
         "line": 16,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -1711,7 +1767,7 @@
         "after": [
           {
             "result": {
-              "duration": 605483600,
+              "duration": 603999500,
               "status": "passed"
             },
             "match": {
@@ -1724,7 +1780,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1250218700,
+              "duration": 1275090200,
               "status": "passed"
             },
             "line": 11,
@@ -1742,7 +1798,7 @@
           },
           {
             "result": {
-              "duration": 4600425800,
+              "duration": 4583426400,
               "status": "passed"
             },
             "line": 12,
@@ -1760,7 +1816,7 @@
           },
           {
             "result": {
-              "duration": 3039867500,
+              "duration": 3050199800,
               "status": "passed"
             },
             "line": 13,
@@ -1792,7 +1848,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4468999200,
+              "duration": 4731264400,
               "status": "passed"
             },
             "line": 5,
@@ -1805,7 +1861,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:38:09.259Z",
+        "start_timestamp": "2021-01-02T16:07:38.050Z",
         "line": 17,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -1813,7 +1869,7 @@
         "after": [
           {
             "result": {
-              "duration": 631440900,
+              "duration": 639192600,
               "status": "passed"
             },
             "match": {
@@ -1826,7 +1882,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3239883500,
+              "duration": 4148423000,
               "status": "passed"
             },
             "line": 11,
@@ -1844,7 +1900,7 @@
           },
           {
             "result": {
-              "duration": 4613144500,
+              "duration": 4486127000,
               "status": "passed"
             },
             "line": 12,
@@ -1862,7 +1918,7 @@
           },
           {
             "result": {
-              "duration": 3055870500,
+              "duration": 3050004100,
               "status": "passed"
             },
             "line": 13,
@@ -1894,7 +1950,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5017409600,
+              "duration": 4448873700,
               "status": "passed"
             },
             "line": 5,
@@ -1907,7 +1963,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:38:25.277Z",
+        "start_timestamp": "2021-01-02T16:07:55.112Z",
         "line": 18,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -1915,7 +1971,7 @@
         "after": [
           {
             "result": {
-              "duration": 653133800,
+              "duration": 636389500,
               "status": "passed"
             },
             "match": {
@@ -1928,7 +1984,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5240875200,
+              "duration": 5167946400,
               "status": "passed"
             },
             "line": 11,
@@ -1946,7 +2002,7 @@
           },
           {
             "result": {
-              "duration": 4508928600,
+              "duration": 4633087100,
               "status": "passed"
             },
             "line": 12,
@@ -1964,7 +2020,7 @@
           },
           {
             "result": {
-              "duration": 3045433000,
+              "duration": 3046557600,
               "status": "passed"
             },
             "line": 13,
@@ -1996,7 +2052,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4417243900,
+              "duration": 4409477500,
               "status": "passed"
             },
             "line": 5,
@@ -2009,7 +2065,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:38:43.751Z",
+        "start_timestamp": "2021-01-02T16:08:13.055Z",
         "line": 19,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2017,7 +2073,7 @@
         "after": [
           {
             "result": {
-              "duration": 663863000,
+              "duration": 621875600,
               "status": "passed"
             },
             "match": {
@@ -2030,7 +2086,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2346639400,
+              "duration": 2360421100,
               "status": "passed"
             },
             "line": 11,
@@ -2048,7 +2104,7 @@
           },
           {
             "result": {
-              "duration": 4495879500,
+              "duration": 4584927500,
               "status": "passed"
             },
             "line": 12,
@@ -2066,7 +2122,7 @@
           },
           {
             "result": {
-              "duration": 3040983700,
+              "duration": 3051973200,
               "status": "passed"
             },
             "line": 13,
@@ -2098,7 +2154,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4507796700,
+              "duration": 4494960100,
               "status": "passed"
             },
             "line": 5,
@@ -2111,7 +2167,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:38:58.723Z",
+        "start_timestamp": "2021-01-02T16:08:28.094Z",
         "line": 20,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2119,7 +2175,7 @@
         "after": [
           {
             "result": {
-              "duration": 638739400,
+              "duration": 636969000,
               "status": "passed"
             },
             "match": {
@@ -2132,7 +2188,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2296636300,
+              "duration": 2400911000,
               "status": "passed"
             },
             "line": 11,
@@ -2150,7 +2206,7 @@
           },
           {
             "result": {
-              "duration": 4496745300,
+              "duration": 4456325500,
               "status": "passed"
             },
             "line": 12,
@@ -2168,7 +2224,7 @@
           },
           {
             "result": {
-              "duration": 3046873700,
+              "duration": 3050364000,
               "status": "passed"
             },
             "line": 13,
@@ -2200,7 +2256,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4370747900,
+              "duration": 4550762200,
               "status": "passed"
             },
             "line": 5,
@@ -2213,7 +2269,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:39:13.716Z",
+        "start_timestamp": "2021-01-02T16:08:43.143Z",
         "line": 21,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2221,7 +2277,7 @@
         "after": [
           {
             "result": {
-              "duration": 633314900,
+              "duration": 624206400,
               "status": "passed"
             },
             "match": {
@@ -2234,7 +2290,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2740277500,
+              "duration": 2615227300,
               "status": "passed"
             },
             "line": 11,
@@ -2252,7 +2308,7 @@
           },
           {
             "result": {
-              "duration": 4699874100,
+              "duration": 4536960900,
               "status": "passed"
             },
             "line": 12,
@@ -2270,7 +2326,7 @@
           },
           {
             "result": {
-              "duration": 3050553400,
+              "duration": 3050015600,
               "status": "passed"
             },
             "line": 13,
@@ -2302,7 +2358,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4442080800,
+              "duration": 5077021100,
               "status": "passed"
             },
             "line": 5,
@@ -2315,7 +2371,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:39:29.221Z",
+        "start_timestamp": "2021-01-02T16:08:58.529Z",
         "line": 22,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2323,7 +2379,7 @@
         "after": [
           {
             "result": {
-              "duration": 646020000,
+              "duration": 623076700,
               "status": "passed"
             },
             "match": {
@@ -2336,7 +2392,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2500648500,
+              "duration": 2432740500,
               "status": "passed"
             },
             "line": 11,
@@ -2354,7 +2410,7 @@
           },
           {
             "result": {
-              "duration": 4489700000,
+              "duration": 4550722500,
               "status": "passed"
             },
             "line": 12,
@@ -2372,7 +2428,7 @@
           },
           {
             "result": {
-              "duration": 3045273200,
+              "duration": 3053755900,
               "status": "passed"
             },
             "line": 13,
@@ -2404,7 +2460,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4458114500,
+              "duration": 4478681900,
               "status": "passed"
             },
             "line": 5,
@@ -2417,7 +2473,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:39:44.354Z",
+        "start_timestamp": "2021-01-02T16:09:14.273Z",
         "line": 23,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2425,7 +2481,7 @@
         "after": [
           {
             "result": {
-              "duration": 668730100,
+              "duration": 619292500,
               "status": "passed"
             },
             "match": {
@@ -2438,7 +2494,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2524524300,
+              "duration": 2625477100,
               "status": "passed"
             },
             "line": 11,
@@ -2456,7 +2512,7 @@
           },
           {
             "result": {
-              "duration": 4482676500,
+              "duration": 4531598100,
               "status": "passed"
             },
             "line": 12,
@@ -2474,7 +2530,7 @@
           },
           {
             "result": {
-              "duration": 3050670900,
+              "duration": 3041574900,
               "status": "passed"
             },
             "line": 13,
@@ -2506,7 +2562,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4460171200,
+              "duration": 5530124600,
               "status": "passed"
             },
             "line": 5,
@@ -2519,7 +2575,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:39:59.545Z",
+        "start_timestamp": "2021-01-02T16:09:29.576Z",
         "line": 24,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2527,7 +2583,7 @@
         "after": [
           {
             "result": {
-              "duration": 648196200,
+              "duration": 638120300,
               "status": "passed"
             },
             "match": {
@@ -2540,7 +2596,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4315685300,
+              "duration": 4105588100,
               "status": "passed"
             },
             "line": 11,
@@ -2558,7 +2614,7 @@
           },
           {
             "result": {
-              "duration": 4535607100,
+              "duration": 4470630800,
               "status": "passed"
             },
             "line": 12,
@@ -2576,7 +2632,7 @@
           },
           {
             "result": {
-              "duration": 3042127500,
+              "duration": 3048453400,
               "status": "passed"
             },
             "line": 13,
@@ -2608,7 +2664,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4473328400,
+              "duration": 4423506600,
               "status": "passed"
             },
             "line": 5,
@@ -2621,7 +2677,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:40:16.558Z",
+        "start_timestamp": "2021-01-02T16:09:47.375Z",
         "line": 25,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2629,7 +2685,7 @@
         "after": [
           {
             "result": {
-              "duration": 637867000,
+              "duration": 643189900,
               "status": "passed"
             },
             "match": {
@@ -2642,7 +2698,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2369623500,
+              "duration": 2507392700,
               "status": "passed"
             },
             "line": 11,
@@ -2660,7 +2716,7 @@
           },
           {
             "result": {
-              "duration": 4506502300,
+              "duration": 4542244800,
               "status": "passed"
             },
             "line": 12,
@@ -2678,7 +2734,7 @@
           },
           {
             "result": {
-              "duration": 3038032200,
+              "duration": 3045445000,
               "status": "passed"
             },
             "line": 13,
@@ -2710,7 +2766,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4382002200,
+              "duration": 4560302000,
               "status": "passed"
             },
             "line": 5,
@@ -2723,7 +2779,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:40:31.589Z",
+        "start_timestamp": "2021-01-02T16:10:02.545Z",
         "line": 26,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2731,7 +2787,7 @@
         "after": [
           {
             "result": {
-              "duration": 652697600,
+              "duration": 626215500,
               "status": "passed"
             },
             "match": {
@@ -2744,7 +2800,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4068262100,
+              "duration": 4065960100,
               "status": "passed"
             },
             "line": 11,
@@ -2762,7 +2818,7 @@
           },
           {
             "result": {
-              "duration": 4480790400,
+              "duration": 4475452600,
               "status": "passed"
             },
             "line": 12,
@@ -2780,7 +2836,7 @@
           },
           {
             "result": {
-              "duration": 3052041900,
+              "duration": 3051303700,
               "status": "passed"
             },
             "line": 13,
@@ -2812,7 +2868,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4484057400,
+              "duration": 4381735500,
               "status": "passed"
             },
             "line": 5,
@@ -2825,7 +2881,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:40:48.231Z",
+        "start_timestamp": "2021-01-02T16:10:19.332Z",
         "line": 27,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2833,7 +2889,7 @@
         "after": [
           {
             "result": {
-              "duration": 621809400,
+              "duration": 624589200,
               "status": "passed"
             },
             "match": {
@@ -2846,7 +2902,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2311974200,
+              "duration": 2727754300,
               "status": "passed"
             },
             "line": 11,
@@ -2864,7 +2920,7 @@
           },
           {
             "result": {
-              "duration": 4563728600,
+              "duration": 4499185100,
               "status": "passed"
             },
             "line": 12,
@@ -2882,7 +2938,7 @@
           },
           {
             "result": {
-              "duration": 3038023300,
+              "duration": 3043512100,
               "status": "passed"
             },
             "line": 13,
@@ -2914,7 +2970,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4380933000,
+              "duration": 4458532600,
               "status": "passed"
             },
             "line": 5,
@@ -2927,7 +2983,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:41:03.257Z",
+        "start_timestamp": "2021-01-02T16:10:34.614Z",
         "line": 28,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -2935,7 +2991,7 @@
         "after": [
           {
             "result": {
-              "duration": 651490600,
+              "duration": 635561700,
               "status": "passed"
             },
             "match": {
@@ -2948,7 +3004,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2453663800,
+              "duration": 2381197000,
               "status": "passed"
             },
             "line": 11,
@@ -2966,7 +3022,7 @@
           },
           {
             "result": {
-              "duration": 4517823900,
+              "duration": 4524724600,
               "status": "passed"
             },
             "line": 12,
@@ -2984,7 +3040,7 @@
           },
           {
             "result": {
-              "duration": 3050949200,
+              "duration": 3054874400,
               "status": "passed"
             },
             "line": 13,
@@ -3016,7 +3072,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4364980500,
+              "duration": 4405208700,
               "status": "passed"
             },
             "line": 5,
@@ -3029,7 +3085,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:41:18.318Z",
+        "start_timestamp": "2021-01-02T16:10:49.676Z",
         "line": 29,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -3037,7 +3093,7 @@
         "after": [
           {
             "result": {
-              "duration": 634290200,
+              "duration": 647990000,
               "status": "passed"
             },
             "match": {
@@ -3050,7 +3106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2621523100,
+              "duration": 2763087300,
               "status": "passed"
             },
             "line": 11,
@@ -3068,7 +3124,7 @@
           },
           {
             "result": {
-              "duration": 4533888400,
+              "duration": 4539036000,
               "status": "passed"
             },
             "line": 12,
@@ -3086,7 +3142,7 @@
           },
           {
             "result": {
-              "duration": 3044257900,
+              "duration": 3043676400,
               "status": "passed"
             },
             "line": 13,
@@ -3118,7 +3174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4413147800,
+              "duration": 4343801200,
               "status": "passed"
             },
             "line": 5,
@@ -3131,7 +3187,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:41:33.523Z",
+        "start_timestamp": "2021-01-02T16:11:05.084Z",
         "line": 30,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -3139,7 +3195,7 @@
         "after": [
           {
             "result": {
-              "duration": 638692900,
+              "duration": 623649000,
               "status": "passed"
             },
             "match": {
@@ -3152,7 +3208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2443463400,
+              "duration": 2569135400,
               "status": "passed"
             },
             "line": 11,
@@ -3170,7 +3226,7 @@
           },
           {
             "result": {
-              "duration": 4497074400,
+              "duration": 4533192000,
               "status": "passed"
             },
             "line": 12,
@@ -3188,7 +3244,7 @@
           },
           {
             "result": {
-              "duration": 3042008700,
+              "duration": 3046605200,
               "status": "passed"
             },
             "line": 13,
@@ -3220,7 +3276,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4399792000,
+              "duration": 4355406900,
               "status": "passed"
             },
             "line": 5,
@@ -3233,7 +3289,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:41:48.564Z",
+        "start_timestamp": "2021-01-02T16:11:20.208Z",
         "line": 31,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -3242,13 +3298,13 @@
           {
             "embeddings": [
               {
-                "data": "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AQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADCCCAAAEAYAQQAAAgjgAAAAGEEEAAAIIwAAgAAhBFAAACAMAIIAAAQRgABAADC/D94njdo8oAXgQAAAABJRU5ErkJggg\u003d\u003d",
+                "data": "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AAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDACCAAAEEYAAQAAwgggAABAGAEEAAAII4AAAABhBBAAACCMAAIAAIQRQAAAgDD/D/4QefxXWaqAAAAAAElFTkSuQmCC",
                 "mime_type": "image/png",
                 "name": "screenshot"
               }
             ],
             "result": {
-              "duration": 856565500,
+              "duration": 832750700,
               "status": "passed"
             },
             "match": {
@@ -3261,7 +3317,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3120156100,
+              "duration": 3220466500,
               "status": "passed"
             },
             "line": 11,
@@ -3279,8 +3335,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027newsletter-email\u0027]/input\"}\n  (Session info: headless chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IULL9DI\u0027, ip: \u0027172.17.64.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\asd\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:60935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: cb64cc2f793ade3c81816ea85234599c\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027newsletter-email\u0027]/input}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(HomePageStepdefs.java:97)\r\n\tat ✽.user writes own \"e-mail\" address to the newsletter subscription input and submits(file:///C:/Users/asd/Desktop/java13/room5_Automation/src/test/resources/features/HomePage.feature:12)\r\n",
-              "duration": 154974400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027newsletter-email\u0027]/input\"}\n  (Session info: headless chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IULL9DI\u0027, ip: \u0027192.168.0.90\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\asd\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:50691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 97609e98ff5ed8a0f843b66aa24d321b\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027newsletter-email\u0027]/input}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(HomePageStepdefs.java:97)\r\n\tat ✽.user writes own \"e-mail\" address to the newsletter subscription input and submits(file:///C:/Users/asd/Desktop/java13/room5_Automation/src/test/resources/features/HomePage.feature:12)\r\n",
+              "duration": 109663100,
               "status": "failed"
             },
             "line": 12,
@@ -3329,7 +3385,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4394082900,
+              "duration": 4362802400,
               "status": "passed"
             },
             "line": 5,
@@ -3342,7 +3398,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:41:57.107Z",
+        "start_timestamp": "2021-01-02T16:11:28.740Z",
         "line": 32,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -3350,7 +3406,7 @@
         "after": [
           {
             "result": {
-              "duration": 620582200,
+              "duration": 629196500,
               "status": "passed"
             },
             "match": {
@@ -3363,7 +3419,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4344490300,
+              "duration": 4100553400,
               "status": "passed"
             },
             "line": 11,
@@ -3381,7 +3437,7 @@
           },
           {
             "result": {
-              "duration": 4499845800,
+              "duration": 4509849000,
               "status": "passed"
             },
             "line": 12,
@@ -3399,7 +3455,7 @@
           },
           {
             "result": {
-              "duration": 3041953500,
+              "duration": 3046542900,
               "status": "passed"
             },
             "line": 13,
@@ -3431,7 +3487,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4431661100,
+              "duration": 4692469500,
               "status": "passed"
             },
             "line": 5,
@@ -3444,7 +3500,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:42:14.017Z",
+        "start_timestamp": "2021-01-02T16:11:45.398Z",
         "line": 33,
         "name": "Valid data and  subscription messages in different languages",
         "description": "",
@@ -3459,7 +3515,7 @@
               }
             ],
             "result": {
-              "duration": 883270900,
+              "duration": 923180300,
               "status": "passed"
             },
             "match": {
@@ -3472,7 +3528,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2324489800,
+              "duration": 3082793000,
               "status": "passed"
             },
             "line": 11,
@@ -3490,7 +3546,7 @@
           },
           {
             "result": {
-              "duration": 4493234300,
+              "duration": 4538173700,
               "status": "passed"
             },
             "line": 12,
@@ -3509,7 +3565,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c...dınızı tamamlamanız [için ]bir e-posta gönderdi...\u003e but was:\u003c...dınızı tamamlamanız []bir e-posta gönderdi...\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(HomePageStepdefs.java:109)\r\n\tat ✽.Verify that user gets  newsletter subscription \"Abonelik kaydınızı tamamlamanız için bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen \\\"Spam\\\" bölümünü kontrol ediniz.\" in the own language(file:///C:/Users/asd/Desktop/java13/room5_Automation/src/test/resources/features/HomePage.feature:13)\r\n",
-              "duration": 3040086500,
+              "duration": 3044996300,
               "status": "failed"
             },
             "line": 13,
@@ -3541,7 +3597,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4431686300,
+              "duration": 4549053900,
               "status": "passed"
             },
             "line": 5,
@@ -3554,7 +3610,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:42:29.198Z",
+        "start_timestamp": "2021-01-02T16:12:01.690Z",
         "line": 43,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -3562,7 +3618,7 @@
         "after": [
           {
             "result": {
-              "duration": 619985900,
+              "duration": 607200400,
               "status": "passed"
             },
             "match": {
@@ -3575,7 +3631,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1256231200,
+              "duration": 1229956400,
               "status": "passed"
             },
             "line": 37,
@@ -3593,7 +3649,7 @@
           },
           {
             "result": {
-              "duration": 4358968200,
+              "duration": 4370688400,
               "status": "passed"
             },
             "line": 38,
@@ -3611,7 +3667,7 @@
           },
           {
             "result": {
-              "duration": 2094832200,
+              "duration": 2086729600,
               "status": "passed"
             },
             "line": 39,
@@ -3643,7 +3699,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4615858800,
+              "duration": 4451895500,
               "status": "passed"
             },
             "line": 5,
@@ -3656,7 +3712,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:42:41.967Z",
+        "start_timestamp": "2021-01-02T16:12:14.540Z",
         "line": 44,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -3664,7 +3720,7 @@
         "after": [
           {
             "result": {
-              "duration": 633767600,
+              "duration": 620575500,
               "status": "passed"
             },
             "match": {
@@ -3677,7 +3733,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2589782000,
+              "duration": 3014428000,
               "status": "passed"
             },
             "line": 37,
@@ -3695,7 +3751,7 @@
           },
           {
             "result": {
-              "duration": 4362273400,
+              "duration": 4420277400,
               "status": "passed"
             },
             "line": 38,
@@ -3713,7 +3769,7 @@
           },
           {
             "result": {
-              "duration": 2086961000,
+              "duration": 2086093700,
               "status": "passed"
             },
             "line": 39,
@@ -3745,7 +3801,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4425487200,
+              "duration": 4416813200,
               "status": "passed"
             },
             "line": 5,
@@ -3758,7 +3814,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:42:56.261Z",
+        "start_timestamp": "2021-01-02T16:12:29.141Z",
         "line": 45,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -3766,7 +3822,7 @@
         "after": [
           {
             "result": {
-              "duration": 635101400,
+              "duration": 626108500,
               "status": "passed"
             },
             "match": {
@@ -3779,7 +3835,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3388643600,
+              "duration": 2567735400,
               "status": "passed"
             },
             "line": 37,
@@ -3797,7 +3853,7 @@
           },
           {
             "result": {
-              "duration": 4435232200,
+              "duration": 4429462900,
               "status": "passed"
             },
             "line": 38,
@@ -3815,7 +3871,7 @@
           },
           {
             "result": {
-              "duration": 2088701700,
+              "duration": 2086793800,
               "status": "passed"
             },
             "line": 39,
@@ -3847,7 +3903,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4390509300,
+              "duration": 4335542900,
               "status": "passed"
             },
             "line": 5,
@@ -3860,7 +3916,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:43:11.239Z",
+        "start_timestamp": "2021-01-02T16:12:43.274Z",
         "line": 46,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -3868,7 +3924,7 @@
         "after": [
           {
             "result": {
-              "duration": 645681400,
+              "duration": 655068100,
               "status": "passed"
             },
             "match": {
@@ -3881,7 +3937,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2353843000,
+              "duration": 2366942900,
               "status": "passed"
             },
             "line": 37,
@@ -3899,7 +3955,7 @@
           },
           {
             "result": {
-              "duration": 4406701700,
+              "duration": 4408547500,
               "status": "passed"
             },
             "line": 38,
@@ -3917,7 +3973,7 @@
           },
           {
             "result": {
-              "duration": 2090738200,
+              "duration": 2098782800,
               "status": "passed"
             },
             "line": 39,
@@ -3949,7 +4005,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4467027100,
+              "duration": 4562110200,
               "status": "passed"
             },
             "line": 5,
@@ -3962,7 +4018,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:43:25.131Z",
+        "start_timestamp": "2021-01-02T16:12:57.147Z",
         "line": 47,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -3970,7 +4026,7 @@
         "after": [
           {
             "result": {
-              "duration": 781995100,
+              "duration": 653225200,
               "status": "passed"
             },
             "match": {
@@ -3983,7 +4039,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2370765900,
+              "duration": 2419026100,
               "status": "passed"
             },
             "line": 37,
@@ -4001,7 +4057,7 @@
           },
           {
             "result": {
-              "duration": 4418184100,
+              "duration": 4463922000,
               "status": "passed"
             },
             "line": 38,
@@ -4019,7 +4075,7 @@
           },
           {
             "result": {
-              "duration": 2901701100,
+              "duration": 2101077600,
               "status": "passed"
             },
             "line": 39,
@@ -4051,7 +4107,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5071440100,
+              "duration": 4387043800,
               "status": "passed"
             },
             "line": 5,
@@ -4064,7 +4120,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:43:40.078Z",
+        "start_timestamp": "2021-01-02T16:13:11.351Z",
         "line": 48,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4072,7 +4128,7 @@
         "after": [
           {
             "result": {
-              "duration": 654022400,
+              "duration": 620134000,
               "status": "passed"
             },
             "match": {
@@ -4085,7 +4141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2385683500,
+              "duration": 2418311800,
               "status": "passed"
             },
             "line": 37,
@@ -4103,7 +4159,7 @@
           },
           {
             "result": {
-              "duration": 4397693600,
+              "duration": 4661465600,
               "status": "passed"
             },
             "line": 38,
@@ -4121,7 +4177,7 @@
           },
           {
             "result": {
-              "duration": 2084820000,
+              "duration": 2091559700,
               "status": "passed"
             },
             "line": 39,
@@ -4153,7 +4209,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4338350400,
+              "duration": 4361169800,
               "status": "passed"
             },
             "line": 5,
@@ -4166,7 +4222,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:43:54.678Z",
+        "start_timestamp": "2021-01-02T16:13:25.538Z",
         "line": 49,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4174,7 +4230,7 @@
         "after": [
           {
             "result": {
-              "duration": 633926700,
+              "duration": 669720600,
               "status": "passed"
             },
             "match": {
@@ -4187,7 +4243,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2258242400,
+              "duration": 2387586800,
               "status": "passed"
             },
             "line": 37,
@@ -4205,7 +4261,7 @@
           },
           {
             "result": {
-              "duration": 4386767300,
+              "duration": 4379717900,
               "status": "passed"
             },
             "line": 38,
@@ -4223,7 +4279,7 @@
           },
           {
             "result": {
-              "duration": 2086270200,
+              "duration": 2095768200,
               "status": "passed"
             },
             "line": 39,
@@ -4255,7 +4311,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4403457200,
+              "duration": 4325517900,
               "status": "passed"
             },
             "line": 5,
@@ -4268,7 +4324,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:44:08.385Z",
+        "start_timestamp": "2021-01-02T16:13:39.437Z",
         "line": 50,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4276,7 +4332,7 @@
         "after": [
           {
             "result": {
-              "duration": 654159000,
+              "duration": 638566500,
               "status": "passed"
             },
             "match": {
@@ -4289,7 +4345,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2309826100,
+              "duration": 2800641000,
               "status": "passed"
             },
             "line": 37,
@@ -4307,7 +4363,7 @@
           },
           {
             "result": {
-              "duration": 4382212200,
+              "duration": 4393702300,
               "status": "passed"
             },
             "line": 38,
@@ -4325,7 +4381,7 @@
           },
           {
             "result": {
-              "duration": 2092301400,
+              "duration": 2101165700,
               "status": "passed"
             },
             "line": 39,
@@ -4357,7 +4413,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4446529200,
+              "duration": 4352740300,
               "status": "passed"
             },
             "line": 5,
@@ -4370,7 +4426,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:44:22.232Z",
+        "start_timestamp": "2021-01-02T16:13:53.703Z",
         "line": 51,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4378,7 +4434,7 @@
         "after": [
           {
             "result": {
-              "duration": 639863700,
+              "duration": 620991600,
               "status": "passed"
             },
             "match": {
@@ -4391,7 +4447,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2295649900,
+              "duration": 2437028600,
               "status": "passed"
             },
             "line": 37,
@@ -4409,7 +4465,7 @@
           },
           {
             "result": {
-              "duration": 4369151200,
+              "duration": 4512569700,
               "status": "passed"
             },
             "line": 38,
@@ -4427,7 +4483,7 @@
           },
           {
             "result": {
-              "duration": 2090736000,
+              "duration": 2097189500,
               "status": "passed"
             },
             "line": 39,
@@ -4459,7 +4515,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4379157500,
+              "duration": 4387409500,
               "status": "passed"
             },
             "line": 5,
@@ -4472,7 +4528,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:44:36.080Z",
+        "start_timestamp": "2021-01-02T16:14:07.733Z",
         "line": 52,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4480,7 +4536,7 @@
         "after": [
           {
             "result": {
-              "duration": 631227300,
+              "duration": 623007400,
               "status": "passed"
             },
             "match": {
@@ -4493,7 +4549,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3180885600,
+              "duration": 3964429000,
               "status": "passed"
             },
             "line": 37,
@@ -4511,7 +4567,7 @@
           },
           {
             "result": {
-              "duration": 4419840500,
+              "duration": 4439896400,
               "status": "passed"
             },
             "line": 38,
@@ -4529,7 +4585,7 @@
           },
           {
             "result": {
-              "duration": 2096883500,
+              "duration": 2088718400,
               "status": "passed"
             },
             "line": 39,
@@ -4561,7 +4617,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4780501800,
+              "duration": 4775580800,
               "status": "passed"
             },
             "line": 5,
@@ -4574,7 +4630,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:44:50.792Z",
+        "start_timestamp": "2021-01-02T16:14:23.242Z",
         "line": 53,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4582,7 +4638,7 @@
         "after": [
           {
             "result": {
-              "duration": 632972800,
+              "duration": 636661500,
               "status": "passed"
             },
             "match": {
@@ -4595,7 +4651,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2247573400,
+              "duration": 2649762200,
               "status": "passed"
             },
             "line": 37,
@@ -4613,7 +4669,7 @@
           },
           {
             "result": {
-              "duration": 4407157300,
+              "duration": 4481671400,
               "status": "passed"
             },
             "line": 38,
@@ -4631,7 +4687,7 @@
           },
           {
             "result": {
-              "duration": 2085969500,
+              "duration": 2091593500,
               "status": "passed"
             },
             "line": 39,
@@ -4663,7 +4719,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4466960500,
+              "duration": 4682005400,
               "status": "passed"
             },
             "line": 5,
@@ -4676,7 +4732,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:45:04.954Z",
+        "start_timestamp": "2021-01-02T16:14:37.883Z",
         "line": 54,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4684,7 +4740,7 @@
         "after": [
           {
             "result": {
-              "duration": 648965000,
+              "duration": 632979200,
               "status": "passed"
             },
             "match": {
@@ -4697,7 +4753,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3110668900,
+              "duration": 2096102800,
               "status": "passed"
             },
             "line": 37,
@@ -4715,7 +4771,7 @@
           },
           {
             "result": {
-              "duration": 4394929400,
+              "duration": 4362636800,
               "status": "passed"
             },
             "line": 38,
@@ -4733,7 +4789,7 @@
           },
           {
             "result": {
-              "duration": 2091336100,
+              "duration": 2090935200,
               "status": "passed"
             },
             "line": 39,
@@ -4765,7 +4821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4430441900,
+              "duration": 4533396500,
               "status": "passed"
             },
             "line": 5,
@@ -4778,7 +4834,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:45:19.669Z",
+        "start_timestamp": "2021-01-02T16:14:51.754Z",
         "line": 55,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4786,7 +4842,7 @@
         "after": [
           {
             "result": {
-              "duration": 623941700,
+              "duration": 632138300,
               "status": "passed"
             },
             "match": {
@@ -4799,7 +4855,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2703345300,
+              "duration": 2316602700,
               "status": "passed"
             },
             "line": 37,
@@ -4817,7 +4873,7 @@
           },
           {
             "result": {
-              "duration": 4630944100,
+              "duration": 4447538600,
               "status": "passed"
             },
             "line": 38,
@@ -4835,7 +4891,7 @@
           },
           {
             "result": {
-              "duration": 2083689200,
+              "duration": 2097997500,
               "status": "passed"
             },
             "line": 39,
@@ -4867,7 +4923,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4463408400,
+              "duration": 4742776400,
               "status": "passed"
             },
             "line": 5,
@@ -4880,7 +4936,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:45:34.150Z",
+        "start_timestamp": "2021-01-02T16:15:05.789Z",
         "line": 56,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4888,7 +4944,7 @@
         "after": [
           {
             "result": {
-              "duration": 648837600,
+              "duration": 624441800,
               "status": "passed"
             },
             "match": {
@@ -4901,7 +4957,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2321161500,
+              "duration": 2316888500,
               "status": "passed"
             },
             "line": 37,
@@ -4919,7 +4975,7 @@
           },
           {
             "result": {
-              "duration": 4427479500,
+              "duration": 4381824800,
               "status": "passed"
             },
             "line": 38,
@@ -4937,7 +4993,7 @@
           },
           {
             "result": {
-              "duration": 2092462600,
+              "duration": 2098057100,
               "status": "passed"
             },
             "line": 39,
@@ -4969,7 +5025,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4445185200,
+              "duration": 4422750700,
               "status": "passed"
             },
             "line": 5,
@@ -4982,7 +5038,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:45:48.108Z",
+        "start_timestamp": "2021-01-02T16:15:19.959Z",
         "line": 57,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -4990,7 +5046,7 @@
         "after": [
           {
             "result": {
-              "duration": 651545500,
+              "duration": 624497700,
               "status": "passed"
             },
             "match": {
@@ -5003,7 +5059,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2460379600,
+              "duration": 2441954300,
               "status": "passed"
             },
             "line": 37,
@@ -5021,7 +5077,7 @@
           },
           {
             "result": {
-              "duration": 4387102500,
+              "duration": 4356935000,
               "status": "passed"
             },
             "line": 38,
@@ -5039,7 +5095,7 @@
           },
           {
             "result": {
-              "duration": 2098351200,
+              "duration": 2092934000,
               "status": "passed"
             },
             "line": 39,
@@ -5071,7 +5127,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4415415800,
+              "duration": 4399967300,
               "status": "passed"
             },
             "line": 5,
@@ -5084,7 +5140,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T14:46:02.157Z",
+        "start_timestamp": "2021-01-02T16:15:33.905Z",
         "line": 58,
         "name": "Invalid data and messages in different languages",
         "description": "",
@@ -5092,7 +5148,7 @@
         "after": [
           {
             "result": {
-              "duration": 623798300,
+              "duration": 621221700,
               "status": "passed"
             },
             "match": {
@@ -5105,7 +5161,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2274631200,
+              "duration": 2519958400,
               "status": "passed"
             },
             "line": 37,
@@ -5123,7 +5179,7 @@
           },
           {
             "result": {
-              "duration": 4363788600,
+              "duration": 4382547400,
               "status": "passed"
             },
             "line": 38,
@@ -5141,7 +5197,7 @@
           },
           {
             "result": {
-              "duration": 2090506100,
+              "duration": 2096608000,
               "status": "passed"
             },
             "line": 39,
