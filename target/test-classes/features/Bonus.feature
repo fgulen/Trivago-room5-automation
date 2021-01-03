@@ -5,7 +5,7 @@ Feature: DataLayer Test
     Given user opens homepage
     Then user click on read more button in the hero image
 
-  Scenario Outline: 3 Events and Data
+  Scenario Outline:Fired Events and containing data
     When following "<events>" fired
     Then verify "<events>" contains following "<data>"
     Examples:
@@ -18,4 +18,4 @@ Feature: DataLayer Test
   Scenario: Content Load event and HotelIds
     When  Check "contentLoaded" is fired
     Then verify when the "contentLoaded" is fired check hotelIds are not null
-    And verify when the "contentLoaded" is fired "target-properties" has the same path in the URL "https://magazine.trivago.com/top-vacation-spots-us"
+    And verify when the "contentLoaded" is fired "target-propertiesd" has the same path in the URL "https://magazine.trivago.com/top-vacation-spots-us"

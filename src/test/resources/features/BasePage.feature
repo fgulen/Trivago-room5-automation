@@ -28,11 +28,11 @@ Feature: Main Menu functions
 
   Scenario Outline:Search function
     When user clicks search button and writes "<destinations>" to search
-    Then verify that message contains following "<destinations>"
+    Then verify that message contains following "<texts>"
     Examples:
       | destinations | texts          |
+      | Leverkusen   | No results     |
       | USA          | Search Results |
       | Ankara       | No results     |
       | Arizona      | Search Results |
-      | Leverkusen   | No results     |
       | Istanbul     | Search Results |

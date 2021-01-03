@@ -1,5 +1,6 @@
 package com.room5.trivago.step_definitions;
 
+
 import com.room5.trivago.pages.HomePage;
 import com.room5.trivago.utilities.BrowserUtils;
 import com.room5.trivago.utilities.ConfigurationReader;
@@ -8,9 +9,7 @@ import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -50,7 +49,7 @@ public class BasePageStepdefs {
         System.out.println("actual = " + Driver.get().getTitle());
 
     }
-        // Scenario 2 => Destination menu has following data
+    // Scenario 2 => Destination menu has following data
 
     @When("user clicks mainMenuIcon and clicks {string}")
     public void userClicksMainMenuIconAndClicks(String destination) {
@@ -69,7 +68,7 @@ public class BasePageStepdefs {
         Assert.assertEquals(destinationOptions, actualDestinationOptions);
     }
 
-        // Scenario 3 => Search function
+    // Scenario 3 => Search function
 
     @When("user clicks search button and writes {string} to search")
     public void userClicksSearchButtonAndWritesToSearch(String anyDestination) {
@@ -82,33 +81,28 @@ public class BasePageStepdefs {
 
     @Then("verify that message contains following {string}")
     public void verifyThatMessageContainsFollowing(String text) {
+
         BrowserUtils.waitFor(2);
 
         try {
-            assertTrue(homePage.resultFound.getText().contains("Search Results"));
-            System.out.println("Search Report :"+homePage.resultFound.getText());
-        } catch (Exception e) {
-            Assert.assertFalse(homePage.resultNotFound.getText().contains("Search Results"));
-            System.out.println("Search Report :"+homePage.resultNotFound.getText());
+
+            if (homePage.resultFound.getText().contains(text)) {
+
+                assertTrue(homePage.resultFound.getText().contains(text));
+
+                System.out.println("Search result : " + homePage.resultFound.getText());
+                System.out.println("Search result must contain = " + text);
+            }
+
+        } catch (NoSuchElementException e) {
+
+            Assert.assertTrue(homePage.resultNotFound.getText().contains(text));
+
+            System.out.println("Search result : " + homePage.resultNotFound.getText());
+            System.out.println("Search result must contain = " + text);
         }
 
-        /*  Alternate way for the assertion
-        String bodyText = Driver.get().findElement(By.xpath("//body")).getText();
-        int x = 0;
-        boolean flag=true;
-        for (int i = 0; i < 5; i++) {
-            if (bodyText.contains(text)) {
-                x++;
-            }
-        }
-        if (x > 1) {
-            assertTrue(flag);
-            System.out.println("***"+text+"*** Found");
-        } else {
-            assertTrue(flag);
-            System.out.println("***"+text+"*** NOT Found");
-        }
-        */
+
     }
 
 }

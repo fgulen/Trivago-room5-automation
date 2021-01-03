@@ -5,7 +5,7 @@ Feature: DataLayer Test
     Given user opens homepage
     Then user click on read more button in the hero image
 
-  Scenario Outline: 3 Events and Data
+  Scenario Outline:Fired Events and containing data
     When following "<events>" fired
     Then verify "<events>" contains following "<data>"
     Examples:

@@ -37,18 +37,16 @@ public class ContactPageStepdefs {
 
         for (String windowHandle : Driver.get().getWindowHandles()) {
 
-            if(!originalWindow.contentEquals(windowHandle)) {
-
+            if (!originalWindow.contentEquals(windowHandle)) {
                 Driver.get().switchTo().window(windowHandle);
-
                 break;
             }
         }
 
         Faker faker = new Faker();
-         name =faker.name().fullName();
-         email = faker.internet().emailAddress();
-         message = faker.food().ingredient();
+        name = faker.name().fullName();
+        email = faker.internet().emailAddress();
+        message = faker.food().ingredient();
 
 
         contactPage.yourMsg.sendKeys(message);
@@ -65,7 +63,7 @@ public class ContactPageStepdefs {
 
         BrowserUtils.waitFor(2);
         System.out.println("contactPage = " + contactPage.alert.getText());
-        Assert.assertEquals(message,contactPage.alert.getText());
+        Assert.assertEquals(message, contactPage.alert.getText());
 
     }
 }

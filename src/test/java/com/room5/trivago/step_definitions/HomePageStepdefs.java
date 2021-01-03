@@ -25,42 +25,43 @@ public class HomePageStepdefs {
     @Then("verify the links")
     public void verify_the_links() {
 
-        List<WebElement> links=Driver.get().findElements(By.tagName("a"));
+        String hrefvalue = null;
 
-        System.out.println("Total links are "+links.size());
+        List<WebElement> links = Driver.get().findElements(By.tagName("a"));
 
-        for(int i=0;i<links.size();i++) {
+        System.out.println("Total links are " + links.size());
 
-            WebElement link= links.get(i);
+        for (int i = 0; i<links.size(); i++) {
 
-            String urls=link.getAttribute("href");
+            hrefvalue = links.get(i).getAttribute("href");
 
-            if (urls.contains("https://www.trivago.com/")){
-                break;
+            if(hrefvalue != null && !hrefvalue.contains("www.trivago.com")){  // trivago.com doesn`t let me to send http request
+
+//                if(hrefvalue.contains("magazine.trivago")) {
+//                    System.out.println( hrefvalue + " = internal domain");
+//                } else {
+//                    System.out.println( hrefvalue + " = external domain");
+//                }
+                verifyLinkActive(hrefvalue);
             }else{
-
-                verifyLinkActive(urls);
+                System.out.println("element doesn't have href attriubte");
             }
-
-            // System.out.println("Url = " + url);
         }
 
     }
 
-    public static void verifyLinkActive(String linkUrl)
-    {
-        try
-        {
+    public static void verifyLinkActive(String linkUrl) {
+        try {
             URL url = new URL(linkUrl);
-            HttpURLConnection httpURLConnect=(HttpURLConnection)url.openConnection();
+            HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
             httpURLConnect.setConnectTimeout(3000);
             httpURLConnect.connect();
 
-            if(httpURLConnect.getResponseCode()==200) {
-                System.out.println(linkUrl+" - "+httpURLConnect.getResponseMessage());
+            if (httpURLConnect.getResponseCode() == 200) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage());
             }
-            if(httpURLConnect.getResponseCode()==HttpURLConnection.HTTP_NOT_FOUND) {
-                System.out.println(linkUrl+" - "+httpURLConnect.getResponseMessage() + " - "+ HttpURLConnection.HTTP_NOT_FOUND);
+            if (httpURLConnect.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage() + " - " + HttpURLConnection.HTTP_NOT_FOUND);
             }
         } catch (Exception e) {
 
@@ -74,19 +75,19 @@ public class HomePageStepdefs {
     public void userSelectsFromDropDownMenu(String country) {
 
         Select dropDown = new Select(homePage.dropDownCountries);
-        List<WebElement> dropDownList =dropDown.getOptions();
+        List<WebElement> dropDownList = dropDown.getOptions();
         /*
         System.out.println("Number of the countries in dropdown menu :"+dropDownList.size());
 
         for (WebElement lists :dropDownList){
             System.out.println(lists.getText());
         }*/
-        dropDown.selectByVisibleText(country); ;
+        dropDown.selectByVisibleText(country);
+
         BrowserUtils.waitFor(1);
 
         System.out.println("***Country = " + country);
     }
-
 
 
     @When("user writes own {string} address to the newsletter subscription input and submits")
@@ -106,7 +107,7 @@ public class HomePageStepdefs {
     public void verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(String message) {
 
         BrowserUtils.waitFor(3);
-        Assert.assertEquals(message,homePage.newsLetterAlert.getText());
+        Assert.assertEquals(message, homePage.newsLetterAlert.getText());
     }
 
 
@@ -116,14 +117,15 @@ public class HomePageStepdefs {
     public void userSelectsForInvalidData(String country) {
 
         Select dropDown = new Select(homePage.dropDownCountries);
-        List<WebElement> dropDownList =dropDown.getOptions();
+        List<WebElement> dropDownList = dropDown.getOptions();
 
     /*  System.out.println(dropDownList.size());          Printing menu options with visible text
           for (WebElement lists :dropDownList){
                System.out.println(lists.getText());
             } */
 
-        dropDown.selectByVisibleText(country); ;
+        dropDown.selectByVisibleText(country);
+        ;
         BrowserUtils.waitFor(1);
         System.out.println("***Country = " + country);
     }
@@ -144,7 +146,7 @@ public class HomePageStepdefs {
 
         BrowserUtils.waitFor(2);
         System.out.println("***Actual Message = " + homePage.messageErrorAlert.getText());
-        Assert.assertEquals(errorMessage,homePage.messageErrorAlert.getText());
+        Assert.assertEquals(errorMessage, homePage.messageErrorAlert.getText());
     }
 
 }

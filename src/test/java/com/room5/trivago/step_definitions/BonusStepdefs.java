@@ -18,39 +18,33 @@ public class BonusStepdefs {
 
     JavascriptExecutor js = (JavascriptExecutor) Driver.get();
 
-    ArrayList<Map<String, List<String>>> myList = new ArrayList<>();
-
-
-    @When("user navigates to bonus page")
-    public void user_navigates_to_bonus_page() {
-        //bonusPage.readMeButton.click();
-    }
+    ArrayList<Map<String, List<String>>> returnDataLayer = new ArrayList<>();
 
     @Then("user click on read more button in the hero image")
     public void userClickOnReadMoreButtonInTheHeroImage() {
         BrowserUtils.waitFor(1);
         js.executeScript("arguments[0].click();", bonusPage.readMeButton);
-        myList = (ArrayList) js.executeScript("return window.dataLayer");
 
     }
+
+    //3 Events and Data
 
     @When("following {string} fired")
     public void followingFired(String event) {
 
-
         boolean resutl = false;
-        myList = (ArrayList) js.executeScript("return window.dataLayer");
 
-        for (int i = 0; i < myList.size(); i++) {
+        returnDataLayer = (ArrayList) js.executeScript("return window.dataLayer");
 
-            if (myList.get(i).toString().contains(event)) {
-                System.out.println("List of "+event+" = " + myList.get(i).entrySet());
-                resutl=true;
-                Assert.assertTrue(myList.get(i).toString().contains(event));
+        for (int i = 0; i < returnDataLayer.size(); i++) {
+
+            if (returnDataLayer.get(i).toString().contains(event)) {
+                System.out.println("List of events" + event + " = " + returnDataLayer.get(i).entrySet());
+                resutl = true;
+                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
 
             }
         }
-
         Assert.assertTrue("Event not found", resutl);
     }
 
@@ -58,59 +52,60 @@ public class BonusStepdefs {
     @Then("verify {string} contains following {string}")
     public void verifyContainsFollowing(String event, String data) {
 
-            boolean resutl = false;
-            myList = (ArrayList) js.executeScript("return window.dataLayer");
+        boolean flag = false;
 
-            for (int i = 0; i < myList.size(); i++) {
+        returnDataLayer = (ArrayList) js.executeScript("return window.dataLayer");
 
-                if (myList.get(i).toString().contains(event)) {
-                    System.out.println("List of "+event+" = " + myList.get(i).entrySet());
-                    resutl=true;
-                    Assert.assertTrue(myList.get(i).entrySet().toString().contains(data));
+        for (int i = 0; i < returnDataLayer.size(); i++) {
 
-                }
+            if (returnDataLayer.get(i).toString().contains(event)) {
+                flag = true;
+                Assert.assertTrue(returnDataLayer.get(i).entrySet().toString().contains(data));
+
             }
-
-            Assert.assertTrue("Event not found", resutl);
+        }
+        Assert.assertTrue("Event not found", flag);
     }
 
-    //
-
+    //Content Load event and HotelIds
 
     @When("Check {string} is fired")
     public void checkIsFired(String event) {
 
-        boolean resutl = false;
-        myList = (ArrayList) js.executeScript("return window.dataLayer");
+        boolean flag = false;
 
-        for (int i = 0; i < myList.size(); i++) {
+        returnDataLayer = (ArrayList) js.executeScript("return window.dataLayer");
 
-            if (myList.get(i).toString().contains(event)) {
-                System.out.println("List of "+event+" = " + myList.get(i).entrySet());
-                resutl=true;
-                Assert.assertTrue(myList.get(i).toString().contains(event));
+        for (int i = 0; i < returnDataLayer.size(); i++) {
+
+            if (returnDataLayer.get(i).toString().contains(event)) {
+                System.out.println("List of " + event + " = " + returnDataLayer.get(i).entrySet());
+                flag = true;
+                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
 
             }
         }
 
-        Assert.assertTrue("Event not found", resutl);
+        Assert.assertTrue("Event not found", flag);
     }
 
     @Then("verify when the {string} is fired check hotelIds are not null")
     public void verifyWhenTheIsFiredCheckHotelIdsAreNotNull(String event) {
 
-        boolean resutl = false;
-        myList = (ArrayList) js.executeScript("return window.dataLayer");
+        boolean flag = false;
 
-        for (int i = 0; i < myList.size(); i++) {
+        returnDataLayer = (ArrayList) js.executeScript("return window.dataLayer");
 
-            if (myList.get(i).toString().contains(event)) {
-                System.out.println("List of "+event+" = " + myList.get(i).entrySet());
-                resutl=true;
-                Assert.assertTrue(myList.get(i).toString().contains(event));
+        for (int i = 0; i < returnDataLayer.size(); i++) {
 
-                String getHotelId = "function show_homepage() {" + "var homepage = dataLayer["+i+"]['hotelIds'];" + "return homepage;" + "}"
+            if (returnDataLayer.get(i).toString().contains(event)) {
+                System.out.println("List of " + event + " event layer = " + returnDataLayer.get(i).entrySet());
+                flag = true;
+                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
+
+                String getHotelId = "function show_homepage() {" + "var homepage = dataLayer[" + i + "]['hotelIds'];" + "return homepage;" + "}"
                         + "return show_homepage();";
+
                 Object str = js.executeScript(getHotelId, "");
                 List<?> list = BrowserUtils.convertObjectToList(str);
 
@@ -120,34 +115,36 @@ public class BonusStepdefs {
             }
         }
 
-        Assert.assertTrue("Event not found", resutl);
+        Assert.assertTrue("Event not found", flag);
 
     }
 
     @And("verify when the {string} is fired {string} has the same path in the URL {string}")
     public void verifyWhenTheIsFiredHasTheSamePathInTheURL(String event, String arg1, String url) {
 
-        boolean resutl = false;
-        myList = (ArrayList) js.executeScript("return window.dataLayer");
+        boolean flag = false;
 
-        for (int i = 0; i < myList.size(); i++) {
+        returnDataLayer = (ArrayList) js.executeScript("return window.dataLayer");
 
-            if (myList.get(i).toString().contains(event)) {
-                System.out.println("List of "+event+" = " + myList.get(i).entrySet());
-                resutl=true;
-                Assert.assertTrue(myList.get(i).toString().contains(event));
+        for (int i = 0; i < returnDataLayer.size(); i++) {
 
-                String getTargetProperties = "function show_homepage() {" + "var homepage = dataLayer["+i+"]['target-properties'];" + "return homepage;" + "}"
+            if (returnDataLayer.get(i).toString().contains(event)) {
+                System.out.println("List of " + event + " = " + returnDataLayer.get(i).entrySet());
+                flag = true;
+                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
+
+                String getTargetProperties = "function show_homepage() {" + "var homepage = dataLayer[" + i + "]['target-properties'];" + "return homepage;" + "}"
                         + "return show_homepage();";
-                Object str = js.executeScript(getTargetProperties, "");
+                Object getTargetPropertiesValue = js.executeScript(getTargetProperties, "");
 
-                System.out.println("str = " + str);
+                Assert.assertTrue(returnDataLayer.get(i).keySet().contains(arg1));
 
-                Assert.assertTrue(url.endsWith(str.toString()));
-                System.out.println("Target properties are as follows: " + str.toString());
+                Assert.assertTrue(url.endsWith(getTargetPropertiesValue.toString()));
+                System.out.println("Target properties value is as follows: " + getTargetPropertiesValue.toString());
 
 
             }
         }
+        Assert.assertTrue("Event not found", flag);
     }
 }

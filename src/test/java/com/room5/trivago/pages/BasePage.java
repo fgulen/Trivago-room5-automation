@@ -22,9 +22,6 @@ public abstract class BasePage {
     @FindBy(xpath = "//div[@class='menu-title'][normalize-space()='Destinations']")
     public WebElement destinations;
 
-    @FindBy (xpath = "//div[contains(text(),'Themes')]")
-    public WebElement themes;
-
     @FindBy(xpath = " //div[@class='swiper-slide menu-destination-card']/parent::*/div")
     public List<WebElement> destinationOptions;
 
