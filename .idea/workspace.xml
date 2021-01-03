@@ -3,50 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="23c9a6ce-36d6-4cca-8425-17b9be7bc349" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/BonusStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/BonusStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/ContactPageStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/ContactPageStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/HomePageStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room5/trivago/step_definitions/HomePageStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-1662675585.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_1681180501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_419842264.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1682672642.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_1388608361.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_2199306834.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_3_1787572827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_233058432.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failed-html-report" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/room5_Automation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/room5_Automation-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.room5.trivago.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.room5.trivago.runners.CukesRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.room5.trivago.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.room5.trivago.runners.CukesRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/BonusStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/room5/trivago/step_definitions/BonusStepdefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Bonus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Bonus.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +63,7 @@
       <recent name="C:\Users\asd\Desktop\java13\room5_Automation\src\test\java\com\room5\trivago" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Content Load event and HotelIds">
+  <component name="RunManager" selected="Cucumber java.Feature: Bonus">
     <configuration name="Feature: Bonus" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Bonus.feature" />
@@ -199,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Content Load event and HotelIds" />
         <item itemvalue="Cucumber java.Feature: Bonus" />
+        <item itemvalue="Cucumber java.Scenario: Content Load event and HotelIds" />
         <item itemvalue="Cucumber java.Scenario: Events and Data" />
         <item itemvalue="Cucumber java.Scenario: Search function" />
         <item itemvalue="Cucumber java.Scenario: Broken links verification" />
@@ -259,34 +220,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609144775001" />
-    <state width="1600" height="266" key="GridCell.Tab.0.bottom" timestamp="1609633302734">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1609709217899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.bottom/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.bottom/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306636" />
     <state width="886" height="367" key="GridCell.Tab.0.bottom/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
-    <state width="1600" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609633302734" />
-    <state width="1600" height="266" key="GridCell.Tab.0.center" timestamp="1609633302734">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609709217899" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1609709217899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.center/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.center/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306636" />
     <state width="886" height="367" key="GridCell.Tab.0.center/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
-    <state width="1600" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609633302734" />
-    <state width="1600" height="266" key="GridCell.Tab.0.left" timestamp="1609633302734">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609709217899" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1609709217898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.left/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.left/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306635" />
     <state width="886" height="367" key="GridCell.Tab.0.left/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
-    <state width="1600" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609633302734" />
-    <state width="1600" height="266" key="GridCell.Tab.0.right" timestamp="1609633302734">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609709217898" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1609709217899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1174" height="254" key="GridCell.Tab.0.right/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1609265689457" />
     <state width="1640" height="360" key="GridCell.Tab.0.right/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609509306636" />
     <state width="886" height="367" key="GridCell.Tab.0.right/0.0.1080.1880/-1366.313.1366.728@0.0.1080.1880" timestamp="1609603388237" />
-    <state width="1600" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609633302734" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.313.1366.728@0.0.1920.1040" timestamp="1609709217899" />
     <state width="1469" height="324" key="GridCell.Tab.1.bottom" timestamp="1609513496433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

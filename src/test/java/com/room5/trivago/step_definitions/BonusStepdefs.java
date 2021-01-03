@@ -38,10 +38,12 @@ public class BonusStepdefs {
 
         for (int i = 0; i < returnDataLayer.size(); i++) {
 
-            if (returnDataLayer.get(i).toString().contains(event)) {
+            if (returnDataLayer.get(i).containsValue(event)) {
+
                 System.out.println("List of events" + event + " = " + returnDataLayer.get(i).entrySet());
                 resutl = true;
-                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
+                Assert.assertTrue(returnDataLayer.get(i).containsValue(event));
+
 
             }
         }
@@ -58,7 +60,8 @@ public class BonusStepdefs {
 
         for (int i = 0; i < returnDataLayer.size(); i++) {
 
-            if (returnDataLayer.get(i).toString().contains(event)) {
+            if (returnDataLayer.get(i).containsValue(event)) {
+
                 flag = true;
                 Assert.assertTrue(returnDataLayer.get(i).entrySet().toString().contains(data));
 
@@ -78,14 +81,14 @@ public class BonusStepdefs {
 
         for (int i = 0; i < returnDataLayer.size(); i++) {
 
-            if (returnDataLayer.get(i).toString().contains(event)) {
+            if (returnDataLayer.get(i).containsValue(event)) {
+
                 System.out.println("List of " + event + " = " + returnDataLayer.get(i).entrySet());
                 flag = true;
-                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
+                Assert.assertTrue(returnDataLayer.get(i).containsValue(event));
 
             }
         }
-
         Assert.assertTrue("Event not found", flag);
     }
 
@@ -98,10 +101,11 @@ public class BonusStepdefs {
 
         for (int i = 0; i < returnDataLayer.size(); i++) {
 
-            if (returnDataLayer.get(i).toString().contains(event)) {
+            if (returnDataLayer.get(i).containsValue(event)) {
+
                 System.out.println("List of " + event + " event layer = " + returnDataLayer.get(i).entrySet());
                 flag = true;
-                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
+                Assert.assertTrue(returnDataLayer.get(i).containsValue(event));
 
                 String getHotelId = "function show_homepage() {" + "var homepage = dataLayer[" + i + "]['hotelIds'];" + "return homepage;" + "}"
                         + "return show_homepage();";
@@ -114,35 +118,33 @@ public class BonusStepdefs {
 
             }
         }
-
         Assert.assertTrue("Event not found", flag);
-
     }
 
-    @And("verify when the {string} is fired {string} has the same path in the URL {string}")
-    public void verifyWhenTheIsFiredHasTheSamePathInTheURL(String event, String arg1, String url) {
+    @And("verify when the {string} is fired {string} has the same path in the same URL")
+    public void verifyWhenTheIsFiredHasTheSamePathInTheSameURL(String event, String keyName) {
 
         boolean flag = false;
+        String currentUrl = Driver.get().getCurrentUrl();
 
         returnDataLayer = (ArrayList) js.executeScript("return window.dataLayer");
 
         for (int i = 0; i < returnDataLayer.size(); i++) {
 
-            if (returnDataLayer.get(i).toString().contains(event)) {
+            if (returnDataLayer.get(i).containsValue(event)) {
+
                 System.out.println("List of " + event + " = " + returnDataLayer.get(i).entrySet());
                 flag = true;
-                Assert.assertTrue(returnDataLayer.get(i).toString().contains(event));
+                Assert.assertTrue(returnDataLayer.get(i).containsValue(event));
 
                 String getTargetProperties = "function show_homepage() {" + "var homepage = dataLayer[" + i + "]['target-properties'];" + "return homepage;" + "}"
                         + "return show_homepage();";
                 Object getTargetPropertiesValue = js.executeScript(getTargetProperties, "");
 
-                Assert.assertTrue(returnDataLayer.get(i).keySet().contains(arg1));
+                Assert.assertTrue(returnDataLayer.get(i).containsKey(keyName));
 
-                Assert.assertTrue(url.endsWith(getTargetPropertiesValue.toString()));
+                Assert.assertTrue(currentUrl.contains(getTargetPropertiesValue.toString()));
                 System.out.println("Target properties value is as follows: " + getTargetPropertiesValue.toString());
-
-
             }
         }
         Assert.assertTrue("Event not found", flag);

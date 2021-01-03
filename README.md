@@ -37,23 +37,29 @@ The feature file specifies the steps in BDD language style (`Plain English Langu
 ### Utilities Package
 In order to keep common methods separate
 
-### (POM)Page Object Model
+### Page Object Model
 Java class whereby the necessary HTML objects are captured as WebElements to be manipulated by the associated model class to be able to reach and maintain easly
 
 ### ChromeDriver.exe 
 Local chromedriver necessary in order 
 
-### Cucumber Reports
-Cucumber has a built in report generation whereby Feature files tested are automatically written to cucumbers own reporting system.
+### Reporting trivago-cluecumber-report-plugin
+Cluecucumber has a built in report generation whereby Feature files tested are automatically written to cucumbers own reporting system.
 
+[trivago-cluecumber-report-plugin](https://github.com/trivago/cluecumber-report-plugin "trivago-cluecumber-report-plugin")
+
+```
 To run Report
          mvn clean
          mvn verify => the folders and files will be created as HTML format
+```
 
 # Test cases in Gherkin format
+### Base Page
 
 ```
-  Feature: Mainmenu functions
+Feature: Main Menu functions
+
   Background:
     Given user opens homepage
 
@@ -81,13 +87,13 @@ To run Report
 
   Scenario Outline:Search function
     When user clicks search button and writes "<destinations>" to search
-    Then verify that message contains following "<destinations>"
+    Then verify that message contains following "<texts>"
     Examples:
       | destinations | texts          |
+      | Leverkusen   | No results     |
       | USA          | Search Results |
       | Ankara       | No results     |
       | Arizona      | Search Results |
-      | Leverkusen   | No results     |
       | Istanbul     | Search Results |
   ```
 
@@ -107,10 +113,9 @@ Feature:Contact page sending message
       | message  | name     | email     |
       | message  | name     | email     |
 ```
-
+### Home Page
 ```
-@regression
-Feature:Subscribe to the Newsletter
+Feature:Home page link verification & newsletter subscription
 
   Background:
     Given user opens homepage
@@ -167,4 +172,46 @@ Feature:Subscribe to the Newsletter
       | United Kingdom | email@111.222.333.44444       | Please enter a valid email address              |
       | Norge          | email@example..com            | Vennligst oppgi en gyldig e-postadresse         |
       | Sverige        | Abc..123@example.com          | Vänligen uppge en giltig e-postadress           |
+```
+### Contact Page
+```
+Feature:Contact page sending message
+
+  Background:
+    Given user opens homepage
+
+  Scenario Outline: With valid data
+    Given user clicks "contacts" links to go contact page
+    When user writes message in "<textArea>", name in "<fullName>" and your mail in "<yourEmail>" inputs
+    Then Verify that user can see the "Message Sent Successfully!" message on the page
+
+    Examples:
+      | textArea | fullName | yourEmail |
+      | message  | name     | email     |
+      | message  | name     | email     |
+```
+## Bonus Scenario
+
+```
+Feature: DataLayer Test
+
+  Background: Events and Data
+    Given user opens homepage
+    Then user click on read more button in the hero image
+
+  Scenario Outline:Fired Events and containing data
+    When following "<events>" fired
+    Then verify "<events>" contains following "<data>"
+    Examples:
+      | events                | data                    |
+      | OneTrustLoaded        | C0001,C0003,C0002,C0004 |
+      | OptanonLoaded         | C0001,C0003,C0002,C0004 |
+      | OneTrustGroupsUpdated | C0001,C0003,C0002,C0004 |
+
+
+  Scenario: Content Load event and HotelIds
+    When  Check "contentLoaded" is fired
+    Then verify when the "contentLoaded" is fired check hotelIds are not null
+    And verify when the "contentLoaded" is fired "target-properties" has the same path in the same URL
+
 ```

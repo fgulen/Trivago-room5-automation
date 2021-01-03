@@ -83,7 +83,6 @@ public class HomePageStepdefs {
             System.out.println(lists.getText());
         }*/
         dropDown.selectByVisibleText(country);
-
         BrowserUtils.waitFor(1);
 
         System.out.println("***Country = " + country);
@@ -125,7 +124,6 @@ public class HomePageStepdefs {
             } */
 
         dropDown.selectByVisibleText(country);
-        ;
         BrowserUtils.waitFor(1);
         System.out.println("***Country = " + country);
     }

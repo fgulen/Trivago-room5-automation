@@ -25,7 +25,6 @@ public class ContactPageStepdefs {
         assert Driver.get().getWindowHandles().size() == 1;
 
         homePage.contact.click();
-
         BrowserUtils.waitFor(2);
 
     }
