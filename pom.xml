@@ -90,34 +90,65 @@
                     </includes>
                 </configuration>
             </plugin>
+
+            <!--ClueCucumber Report-->
+
             <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.4.0</version>
+                <groupId>com.trivago.rta</groupId>
+                <artifactId>cluecumber-report-plugin</artifactId>
+                <version>2.6.1</version>
                 <executions>
                     <execution>
                         <id>report</id>
-                        <phase>integration-test</phase>
+                        <phase>post-integration-test</phase>
                         <goals>
-                            <goal>generate</goal>
+                            <goal>reporting</goal>
                         </goals>
-                        <configuration>
-                            <projectName>room5.trivago HTML Reports</projectName>
-                            <outputDirectory>${project.build.directory}</outputDirectory>
-                            <inputDirectory>${project.build.directory}</inputDirectory>
-                            <jsonFiles>
-                                <param>**/cucumber*.json</param>
-                                <param>**/apiTests*.json</param>
-                            </jsonFiles>
-                            <!-- optional, set true to fail build on test failures, if true report will be built even if an error occurs -->
-                            <checkBuildResult>true</checkBuildResult>
-                            <mergeFeaturesWithRetest>true</mergeFeaturesWithRetest>
-                            <mergeFeaturesById>true</mergeFeaturesById>
-                            <skipEmptyJSONFiles>true</skipEmptyJSONFiles>
-                        </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <sourceJsonReportDirectory>${project.build.directory}/cucumber-report</sourceJsonReportDirectory>
+                    <generatedHtmlReportDirectory>${project.build.directory}/Cluecumber-Report
+                    </generatedHtmlReportDirectory>
+                    <customPageTitle>room5.trivago.com Report</customPageTitle>
+
+                    <customParameters>
+                        <Test_Name>room5.trivago.com </Test_Name>
+                        <Custom_URL>https://magazine.trivago.com/</Custom_URL>
+                    </customParameters>
+
+                </configuration>
             </plugin>
+
+            <!--Cucumber Report-->
+<!--            <plugin>-->
+<!--                <groupId>net.masterthought</groupId>-->
+<!--                <artifactId>maven-cucumber-reporting</artifactId>-->
+<!--                <version>5.4.0</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>report</id>-->
+<!--                        <phase>integration-test</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>generate</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <projectName>room5.trivago HTML Reports</projectName>-->
+<!--                            <outputDirectory>${project.build.directory}</outputDirectory>-->
+<!--                            <inputDirectory>${project.build.directory}</inputDirectory>-->
+<!--                            <jsonFiles>-->
+<!--                                <param>**/cucumber*.json</param>-->
+<!--                                <param>**/apiTests*.json</param>-->
+<!--                            </jsonFiles>-->
+<!--                            &lt;!&ndash; optional, set true to fail build on test failures, if true report will be built even if an error occurs &ndash;&gt;-->
+<!--                            <checkBuildResult>true</checkBuildResult>-->
+<!--                            <mergeFeaturesWithRetest>true</mergeFeaturesWithRetest>-->
+<!--                            <mergeFeaturesById>true</mergeFeaturesById>-->
+<!--                            <skipEmptyJSONFiles>true</skipEmptyJSONFiles>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 

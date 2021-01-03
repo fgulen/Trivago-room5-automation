@@ -1,4 +1,4 @@
-@regression
+@regression @data
 Feature: DataLayer Test
 
   Background: Events and Data

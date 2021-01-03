@@ -1,0 +1,846 @@
+
+    <!--
+    Copyright 2019 trivago N.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <base href="..">
+    <head title="room5.trivago.com Report - All Steps">
+        <title>room5.trivago.com Report - All Steps</title>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src *  data: blob: 'unsafe-inline' 'unsafe-eval';
+script-src * data: blob: 'unsafe-inline' 'unsafe-eval';
+connect-src * data: blob: 'unsafe-inline';
+img-src * data: blob: 'unsafe-inline';
+frame-src * data: blob: ;
+style-src * data: blob: 'unsafe-inline';
+font-src * data: blob: 'unsafe-inline';"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="room5.trivago.com Report">
+<meta name="author" content="Cluecumber Report Plugin version 2.6.1">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/datatables.min.css">
+<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+<link rel="stylesheet" href="css/cluecumber.css" type="text/css">
+<link rel="stylesheet" href="css/cluecumber-custom.css"/>
+<link rel="stylesheet" href="css/cluecumber-additional.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/datatables.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/Chart.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+            // Data tables
+            $('.renderAsDataTable').on('draw.dt', function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            }).DataTable({
+                "oLanguage": {
+                    "sSearch": "Search:"
+                },
+                "pageLength": 25,
+                "responsive": true
+            });
+
+            $('.collapse').on('shown.bs.collapse', function (e) {
+                $(e.target).find("iframe").each(function (index, iframe) {
+                    resizeIframe(iframe);
+                })
+            });
+
+            // Lightbox
+            $("a.grouped_elements").fancybox();
+
+            // Tool tips
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Chart
+            var canvas = document.getElementById('chart-area');
+            var ctx = canvas.getContext("2d");
+            var chart = new Chart(ctx, {
+  "data": {
+    "labels": [
+      "verify {} contains following {}",
+      "following {} fired",
+      "verify when the {} is fired {} has the same path in the URL {}",
+      "Verify that user gets  newsletter subscription {} in the own language",
+      "user selects {} for invalid data",
+      "user clicks mainMenuIcon and clicks {} and {}",
+      "verify the links",
+      "user clicks mainMenuIcon and clicks {}",
+      "user writes {} address to the newsletter subscription input and submits",
+      "user writes own {} address to the newsletter subscription input and submits",
+      "verify when the {} is fired check hotelIds are not null",
+      "Verify that user can see the {} message on the page",
+      "user writes message in {}, name in {} and your mail in {} inputs",
+      "verify that page title is {}",
+      "user selects {} from drop-down menu",
+      "user clicks {} links to go contact page",
+      "Check {} is fired",
+      "user clicks search button and writes {} to search",
+      "verify that menu exist following options",
+      "verify that message contains following {}",
+      "Verify that user gets newsletter subscription {} in own language"
+    ],
+    "datasets": [
+      {
+        "data": [
+          3,
+          3,
+          1,
+          16,
+          16,
+          5,
+          1,
+          1,
+          16,
+          17,
+          1,
+          1,
+          1,
+          5,
+          18,
+          1,
+          1,
+          5,
+          1,
+          5,
+          16
+        ],
+        "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)"
+        ],
+        "label": "passed"
+      },
+      {
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)"
+        ],
+        "label": "failed"
+      },
+      {
+        "data": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)"
+        ],
+        "label": "skipped"
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "xAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 0,
+            "display": false
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "21 Steps"
+          },
+          "stepSize": 0.0
+        }
+      ],
+      "yAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 18,
+            "display": true
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Number of Usages"
+          },
+          "stepSize": 0.0
+        }
+      ]
+    },
+    "events": [
+      "click",
+      "mousemove"
+    ]
+  },
+  "type": "bar"
+});
+
+            var original;
+            if (chart.config.type === "pie") {
+                original = Chart.defaults.pie.legend.onClick;
+            } else {
+                original = Chart.defaults.global.legend.onClick;
+            }
+
+            chart.options.onClick = function (evt, elements) {
+                if (chart.config.type !== "pie") return;
+                chartArea = elements[0];
+                if (chartArea === undefined) return;
+                chartArea.hidden = !chartArea.hidden;
+                chart.update();
+                toggleVisibilityByStatus(chartArea._model.label, !chartArea.hidden)
+            };
+
+            chart.options.legend.onClick = function (evt, label) {
+                original.call(this, evt, label);
+                toggleVisibilityByStatus(label.text, label.hidden);
+            };
+
+            function toggleVisibilityByStatus(statusText, show) {
+                var card = $("#card_" + statusText);
+                if (card !== undefined) {
+                    if (show) {
+                        card.show();
+                    } else {
+                        card.hide();
+                    }
+                }
+
+                var row = $(".table-row-" + statusText);
+                if (row !== undefined) {
+                    if (show) {
+                        row.show();
+                    } else {
+                        row.hide();
+                    }
+                }
+            }
+
+
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='before-after-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='step-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='doc-strings-button']").click();
+            }
+        }
+    );
+
+    function resizeIframe(iframe) {
+        iframe.style.height = (iframe.contentWindow.document.body.scrollHeight + 25) + 'px';
+    }
+</script>    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-summary.html">All Scenarios</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-sequence.html">Scenario Sequence</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/tag-summary.html">All Tags</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link text-white" href="pages/step-summary.html">All Steps</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/feature-summary.html">All Features</a>
+                    </li>
+            </ul>
+            <span class="text-light">2021-01-03 15:16:14</span>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="cluecumber-template">
+            <div class="pb-2 mt-4 mb-2 border-bottom">
+                    <h3>All Steps</h3>
+            </div>
+
+    <div class="row" id="step-summary">
+    <div class="col-sm-9  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Step Summary Result Chart</div>
+            <div class="card-body">
+    <div id="canvas-holder" class="w-100 text-center" style="min-height: 15rem;" data-cluecumber-item="chart">
+        <canvas id="chart-area" class="w-100"></canvas>
+    </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Steps Summary</div>
+            <div class="card-body">
+            <ul class="list-group list-group-flush" data-cluecumber-item="step-summary">
+                <li class="list-group-item">
+                    21         Steps
+ in
+                    <br>
+                    52         Scenarios
+
+                </li>
+                <li class="list-group-item">
+                    49 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+
+                    <br>
+                    3 failed     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+
+                    <br>
+                    0 skipped    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row" id="available-steps">
+    <div class="col-sm-12  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Available Steps</div>
+            <div class="card-body">
+            <table id="step_summary" class="table table-hover renderAsDataTable"
+                   data-cluecumber-item="step-summary-table">
+                <thead>
+                <tr>
+                    <th>Step</th>
+                    <th>Total</th>
+                    <th>    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+</th>
+                    <th>    <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+</th>
+                    <th>    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+</th>
+                    <th>Min Time</th>
+                    <th>Max Time</th>
+                    <th>Ø Time</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BonusStepdefs.verifyContainsFollowing(java.lang.String,java.lang.String)">
+                                <a href="pages/step-scenarios/step_0969845616.html">verify {} contains following {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>3</strong></td>
+                        <td class="text-right">3</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 010ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_14.html">0m 00s 015ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 013ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BonusStepdefs.followingFired(java.lang.String)">
+                                <a href="pages/step-scenarios/step_01461827331.html">following {} fired</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>3</strong></td>
+                        <td class="text-right">3</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_13.html">0m 00s 010ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 015ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 013ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BonusStepdefs.verifyWhenTheIsFiredHasTheSamePathInTheURL(java.lang.String,java.lang.String,java.lang.String)">
+                                <a href="pages/step-scenarios/step_837289707.html">verify when the {} is fired {} has the same path in the URL {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 032ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 032ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 032ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(java.lang.String)">
+                                <a href="pages/step-scenarios/step_203613281.html">Verify that user gets  newsletter subscription {} in the own language</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>18</strong></td>
+                        <td class="text-right">16</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_27.html">0m 03s 040ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_23.html">0m 03s 051ms</a>
+                        </td>
+                        <td class="text-right small">0m 03s 045ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsForInvalidData(java.lang.String)">
+                                <a href="pages/step-scenarios/step_01100345143.html">user selects {} for invalid data</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>16</strong></td>
+                        <td class="text-right">16</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_37.html">0m 01s 225ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_48.html">0m 04s 011ms</a>
+                        </td>
+                        <td class="text-right small">0m 02s 523ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BasePageStepdefs.userClicksMainMenuIconAndClicksAnd(java.lang.String,java.lang.String)">
+                                <a href="pages/step-scenarios/step_01155510268.html">user clicks mainMenuIcon and clicks {} and {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>5</strong></td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_2.html">0m 07s 443ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_3.html">0m 08s 014ms</a>
+                        </td>
+                        <td class="text-right small">0m 07s 631ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.HomePageStepdefs.verify_the_links()">
+                                <a href="pages/step-scenarios/step_01001227813.html">verify the links</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_18.html">0m 10s 519ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_18.html">0m 10s 519ms</a>
+                        </td>
+                        <td class="text-right small">0m 10s 519ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BasePageStepdefs.userClicksMainMenuIconAndClicks(java.lang.String)">
+                                <a href="pages/step-scenarios/step_1551843538.html">user clicks mainMenuIcon and clicks {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_6.html">0m 03s 360ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_6.html">0m 03s 360ms</a>
+                        </td>
+                        <td class="text-right small">0m 03s 360ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.HomePageStepdefs.userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)">
+                                <a href="pages/step-scenarios/step_1731285500.html">user writes {} address to the newsletter subscription input and submits</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>16</strong></td>
+                        <td class="text-right">16</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_38.html">0m 04s 334ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_50.html">0m 05s 392ms</a>
+                        </td>
+                        <td class="text-right small">0m 04s 451ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.HomePageStepdefs.userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(java.lang.String)">
+                                <a href="pages/step-scenarios/step_818882848.html">user writes own {} address to the newsletter subscription input and submits</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>18</strong></td>
+                        <td class="text-right">17</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_34.html">0m 00s 100ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_19.html">0m 04s 817ms</a>
+                        </td>
+                        <td class="text-right small">0m 04s 288ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BonusStepdefs.verifyWhenTheIsFiredCheckHotelIdsAreNotNull(java.lang.String)">
+                                <a href="pages/step-scenarios/step_01315754398.html">verify when the {} is fired check hotelIds are not null</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 026ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 026ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 026ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.ContactPageStepdefs.verify_that_user_can_see_the_message_on_the_page(java.lang.String)">
+                                <a href="pages/step-scenarios/step_01667733782.html">Verify that user can see the {} message on the page</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 02s 098ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 02s 098ms</a>
+                        </td>
+                        <td class="text-right small">0m 02s 098ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.ContactPageStepdefs.user_writes_message_in_name_in_and_your_mail_in_inputs(java.lang.String,java.lang.String,java.lang.String)">
+                                <a href="pages/step-scenarios/step_01588780578.html">user writes message in {}, name in {} and your mail in {} inputs</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 05s 552ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 05s 552ms</a>
+                        </td>
+                        <td class="text-right small">0m 05s 552ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BasePageStepdefs.verifyThatPageTitleIs(java.lang.String)">
+                                <a href="pages/step-scenarios/step_2115172778.html">verify that page title is {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>5</strong></td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_5.html">0m 00s 012ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 016ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 015ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.HomePageStepdefs.userSelectsFromDropDownMenu(java.lang.String)">
+                                <a href="pages/step-scenarios/step_255047435.html">user selects {} from drop-down menu</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>18</strong></td>
+                        <td class="text-right">18</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_19.html">0m 01s 272ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_27.html">0m 04s 270ms</a>
+                        </td>
+                        <td class="text-right small">0m 02s 714ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.ContactPageStepdefs.user_clicks_links_to_go_contact_page(java.lang.String)">
+                                <a href="pages/step-scenarios/step_02115082665.html">user clicks {} links to go contact page</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_17.html">0m 01s 169ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 02s 271ms</a>
+                        </td>
+                        <td class="text-right small">0m 01s 720ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BonusStepdefs.checkIsFired(java.lang.String)">
+                                <a href="pages/step-scenarios/step_01563966628.html">Check {} is fired</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 015ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 015ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 015ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BasePageStepdefs.userClicksSearchButtonAndWritesToSearch(java.lang.String)">
+                                <a href="pages/step-scenarios/step_839515701.html">user clicks search button and writes {} to search</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>5</strong></td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_9.html">0m 05s 345ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_8.html">0m 05s 442ms</a>
+                        </td>
+                        <td class="text-right small">0m 05s 402ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BasePageStepdefs.verifyThatMenuExistFollowingOptions(java.util.List<java.lang.String>)">
+                                <a href="pages/step-scenarios/step_02135394714.html">verify that menu exist following options</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_6.html">0m 04s 238ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_6.html">0m 04s 238ms</a>
+                        </td>
+                        <td class="text-right small">0m 04s 238ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.BasePageStepdefs.verifyThatMessageContainsFollowing(java.lang.String)">
+                                <a href="pages/step-scenarios/step_0713782006.html">verify that message contains following {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>5</strong></td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_11.html">0m 02s 116ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_7.html">0m 02s 132ms</a>
+                        </td>
+                        <td class="text-right small">0m 02s 125ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="com.room5.trivago.step_definitions.HomePageStepdefs.verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(java.lang.String)">
+                                <a href="pages/step-scenarios/step_0138438400.html">Verify that user gets newsletter subscription {} in own language</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>16</strong></td>
+                        <td class="text-right">16</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_51.html">0m 02s 084ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_42.html">0m 02s 103ms</a>
+                        </td>
+                        <td class="text-right small">0m 02s 092ms</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+    </main>
+
+<footer class="footer navbar-dark">
+    <div class="container-fluid">
+        <span>Cluecumber Report Plugin version 2.6.1 - Report generated on 2021-01-03 15:16:14.</span>
+    </div>
+</footer>    </body>
+    </html>
+

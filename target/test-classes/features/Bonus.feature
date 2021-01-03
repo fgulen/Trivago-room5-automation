@@ -1,4 +1,4 @@
-@regression
+@regression @data
 Feature: DataLayer Test
 
   Background: Events and Data
@@ -18,4 +18,4 @@ Feature: DataLayer Test
   Scenario: Content Load event and HotelIds
     When  Check "contentLoaded" is fired
     Then verify when the "contentLoaded" is fired check hotelIds are not null
-    And verify when the "contentLoaded" is fired "target-propertiesd" has the same path in the URL "https://magazine.trivago.com/top-vacation-spots-us"
+    And verify when the "contentLoaded" is fired "target-properties" has the same path in the URL "https://magazine.trivago.com/top-vacation-spots-us"

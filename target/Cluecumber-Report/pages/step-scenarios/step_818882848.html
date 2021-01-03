@@ -1,0 +1,665 @@
+
+
+    <!--
+    Copyright 2019 trivago N.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <base href="./../..">
+    <head title="room5.trivago.com Report - Scenarios with Step">
+        <title>room5.trivago.com Report - Scenarios with Step</title>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src *  data: blob: 'unsafe-inline' 'unsafe-eval';
+script-src * data: blob: 'unsafe-inline' 'unsafe-eval';
+connect-src * data: blob: 'unsafe-inline';
+img-src * data: blob: 'unsafe-inline';
+frame-src * data: blob: ;
+style-src * data: blob: 'unsafe-inline';
+font-src * data: blob: 'unsafe-inline';"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="room5.trivago.com Report">
+<meta name="author" content="Cluecumber Report Plugin version 2.6.1">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/datatables.min.css">
+<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+<link rel="stylesheet" href="css/cluecumber.css" type="text/css">
+<link rel="stylesheet" href="css/cluecumber-custom.css"/>
+<link rel="stylesheet" href="css/cluecumber-additional.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/datatables.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/Chart.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+            // Data tables
+            $('.renderAsDataTable').on('draw.dt', function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            }).DataTable({
+                "oLanguage": {
+                    "sSearch": "Search:"
+                },
+                "pageLength": 25,
+                "responsive": true
+            });
+
+            $('.collapse').on('shown.bs.collapse', function (e) {
+                $(e.target).find("iframe").each(function (index, iframe) {
+                    resizeIframe(iframe);
+                })
+            });
+
+            // Lightbox
+            $("a.grouped_elements").fancybox();
+
+            // Tool tips
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Chart
+            var canvas = document.getElementById('chart-area');
+            var ctx = canvas.getContext("2d");
+            var chart = new Chart(ctx, {
+  "data": {
+    "labels": [
+      "passed",
+      "failed",
+      "skipped"
+    ],
+    "datasets": [
+      {
+        "data": [
+          16,
+          2,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(255, 193, 7, 1.000)"
+        ]
+      }
+    ]
+  },
+  "options": {
+    "events": [
+      "click",
+      "mousemove"
+    ]
+  },
+  "type": "pie"
+});
+
+            var original;
+            if (chart.config.type === "pie") {
+                original = Chart.defaults.pie.legend.onClick;
+            } else {
+                original = Chart.defaults.global.legend.onClick;
+            }
+
+            chart.options.onClick = function (evt, elements) {
+                if (chart.config.type !== "pie") return;
+                chartArea = elements[0];
+                if (chartArea === undefined) return;
+                chartArea.hidden = !chartArea.hidden;
+                chart.update();
+                toggleVisibilityByStatus(chartArea._model.label, !chartArea.hidden)
+            };
+
+            chart.options.legend.onClick = function (evt, label) {
+                original.call(this, evt, label);
+                toggleVisibilityByStatus(label.text, label.hidden);
+            };
+
+            function toggleVisibilityByStatus(statusText, show) {
+                var card = $("#card_" + statusText);
+                if (card !== undefined) {
+                    if (show) {
+                        card.show();
+                    } else {
+                        card.hide();
+                    }
+                }
+
+                var row = $(".table-row-" + statusText);
+                if (row !== undefined) {
+                    if (show) {
+                        row.show();
+                    } else {
+                        row.hide();
+                    }
+                }
+            }
+
+
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='before-after-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='step-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='doc-strings-button']").click();
+            }
+        }
+    );
+
+    function resizeIframe(iframe) {
+        iframe.style.height = (iframe.contentWindow.document.body.scrollHeight + 25) + 'px';
+    }
+</script>    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-summary.html">All Scenarios</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-sequence.html">Scenario Sequence</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/tag-summary.html">All Tags</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link text-white" href="pages/step-summary.html">All Steps</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/feature-summary.html">All Features</a>
+                    </li>
+            </ul>
+            <span class="text-light">2021-01-03 15:16:11</span>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="cluecumber-template">
+            <div class="pb-2 mt-4 mb-2 border-bottom">
+                    <h3>Scenarios using Step 'user writes own {} address to the newsletter subscription input and submits'</h3>
+            </div>
+
+
+    <div class="row" id="scenario-summary">
+    <div class="col-sm-6  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Scenario Results</div>
+            <div class="card-body">
+    <div id="canvas-holder" class="w-100 text-center" style="min-height: 15rem;" data-cluecumber-item="chart">
+        <canvas id="chart-area" class="w-100"></canvas>
+    </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Test Suite Time</div>
+            <div class="card-body">
+            <ul class="list-group list-group-flush">
+                    <li class="list-group-item" data-cluecumber-item="total-start">
+                        Started on:<br>2021-01-03 15:07:53</li>
+                    <li class="list-group-item" data-cluecumber-item="total-end">
+                        Ended on:<br>2021-01-03 15:12:23</li>
+                <li class="list-group-item" data-cluecumber-item="total-runtime">
+                    Test Runtime:<br>4m 30s 146ms
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Test Suite Summary</div>
+            <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" data-cluecumber-item="scenario-summary">
+                    18         Scenarios
+
+                </li>
+                <li class="list-group-item" data-cluecumber-item="scenario-summary">
+                        <a href="javascript:"
+                           onclick="document.location.hash='anchor-passed';">16
+                            passed</a>     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+
+                        <br>
+                        <a href="javascript:"
+                           onclick="document.location.hash='anchor-failed';">2
+                            failed</a>     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+
+                        <br>
+                        <a href="javascript:"
+                           onclick="document.location.hash='anchor-skipped';">0
+                            skipped</a>     <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+        <a class="anchor" id="anchor-failed"></a>
+        <div class="row" id="card_failed" data-cluecumber-item="scenario-summary-table">
+            <div class=" col-sm-12">
+                <div class="card">
+
+                            <div class="card-header border-color-failed">
+                                2
+        failed Scenarios
+    <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+                            </div>
+
+                    <div class="card-body">
+                        <table id="results_failed" class="table table-hover renderAsDataTable">
+                            <thead>
+                            <tr>
+                                <th class="text-left">Feature</th>
+                                <th class="text-left">Scenario</th>
+                                <th>Started</th>
+                                <th>Duration</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+
+
+
+                                        <tr class="table-row-failed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_34.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:11:43.803Z">
+                                                2021-01-03<br>15:11:43
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="8,590,034,100">
+                                                <span class="nobr">0m 08s 590ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-failed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_36.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:12:08.158Z">
+                                                2021-01-03<br>15:12:08
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,141,158,200">
+                                                <span class="nobr">0m 15s 141ms</span>
+                                            </td>
+                                        </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <a class="anchor" id="anchor-passed"></a>
+        <div class="row" id="card_passed" data-cluecumber-item="scenario-summary-table">
+            <div class=" col-sm-12">
+                <div class="card">
+
+                            <div class="card-header border-color-passed">
+                                16
+        passed Scenarios
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                    <div class="card-body">
+                        <table id="results_passed" class="table table-hover renderAsDataTable">
+                            <thead>
+                            <tr>
+                                <th class="text-left">Feature</th>
+                                <th class="text-left">Scenario</th>
+                                <th>Started</th>
+                                <th>Duration</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+
+
+
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_19.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:07:53.153Z">
+                                                2021-01-03<br>15:07:53
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="14,167,334,900">
+                                                <span class="nobr">0m 14s 167ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_20.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:08:07.328Z">
+                                                2021-01-03<br>15:08:07
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,799,464,600">
+                                                <span class="nobr">0m 15s 799ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_21.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:08:23.136Z">
+                                                2021-01-03<br>15:08:23
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="16,859,740,700">
+                                                <span class="nobr">0m 16s 859ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_22.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:08:40.002Z">
+                                                2021-01-03<br>15:08:40
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,258,217,200">
+                                                <span class="nobr">0m 15s 258ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_23.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:08:55.270Z">
+                                                2021-01-03<br>15:08:55
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,291,685,700">
+                                                <span class="nobr">0m 15s 291ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_24.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:09:10.570Z">
+                                                2021-01-03<br>15:09:10
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,593,897,000">
+                                                <span class="nobr">0m 15s 593ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_25.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:09:26.172Z">
+                                                2021-01-03<br>15:09:26
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="14,851,444,300">
+                                                <span class="nobr">0m 14s 851ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_26.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:09:41.033Z">
+                                                2021-01-03<br>15:09:41
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="14,949,228,000">
+                                                <span class="nobr">0m 14s 949ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_27.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:09:55.990Z">
+                                                2021-01-03<br>15:09:55
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="16,774,181,900">
+                                                <span class="nobr">0m 16s 774ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_28.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:10:12.770Z">
+                                                2021-01-03<br>15:10:12
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,000,571,600">
+                                                <span class="nobr">0m 15s 000ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_29.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:10:27.777Z">
+                                                2021-01-03<br>15:10:27
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="16,093,204,000">
+                                                <span class="nobr">0m 16s 093ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_30.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:10:43.878Z">
+                                                2021-01-03<br>15:10:43
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="14,962,709,200">
+                                                <span class="nobr">0m 14s 962ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_31.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:10:58.860Z">
+                                                2021-01-03<br>15:10:58
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="14,963,491,800">
+                                                <span class="nobr">0m 14s 963ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_32.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:11:13.831Z">
+                                                2021-01-03<br>15:11:13
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="14,938,442,900">
+                                                <span class="nobr">0m 14s 938ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_33.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:11:28.777Z">
+                                                2021-01-03<br>15:11:28
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,018,153,000">
+                                                <span class="nobr">0m 15s 018ms</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-row-passed">
+                                            <td class="text-left">
+                                                <span data-toggle="tooltip" title="file:src/test/resources/features/HomePage.feature">
+                                                    <a href="pages/feature-scenarios/feature_3.html">Home page link verification &amp; newsletter subscription</a>
+                                                </span>
+                                            </td>
+                                            <td class="text-left">
+                                                <a href="pages/scenario-detail/scenario_35.html"
+                                                   style="word-break: break-all">Valid data and  subscription messages in different languages</a>
+                                            </td>
+                                            <td class="text-center small" data-order="2021-01-03T14:11:52.401Z">
+                                                2021-01-03<br>15:11:52
+                                            </td>
+                                            <td class="text-right small"
+                                                data-order="15,750,752,900">
+                                                <span class="nobr">0m 15s 750ms</span>
+                                            </td>
+                                        </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+<footer class="footer navbar-dark">
+    <div class="container-fluid">
+        <span>Cluecumber Report Plugin version 2.6.1 - Report generated on 2021-01-03 15:16:11.</span>
+    </div>
+</footer>    </body>
+    </html>
+

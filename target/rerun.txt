@@ -1,1 +1,2 @@
-file:src/test/resources/features/HomePage.feature:7:31:33
+file:src/test/resources/features/HomePage.feature:31:33
+file:src/test/resources/features/ContactPage.feature:15
