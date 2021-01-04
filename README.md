@@ -95,11 +95,10 @@ Feature: Main Menu functions
       | Ankara       | No results     |
       | Arizona      | Search Results |
       | Istanbul     | Search Results |
-  ```
-
-
+      
 ```
 ### Home Page
+
 ```
 Feature:Home page link verification & newsletter subscription
 
