@@ -4,6 +4,7 @@ import com.room5.trivago.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 public class ContactPage extends BasePage {
     public ContactPage(){

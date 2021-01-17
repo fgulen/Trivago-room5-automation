@@ -1,11 +1,13 @@
 package com.room5.trivago.utilities;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 public class BrowserUtils {
@@ -13,9 +15,9 @@ public class BrowserUtils {
     public static List<?> convertObjectToList(Object obj) {
         List<?> list = new ArrayList<>();
         if (obj.getClass().isArray()) {
-            list = Arrays.asList((Object[])obj);
+            list = Arrays.asList((Object[]) obj);
         } else if (obj instanceof Collection) {
-            list = new ArrayList<>((Collection<?>)obj);
+            list = new ArrayList<>((Collection<?>) obj);
         }
         return list;
     }
@@ -30,14 +32,23 @@ public class BrowserUtils {
     }
 
 
+    public static void waitForImp(int seconds) {
+        Driver.get().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+    }
 
-    public static void waitFor(int seconds) {
+
+    public static void waitForExp(int second) {
+
+        WebDriverWait wait = new WebDriverWait(Driver.get(), second);
+
+    }
+
+
+    public static void waitForThread(int seconds) {
         try {
             Thread.sleep(seconds * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
-
-
 }

@@ -7,7 +7,6 @@ Selenium & Java based `Frontend` and `Backend` automation suite utilising the BD
 
 -  JAVA SDK 12
 -  Maven
--  chromedriver https://sites.google.com/a/chromium.org/chromedriver/downloads
 -  Plugins (Cucumber,Gherkin)
    
     ### Mac
@@ -40,8 +39,6 @@ In order to keep common methods separate
 ### Page Object Model
 Java class whereby the necessary HTML objects are captured as WebElements to be manipulated by the associated model class to be able to reach and maintain easly
 
-### ChromeDriver.exe 
-Local chromedriver necessary in order 
 
 ### Reporting trivago-cluecumber-report-plugin
 Cluecucumber has a built in report generation whereby Feature files tested are automatically written to cucumbers own reporting system.

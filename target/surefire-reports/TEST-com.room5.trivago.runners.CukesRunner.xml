@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.room5.trivago.runners.CukesRunner" time="716.436" tests="52" errors="2" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.room5.trivago.runners.CukesRunner" time="518.598" tests="52" errors="1" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\asd\Desktop\java13\room5_Automation\target\test-classes;C:\Users\asd\Desktop\java13\room5_Automation\target\classes;C:\Users\asd\.m2\repository\io\cucumber\cucumber-java\6.0.0\cucumber-java-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-core\6.0.0\cucumber-core-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin\6.0.0\cucumber-gherkin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.0.0\cucumber-gherkin-messages-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\asd\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\asd\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-plugin\6.0.0\cucumber-plugin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\docstring\6.0.0\docstring-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\html-formatter\6.0.2\html-formatter-6.0.2.jar;C:\Users\asd\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\asd\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\asd\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\asd\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\asd\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\asd\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\asd\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\asd\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\asd\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\asd\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\asd\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\asd\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\asd\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\asd\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\asd\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\asd\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\asd\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\asd\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\asd\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\asd\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-junit\6.0.0\cucumber-junit-6.0.0.jar;C:\Users\asd\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\asd\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\asd\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\asd\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\asd\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\asd\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\asd\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\asd\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\asd\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\asd\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\asd\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\asd\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\asd\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\asd\.m2\repository\com\github\javafaker\javafaker\0.16\javafaker-0.16.jar;C:\Users\asd\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\asd\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\asd\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\asd\.m2\repository\org\json\json\20201115\json-20201115.jar;"/>
+    <property name="java.class.path" value="C:\Users\asd\Desktop\java13\room5_Automation\target\test-classes;C:\Users\asd\Desktop\java13\room5_Automation\target\classes;C:\Users\asd\.m2\repository\io\cucumber\cucumber-java\6.0.0\cucumber-java-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-core\6.0.0\cucumber-core-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin\6.0.0\cucumber-gherkin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.0.0\cucumber-gherkin-messages-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\asd\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\asd\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-plugin\6.0.0\cucumber-plugin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\docstring\6.0.0\docstring-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\html-formatter\6.0.2\html-formatter-6.0.2.jar;C:\Users\asd\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\asd\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\asd\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\asd\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\asd\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\asd\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\asd\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\asd\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\asd\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\asd\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\asd\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\asd\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\asd\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\asd\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\asd\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\asd\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\asd\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\asd\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\asd\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-junit\6.0.0\cucumber-junit-6.0.0.jar;C:\Users\asd\.m2\repository\com\github\javafaker\javafaker\0.16\javafaker-0.16.jar;C:\Users\asd\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\asd\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\asd\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\asd\AppData\Local\Temp\surefire15987203056898749282\surefirebooter10118670794122668190.jar C:\Users\asd\AppData\Local\Temp\surefire15987203056898749282 2021-01-03T15-04-09_766-jvmRun1 surefire8524780818586991503tmp surefire_016838860377401778828tmp"/>
+    <property name="sun.java.command" value="C:\Users\asd\AppData\Local\Temp\surefire4104921807468665358\surefirebooter10815430905574500577.jar C:\Users\asd\AppData\Local\Temp\surefire4104921807468665358 2021-01-17T12-58-26_793-jvmRun1 surefire7709184472467683474tmp surefire_010531548387741200816tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\asd\Desktop\java13\room5_Automation\target\test-classes;C:\Users\asd\Desktop\java13\room5_Automation\target\classes;C:\Users\asd\.m2\repository\io\cucumber\cucumber-java\6.0.0\cucumber-java-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-core\6.0.0\cucumber-core-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin\6.0.0\cucumber-gherkin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.0.0\cucumber-gherkin-messages-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\asd\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\asd\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-plugin\6.0.0\cucumber-plugin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\docstring\6.0.0\docstring-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\html-formatter\6.0.2\html-formatter-6.0.2.jar;C:\Users\asd\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\asd\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\asd\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\asd\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\asd\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\asd\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\asd\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\asd\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\asd\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\asd\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\asd\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\asd\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\asd\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\asd\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\asd\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\asd\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\asd\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\asd\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\asd\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\asd\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-junit\6.0.0\cucumber-junit-6.0.0.jar;C:\Users\asd\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\asd\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\asd\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\asd\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\asd\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\asd\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\asd\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\asd\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\asd\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\asd\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\asd\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\asd\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\asd\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\asd\.m2\repository\com\github\javafaker\javafaker\0.16\javafaker-0.16.jar;C:\Users\asd\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\asd\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\asd\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\asd\.m2\repository\org\json\json\20201115\json-20201115.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\asd\Desktop\java13\room5_Automation\target\test-classes;C:\Users\asd\Desktop\java13\room5_Automation\target\classes;C:\Users\asd\.m2\repository\io\cucumber\cucumber-java\6.0.0\cucumber-java-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-core\6.0.0\cucumber-core-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin\6.0.0\cucumber-gherkin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.0.0\cucumber-gherkin-messages-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\asd\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\asd\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-plugin\6.0.0\cucumber-plugin-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\docstring\6.0.0\docstring-6.0.0.jar;C:\Users\asd\.m2\repository\io\cucumber\html-formatter\6.0.2\html-formatter-6.0.2.jar;C:\Users\asd\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\asd\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\asd\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\asd\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\asd\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\asd\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\asd\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\asd\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\asd\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\asd\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\asd\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\asd\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\asd\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\asd\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\asd\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\asd\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\asd\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\asd\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\asd\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\asd\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\asd\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\asd\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\asd\.m2\repository\io\cucumber\cucumber-junit\6.0.0\cucumber-junit-6.0.0.jar;C:\Users\asd\.m2\repository\com\github\javafaker\javafaker\0.16\javafaker-0.16.jar;C:\Users\asd\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\asd\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\asd\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\asd"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\asd\AppData\Local\Temp\surefire15987203056898749282\surefirebooter10118670794122668190.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\asd\AppData\Local\Temp\surefire4104921807468665358\surefirebooter10815430905574500577.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -51,228 +51,221 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Users\asd\AppData\Local\Android\Sdk\tools;C:\Users\asd\AppData\Local\Android\Sdkt\platform-tools;C:\Program Files\Calibre2\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Users\asd\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk-12.0.2\bin;C:\Users\asd\AppData\Local\GitHubDesktop\bin;C:\Users\asd\AppData\Local\Microsoft\WindowsApps;C:\Users\asd\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\asd\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Users\asd\AppData\Local\Android\Sdk\tools;C:\Users\asd\AppData\Local\Android\Sdkt\platform-tools;C:\Program Files\Calibre2\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Users\asd\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk-12.0.2\bin;C:\Users\asd\AppData\Local\GitHubDesktop\bin;C:\Users\asd\AppData\Local\Microsoft\WindowsApps;C:\Users\asd\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\asd\AppData\Roaming\npm;C:\Users\asd\Desktop\QA\grid_windows;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="12.0.2+10"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="Destination links go to page title" classname="Main Menu functions" time="16.762">
+  <testcase name="Destination links go to page title" classname="Main Menu functions" time="11.846">
     <system-out><![CDATA[expected = Northwest
 actual = Northwest
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 38129
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 46953
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:04:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:58:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Destination links go to page title" classname="Main Menu functions" time="12.626">
+  <testcase name="Destination links go to page title" classname="Main Menu functions" time="9.776">
     <system-out><![CDATA[expected = Southwest
 actual = Southwest
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 13178
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 8223
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:04:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:58:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Destination links go to page title" classname="Main Menu functions" time="13.21">
+  <testcase name="Destination links go to page title" classname="Main Menu functions" time="9.527">
     <system-out><![CDATA[expected = Midwest
 actual = Midwest
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 11817
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 1966
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:04:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:58:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Destination links go to page title" classname="Main Menu functions" time="13.137">
+  <testcase name="Destination links go to page title" classname="Main Menu functions" time="10.438">
     <system-out><![CDATA[expected = Southeast
 actual = Southeast
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 3193
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 30149
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:04:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:59:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Destination links go to page title" classname="Main Menu functions" time="12.719">
+  <testcase name="Destination links go to page title" classname="Main Menu functions" time="10.342">
     <system-out><![CDATA[expected = Northeast
 actual = Northeast
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41022
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 36434
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:05:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:59:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Destination menu has following datas" classname="Main Menu functions" time="12.947">
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 28256
+  <testcase name="Destination menu has following datas" classname="Main Menu functions" time="7.595">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 35480
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:05:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:59:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Search function" classname="Main Menu functions" time="13.069">
+  <testcase name="Search function" classname="Main Menu functions" time="9.852">
     <system-out><![CDATA[Search result : No results
 Search result must contain = No results
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16717
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 25025
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:05:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:59:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Search function" classname="Main Menu functions" time="12.579">
+  <testcase name="Search function" classname="Main Menu functions" time="8.214">
     <system-out><![CDATA[Search result : 6 Search Results
 Search result must contain = Search Results
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16217
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 48667
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:05:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:59:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Search function" classname="Main Menu functions" time="12.46">
+  <testcase name="Search function" classname="Main Menu functions" time="9.944">
     <system-out><![CDATA[Search result : No results
 Search result must contain = No results
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 19930
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41898
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:06:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 12:59:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Search function" classname="Main Menu functions" time="12.529">
+  <testcase name="Search function" classname="Main Menu functions" time="8.123">
     <system-out><![CDATA[Search result : 6 Search Results
 Search result must contain = Search Results
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 1155
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 18905
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:06:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Search function" classname="Main Menu functions" time="12.608">
+  <testcase name="Search function" classname="Main Menu functions" time="7.878">
     <system-out><![CDATA[Search result : 4 Search Results
 Search result must contain = Search Results
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26995
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 37728
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:06:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Fired Events and containing data" classname="DataLayer Test" time="8.931">
-    <system-out><![CDATA[List of eventsOneTrustLoaded = [OnetrustActiveGroups=,C0001,C0003,C0002,C0004,H36,H33,rtw,H13,H32,klm,pur,H24,diq,zcf,H16,H17,cbn,xzo,H31,npr,spg,ebv,H32,ars,cux,mxu,xvn,lsx,gwv,ily,H14,H31,, event=OneTrustLoaded, gtm.uniqueEventId=1]
+  <testcase name="Fired Events and containing data" classname="DataLayer Test" time="7.565">
+    <system-out><![CDATA[List of eventsOneTrustLoaded = [OnetrustActiveGroups=,C0001,C0003,C0002,C0004,, event=OneTrustLoaded, gtm.uniqueEventId=1]
 List of eventsOneTrustLoaded = [OnetrustActiveGroups=,C0001,C0003,C0002,C0004,, event=OneTrustLoaded, gtm.uniqueEventId=10]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 36267
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 38191
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:06:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Fired Events and containing data" classname="DataLayer Test" time="9.058">
-    <system-out><![CDATA[List of eventsOptanonLoaded = [OptanonActiveGroups=,C0001,C0003,C0002,C0004,H36,H33,rtw,H13,H32,klm,pur,H24,diq,zcf,H16,H17,cbn,xzo,H31,npr,spg,ebv,H32,ars,cux,mxu,xvn,lsx,gwv,ily,H14,H31,, event=OptanonLoaded, gtm.uniqueEventId=4]
+  <testcase name="Fired Events and containing data" classname="DataLayer Test" time="7.909">
+    <system-out><![CDATA[List of eventsOptanonLoaded = [OptanonActiveGroups=,C0001,C0003,C0002,C0004,, event=OptanonLoaded, gtm.uniqueEventId=4]
 List of eventsOptanonLoaded = [OptanonActiveGroups=,C0001,C0003,C0002,C0004,, event=OptanonLoaded, gtm.uniqueEventId=13]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32776
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 27467
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:06:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Fired Events and containing data" classname="DataLayer Test" time="9.919">
-    <system-out><![CDATA[List of eventsOneTrustGroupsUpdated = [OnetrustActiveGroups=,C0001,C0003,C0002,C0004,H36,H33,rtw,H13,H32,klm,pur,H24,diq,zcf,H16,H17,cbn,xzo,H31,npr,spg,ebv,H32,ars,cux,mxu,xvn,lsx,gwv,ily,H14,H31,, event=OneTrustGroupsUpdated, gtm.uniqueEventId=7]
+  <testcase name="Fired Events and containing data" classname="DataLayer Test" time="7.768">
+    <system-out><![CDATA[List of eventsOneTrustGroupsUpdated = [OnetrustActiveGroups=,C0001,C0003,C0002,C0004,, event=OneTrustGroupsUpdated, gtm.uniqueEventId=7]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 14470
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 8094
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:06:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Content Load event and HotelIds" classname="DataLayer Test" time="9.243">
-    <system-out><![CDATA[List of contentLoaded = [action=initial, contenttype=3, event=contentLoaded, gtm.uniqueEventId=47, hotelIds=[9553202, 5137802, 5521080, 360251, 65170, 79557, 2319446, 75246, 8504, 1108619], interaction-type=true, pixeltype=1, postid=81724, target=performance-post, target-properties=top-vacation-spots-us, value=null]
-List of contentLoaded event layer = [action=initial, contenttype=3, event=contentLoaded, gtm.uniqueEventId=47, hotelIds=[9553202, 5137802, 5521080, 360251, 65170, 79557, 2319446, 75246, 8504, 1108619], interaction-type=true, pixeltype=1, postid=81724, target=performance-post, target-properties=top-vacation-spots-us, value=null]
-Hotel IDs are as follows: [9553202, 5137802, 5521080, 360251, 65170, 79557, 2319446, 75246, 8504, 1108619]
-List of contentLoaded = [action=initial, contenttype=3, event=contentLoaded, gtm.uniqueEventId=47, hotelIds=[9553202, 5137802, 5521080, 360251, 65170, 79557, 2319446, 75246, 8504, 1108619], interaction-type=true, pixeltype=1, postid=81724, target=performance-post, target-properties=top-vacation-spots-us, value=null]
-Target properties value is as follows: top-vacation-spots-us
+  <testcase name="Content Load event and HotelIds" classname="DataLayer Test" time="7.978">
+    <system-out><![CDATA[List of contentLoaded = [action=initial, contenttype=3, event=contentLoaded, gtm.uniqueEventId=47, hotelIds=[10707770, 58478, 388576, 3177174, 67051, 5586380, 9060916, 5950438, 971971, 2753158], interaction-type=true, pixeltype=1, postid=81727, target=performance-post, target-properties=different-places-to-travel-us, value=null]
+List of contentLoaded event layer = [action=initial, contenttype=3, event=contentLoaded, gtm.uniqueEventId=47, hotelIds=[10707770, 58478, 388576, 3177174, 67051, 5586380, 9060916, 5950438, 971971, 2753158], interaction-type=true, pixeltype=1, postid=81727, target=performance-post, target-properties=different-places-to-travel-us, value=null]
+Hotel IDs are as follows: [10707770, 58478, 388576, 3177174, 67051, 5586380, 9060916, 5950438, 971971, 2753158]
+List of contentLoaded = [action=initial, contenttype=3, event=contentLoaded, gtm.uniqueEventId=47, hotelIds=[10707770, 58478, 388576, 3177174, 67051, 5586380, 9060916, 5950438, 971971, 2753158], interaction-type=true, pixeltype=1, postid=81727, target=performance-post, target-properties=different-places-to-travel-us, value=null]
+Target properties value is as follows: different-places-to-travel-us
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 20482
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 24645
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:07:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="With valid data" classname="Contact page sending message" time="14.841">
+  <testcase name="With valid data" classname="Contact page sending message" time="10.27">
     <system-out><![CDATA[contactPage = Message Sent Successfully!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 31838
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 6679
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:07:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="With valid data" classname="Contact page sending message" time="6.825">
-    <error message="element click intercepted: Element &lt;a href=&quot;https://magazine.trivago.com/contact/&quot; target=&quot;_blank&quot; data-link=&quot;footer&quot; class=&quot;footer-link&quot;&gt;...&lt;/a&gt; is not clickable at point (44, 592). Other element would receive the click: &lt;div class=&quot;ot-sdk-container&quot;&gt;...&lt;/div&gt;&#10;  (Session info: headless chrome=87.0.4280.88)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IULL9DI&apos;, ip: &apos;172.25.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb6a4901d0c719406c8cac8c705276e3" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a href="https://magazine.trivago.com/contact/" target="_blank" data-link="footer" class="footer-link">...</a> is not clickable at point (44, 592). Other element would receive the click: <div class="ot-sdk-container">...</div>
-  (Session info: headless chrome=87.0.4280.88)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-IULL9DI', ip: '172.25.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bb6a4901d0c719406c8cac8c705276e3
-]]></error>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 27270
+  <testcase name="With valid data" classname="Contact page sending message" time="10.399">
+    <system-out><![CDATA[contactPage = Message Sent Successfully!
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 46045
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:07:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:00:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Broken links verification" classname="Home page link verification &amp; newsletter subscription" time="15.844">
+  <testcase name="Broken links verification" classname="Home page link verification &amp; newsletter subscription" time="14.858">
     <system-out><![CDATA[Total links are 55
 https://magazine.trivago.com/ - OK
-https://magazine.trivago.com/top-vacation-spots-us/ - OK
+https://magazine.trivago.com/different-places-to-travel-us/ - OK
 https://magazine.trivago.com/theme/travel-from-home/ - OK
 https://magazine.trivago.com/theme/best-weekend-getaways/ - OK
 https://magazine.trivago.com/theme/best-nature-vacations/ - OK
@@ -282,12 +275,12 @@ https://magazine.trivago.com/theme/family-vacations/ - OK
 https://magazine.trivago.com/theme/winter-vacation-ideas/ - OK
 https://magazine.trivago.com/#mind-traveling - OK
 https://magazine.trivago.com/#future-local-trips - OK
+https://magazine.trivago.com/great-cabins-the-smokies/ - OK
+https://magazine.trivago.com/new-businesses-2020-photography-reintroducing-america/ - OK
+https://magazine.trivago.com/best-places-to-work-remotely-us/ - OK
 https://magazine.trivago.com/different-places-to-travel-us/ - OK
 https://magazine.trivago.com/top-vacation-spots-us/ - OK
-https://magazine.trivago.com/new-businesses-2020-online-learning-platform-lectera/ - OK
 https://magazine.trivago.com/relaxing-nye-destinations/ - OK
-https://magazine.trivago.com/affordable-christmas-vacations-for-families/ - OK
-https://magazine.trivago.com/cheap-places-travel-internationally/ - OK
 element doesn't have href attriubte
 https://magazine.trivago.com/hotels-with-private-pools/ - OK
 https://magazine.trivago.com/weekend-getaways-in-texas/ - OK
@@ -317,438 +310,437 @@ https://www.instagram.com/trivago/ - OK
 https://www.pinterest.com/trivago/ - OK
 https://magazine.trivago.com/about/ - OK
 https://magazine.trivago.com/contact/ - OK
-https://company.trivago.com/press/ - OK
 element doesn't have href attriubte
 element doesn't have href attriubte
 https://studio.trivago.com/ - OK
 element doesn't have href attriubte
 element doesn't have href attriubte
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 45548
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 4340
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:07:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:01:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.921">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="8.608">
     <system-out><![CDATA[***Country = USA
 ***Actual Message = You are now checked-in!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 12702
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 17443
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:07:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:01:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.823">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.352">
     <system-out><![CDATA[***Country = Canada
 ***Actual Message = We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 23266
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 12194
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:08:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:01:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="16.844">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="11.085">
     <system-out><![CDATA[***Country = Australia
 ***Actual Message = You're now checked-in!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 36400
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32209
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:08:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:01:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.285">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="11.933">
     <system-out><![CDATA[***Country = Deutschland
 ***Actual Message = Wir haben Dir eine E-Mail zum Bestätigen Deiner Anmeldung geschickt. Sollte nichts eingegangen sein, überprüfe bitte auch Deinen Spam-Ordner.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41643
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 23255
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:08:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:01:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.307">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.652">
     <system-out><![CDATA[***Country = France
 ***Actual Message = Un e-mail de confirmation vous a été envoyé. Vous ne retrouvez pas votre e-mail de confirmation ? Merci de vérifier votre dossier “courrier indésirable”.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26623
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 43065
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:08:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:02:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.617">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="11.188">
     <system-out><![CDATA[***Country = Italia
 ***Actual Message = Ti abbiamo inviato una e-mail per confermare la tua registrazione. Se non viene ricevuto nulla, controlla anche la cartella dello spam.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 37994
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 12184
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:09:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:02:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.973">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.081">
     <system-out><![CDATA[***Country = España
 ***Actual Message = Te hemos enviado un correo electrónico para confirmar tu registro. Si no lo has recibido, por favor comprueba tu carpeta de correo no deseado.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 2567
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 40800
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:09:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:02:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.837">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.077">
     <system-out><![CDATA[***Country = Suomi
 ***Actual Message = Olemme lähettäneet sinulle sähköpostitse pyynnön vahvistaa rekisteröitymisesi. Mikäli et ole saanut viestiä, tarkista myös roskapostikansiosi.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10117
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 48163
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:09:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:02:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="16.746">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.223">
     <system-out><![CDATA[***Country = Brasil
 ***Actual Message = Obrigado por se inscrever a nossa newsletter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 35427
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 24067
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:09:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:02:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.021">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.356">
     <system-out><![CDATA[***Country = Portugal
 ***Actual Message = Acabamos de lhe enviar um e-mail para confirmar seu registro. Se não o recebeu, por favor, verifique também na sua pasta de spam.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 20766
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32456
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:10:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:02:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="16.097">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="11.528">
     <system-out><![CDATA[***Country = México
 ***Actual Message = Felicidades por unirte a trivago Magazine
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 22052
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 17340
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:10:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:03:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.988">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.127">
     <system-out><![CDATA[***Country = Ireland
 ***Actual Message = We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26067
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41168
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:10:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:03:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.969">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.947">
     <system-out><![CDATA[***Country = United Kingdom
 ***Actual Message = We have sent you an e-mail to confirm your registration. If nothing is received, please also check your spam folder.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 48622
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 4602
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:11:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:03:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.954">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.966">
     <system-out><![CDATA[***Country = Norge
 ***Actual Message = Vi har sendt deg en e-post med en bekreftelse på din påmelding. Hvis du ikke kan se e-posten, så ber vi deg sjekke søppelposten.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 6363
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 2925
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:11:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:03:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.018">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.019">
     <system-out><![CDATA[***Country = Sverige
 ***Actual Message = Vi har skickat dig e-post som bekräftelse på din registrering. Om du inte kan hitta e-posten, ber vi dig att kolla din skräppost.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 27411
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 21803
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:11:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:03:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="8.589">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;newsletter-email&apos;]/input&quot;}&#10;  (Session info: headless chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IULL9DI&apos;, ip: &apos;172.25.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f63ca688e6948c13bf3594c0b7279204&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;newsletter-email&apos;]/input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="8.992">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;newsletter-email&apos;]/input&quot;}&#10;  (Session info: headless chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IULL9DI&apos;, ip: &apos;192.168.0.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 48e21094078fcd1e98d72cac815f0839&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;newsletter-email&apos;]/input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='newsletter-email']/input"}
-  (Session info: headless chrome=87.0.4280.88)
+  (Session info: headless chrome=87.0.4280.141)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-IULL9DI', ip: '172.25.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-IULL9DI', ip: '192.168.0.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f63ca688e6948c13bf3594c0b7279204
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48e21094078fcd1e98d72cac815f0839
 *** Element info: {Using=xpath, value=//div[@class='newsletter-email']/input}
 ]]></error>
     <system-out><![CDATA[***Country = Singapore
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32317
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 19963
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:11:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:03:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.771">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.591">
     <system-out><![CDATA[***Country = Argentina
 ***Actual Message = ¡Felicitaciones por unirte a trivago Magazine!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 44622
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 44454
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:11:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:04:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.145">
+  <testcase name="Valid data and  subscription messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.09">
     <failure message="expected:&lt;...dınızı tamamlamanız [için ]bir e-posta gönderdi...&gt; but was:&lt;...dınızı tamamlamanız []bir e-posta gönderdi...&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...dınızı tamamlamanız [için ]bir e-posta gönderdi...> but was:<...dınızı tamamlamanız []bir e-posta gönderdi...>
 ]]></failure>
     <system-out><![CDATA[***Country = Türkiye
 ***Actual Message = Abonelik kaydınızı tamamlamanız bir e-posta gönderdik. Eğer e-postayı almadıysanız lütfen "Spam" bölümünü kontrol ediniz.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 7125
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 27419
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:12:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:04:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="12.717">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="8.698">
     <system-out><![CDATA[***Country = USA
 ***Actual Message = Please enter a valid e-mail address
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 27116
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 3204
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:12:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:04:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.109">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.133">
     <system-out><![CDATA[***Country = Canada
 ***Actual Message = Please enter a valid email address
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 46437
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 37190
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:12:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:04:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.818">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.952">
     <system-out><![CDATA[***Country = Australia
 ***Actual Message = Oops! Please enter a valid e-mail address :)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 40712
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 23781
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:12:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:04:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.751">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.806">
     <system-out><![CDATA[***Country = Deutschland
 ***Actual Message = Es ist ein Fehler aufgetreten
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 20331
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 36866
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:13:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:04:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.81">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.807">
     <system-out><![CDATA[***Country = France
 ***Actual Message = Une erreur ? Entrez votre e-mail à nouveau
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 28360
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 1467
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:13:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:05:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.913">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.868">
     <system-out><![CDATA[***Country = Italia
 ***Actual Message = Per favore, inserisci un indirizzo email valido
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 42837
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 2749
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:13:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:05:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.093">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.853">
     <system-out><![CDATA[***Country = España
 ***Actual Message = Por favor, introduce un e-mail válido
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16061
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 12927
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:13:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:05:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.751">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.951">
     <system-out><![CDATA[***Country = Suomi
 ***Actual Message = Syötä voimassa oleva sähköpostiosoite
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10219
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 8987
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:14:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:05:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.997">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.836">
     <system-out><![CDATA[***Country = Türkiye
 ***Actual Message = Lütfen tekrar deneyin.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 9648
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 24167
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:14:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:05:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.938">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.766">
     <system-out><![CDATA[***Country = Brasil
 ***Actual Message = Por favor, digite um e-mail válido.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 44715
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 4953
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:14:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:05:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.772">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.021">
     <system-out><![CDATA[***Country = Portugal
 ***Actual Message = Por favor insira um e-mail válido
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 9207
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 24808
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:14:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:06:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="15.605">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="10.923">
     <system-out><![CDATA[***Country = México
 ***Actual Message = Opción inválida
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 40962
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 11425
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:15:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:06:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.712">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.805">
     <system-out><![CDATA[***Country = Ireland
 ***Actual Message = Please enter a valid e-mail address
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 1458
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 23137
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:15:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:06:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="14.783">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.929">
     <system-out><![CDATA[***Country = United Kingdom
 ***Actual Message = Please enter a valid email address
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 12284
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 17604
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:15:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:06:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.926">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.84">
     <system-out><![CDATA[***Country = Norge
 ***Actual Message = Vennligst oppgi en gyldig e-postadresse
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 31886
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 8385
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:15:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:06:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="13.721">
+  <testcase name="Invalid data and messages in different languages" classname="Home page link verification &amp; newsletter subscription" time="9.754">
     <system-out><![CDATA[***Country = Sverige
 ***Actual Message = Vänligen uppge en giltig e-postadress
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10059
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 45786
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 03, 2021 3:15:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2021 1:07:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

@@ -22,7 +22,7 @@ public class BonusStepdefs {
 
     @Then("user click on read more button in the hero image")
     public void userClickOnReadMoreButtonInTheHeroImage() {
-        BrowserUtils.waitFor(1);
+        BrowserUtils.waitForImp(1);
         js.executeScript("arguments[0].click();", bonusPage.readMeButton);
 
     }

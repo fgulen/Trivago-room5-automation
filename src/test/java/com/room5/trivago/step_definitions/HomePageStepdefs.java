@@ -8,12 +8,16 @@ import com.room5.trivago.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class HomePageStepdefs {
 
@@ -31,11 +35,11 @@ public class HomePageStepdefs {
 
         System.out.println("Total links are " + links.size());
 
-        for (int i = 0; i<links.size(); i++) {
+        for (int i = 0; i < links.size(); i++) {
 
             hrefvalue = links.get(i).getAttribute("href");
 
-            if(hrefvalue != null && !hrefvalue.contains("www.trivago.com")){  // trivago.com doesn`t let me to send http request
+            if (hrefvalue != null && !hrefvalue.contains("www.trivago.com")) {  // trivago.com doesn`t let me to send http request
 
 //                if(hrefvalue.contains("magazine.trivago")) {
 //                    System.out.println( hrefvalue + " = internal domain");
@@ -43,7 +47,7 @@ public class HomePageStepdefs {
 //                    System.out.println( hrefvalue + " = external domain");
 //                }
                 verifyLinkActive(hrefvalue);
-            }else{
+            } else {
                 System.out.println("element doesn't have href attriubte");
             }
         }
@@ -83,21 +87,26 @@ public class HomePageStepdefs {
             System.out.println(lists.getText());
         }*/
         dropDown.selectByVisibleText(country);
-        BrowserUtils.waitFor(1);
+        BrowserUtils.waitForImp(1);
 
         System.out.println("***Country = " + country);
     }
 
 
     @When("user writes own {string} address to the newsletter subscription input and submits")
-    public void userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(String email) {
+    public void userWritesOwnAddressToTheNewsletterSubscriptionInputAndSubmits(String email) throws InterruptedException {
 
         Faker faker = new Faker();
 
         homePage.newsLetterMail.sendKeys(faker.internet().emailAddress());
-        BrowserUtils.waitFor(2);
-        homePage.newsLetterSubmit.click();
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitForImp(4);
+
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.get();
+        jse.executeScript("arguments[0].click();", homePage.newsLetterSubmit);
+
+        // homePage.newsLetterSubmit.click();
+
+        BrowserUtils.waitForThread(3);
         System.out.println("***Actual Message = " + homePage.newsLetterAlert.getText());
 
     }
@@ -105,7 +114,7 @@ public class HomePageStepdefs {
     @Then("Verify that user gets  newsletter subscription {string} in the own language")
     public void verifyThatUserGetsNewsletterSubscriptionInTheOwnLanguage(String message) {
 
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitForImp(10);
         Assert.assertEquals(message, homePage.newsLetterAlert.getText());
     }
 
@@ -124,7 +133,7 @@ public class HomePageStepdefs {
             } */
 
         dropDown.selectByVisibleText(country);
-        BrowserUtils.waitFor(1);
+        BrowserUtils.waitForImp(1);
         System.out.println("***Country = " + country);
     }
 
@@ -132,17 +141,17 @@ public class HomePageStepdefs {
     public void userWritesAddressToTheNewsletterSubscriptionInputAndSubmits(String invalidEmail) {
 
         homePage.newsLetterMail.sendKeys(invalidEmail);
-        BrowserUtils.waitFor(1);
+        BrowserUtils.waitForExp(4);
         homePage.newsLetterSubmit.click();
-        BrowserUtils.waitFor(2);
-        BrowserUtils.waitFor(1);
+        BrowserUtils.waitForImp(3);
+
 
     }
 
     @Then("Verify that user gets newsletter subscription {string} in own language")
     public void verifyThatUserGetsNewsletterSubscriptionInOwnLanguage(String errorMessage) {
 
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitForThread(3);
         System.out.println("***Actual Message = " + homePage.messageErrorAlert.getText());
         Assert.assertEquals(errorMessage, homePage.messageErrorAlert.getText());
     }

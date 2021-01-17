@@ -32,13 +32,13 @@ public class BasePageStepdefs {
     public void userClicksMainMenuIconAndClicksAnd(String menuLink, String destinationOpt) {
 
         homePage.mainIcon.click();
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitForImp(3);
         homePage.destinations.click();
         WebElement destination = Driver.get().findElement(By.xpath("//div[contains(text(),'" + destinationOpt + "')]"));
 
         JavascriptExecutor jse = (JavascriptExecutor) Driver.get();
         jse.executeScript("arguments[0].click()", destination);
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitForImp(2);
     }
 
     @Then("verify that page title is {string}")
@@ -55,7 +55,7 @@ public class BasePageStepdefs {
     public void userClicksMainMenuIconAndClicks(String destination) {
 
         homePage.mainIcon.click();
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitForImp(3);
         homePage.destinations.click();
 
     }
@@ -64,7 +64,7 @@ public class BasePageStepdefs {
     public void verifyThatMenuExistFollowingOptions(List<String> destinationOptions) {
 
         List<String> actualDestinationOptions = BrowserUtils.getElementsText(homePage.destinationOptions);
-        BrowserUtils.waitFor(4);
+        BrowserUtils.waitForImp(4);
         Assert.assertEquals(destinationOptions, actualDestinationOptions);
     }
 
@@ -73,16 +73,16 @@ public class BasePageStepdefs {
     @When("user clicks search button and writes {string} to search")
     public void userClicksSearchButtonAndWritesToSearch(String anyDestination) {
         homePage.searchButton.click();
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitForImp(3);
         homePage.searchInput.sendKeys(anyDestination + Keys.ENTER);
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitForImp(2);
 
     }
 
     @Then("verify that message contains following {string}")
     public void verifyThatMessageContainsFollowing(String text) {
 
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitForImp(2);
 
         try {
 

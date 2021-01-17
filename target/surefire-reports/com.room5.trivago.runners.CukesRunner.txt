@@ -1,29 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: com.room5.trivago.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 52, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 716.436 s <<< FAILURE! - in com.room5.trivago.runners.CukesRunner
-Contact page sending message.With valid data  Time elapsed: 6.825 s  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a href="https://magazine.trivago.com/contact/" target="_blank" data-link="footer" class="footer-link">...</a> is not clickable at point (44, 592). Other element would receive the click: <div class="ot-sdk-container">...</div>
-  (Session info: headless chrome=87.0.4280.88)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-IULL9DI', ip: '172.25.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bb6a4901d0c719406c8cac8c705276e3
-
-Home page link verification & newsletter subscription.Valid data and  subscription messages in different languages  Time elapsed: 8.589 s  <<< ERROR!
+Tests run: 52, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 518.598 s <<< FAILURE! - in com.room5.trivago.runners.CukesRunner
+Home page link verification & newsletter subscription.Valid data and  subscription messages in different languages  Time elapsed: 8.992 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='newsletter-email']/input"}
-  (Session info: headless chrome=87.0.4280.88)
+  (Session info: headless chrome=87.0.4280.141)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-IULL9DI', ip: '172.25.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-IULL9DI', ip: '192.168.0.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f63ca688e6948c13bf3594c0b7279204
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\asd\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48e21094078fcd1e98d72cac815f0839
 *** Element info: {Using=xpath, value=//div[@class='newsletter-email']/input}
 
-Home page link verification & newsletter subscription.Valid data and  subscription messages in different languages  Time elapsed: 15.145 s  <<< FAILURE!
+Home page link verification & newsletter subscription.Valid data and  subscription messages in different languages  Time elapsed: 10.09 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<...dınızı tamamlamanız [için ]bir e-posta gönderdi...> but was:<...dınızı tamamlamanız []bir e-posta gönderdi...>
 

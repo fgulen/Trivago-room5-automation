@@ -7,6 +7,7 @@ import com.room5.trivago.utilities.BrowserUtils;
 import com.room5.trivago.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ContactPageStepdefs {
 
@@ -24,15 +25,15 @@ public class ContactPageStepdefs {
 
         assert Driver.get().getWindowHandles().size() == 1;
 
+        BrowserUtils.waitForExp(10);
         homePage.contact.click();
-        BrowserUtils.waitFor(2);
 
     }
 
     @When("user writes message in {string}, name in {string} and your mail in {string} inputs")
     public void user_writes_message_in_name_in_and_your_mail_in_inputs(String message, String name, String email) {
 
-        BrowserUtils.waitFor(1);
+        BrowserUtils.waitForImp(1);
 
         for (String windowHandle : Driver.get().getWindowHandles()) {
 
@@ -53,14 +54,13 @@ public class ContactPageStepdefs {
         contactPage.yourEmail.sendKeys(email);
         contactPage.acceptBox.click();
         contactPage.submit.click();
-        BrowserUtils.waitFor(1);
+            BrowserUtils.waitForImp(3);
 
     }
 
     @Then("Verify that user can see the {string} message on the page")
     public void verify_that_user_can_see_the_message_on_the_page(String message) {
 
-        BrowserUtils.waitFor(2);
         System.out.println("contactPage = " + contactPage.alert.getText());
         Assert.assertEquals(message, contactPage.alert.getText());
 

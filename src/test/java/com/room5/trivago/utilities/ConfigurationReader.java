@@ -18,7 +18,6 @@ public class ConfigurationReader {
             input.close();
         } catch (Exception e) {
             e.printStackTrace();
-
         }
     }
 
