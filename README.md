@@ -2,7 +2,7 @@
 
 Case Study
 
-https://github.com/fgulen?tab=repositories
+(https://www.dropbox.com/s/qkehogmsyh7oeh4/QA_Marketing_Case%20Study%20Solutions_Fatih_Gulen.pdf?dl=0)
 Selenium & Java based `Frontend` and `Backend` automation suite utilising the BDD methodologies of Cucumber and Gherkin
 
 ## Prerequisites
