@@ -2,7 +2,7 @@
 
 # Cucumber BDD Test Automation Framework
 
-[Please download]([https://www.example.com](https://www.dropbox.com/s/qkehogmsyh7oeh4/QA_Marketing_Case%20Study%20Solutions_Fatih_Gulen.pdf?dl=0))
+[Please download](https://www.example.com](https://www.dropbox.com/s/qkehogmsyh7oeh4/QA_Marketing_Case%20Study%20Solutions_Fatih_Gulen.pdf?dl=0)
 
 **()
 
